@@ -1,14 +1,17 @@
 modLoader="javafml"
 loaderVersion="[36,)"
-license="Academic Free License v3.0"
+license="All Rights Reserved"
 
 [[mods]]
 modId="lolocraftiv"
-version="1.0.0"
+version="Alpha 0.0.1"
 displayName="LoloCraftIV"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
-displayURL="https://mcreator.net"
-authors="jeje0, MCreator"
+displayURL="https://mclolocraft.jimdosite.com/LoloCraftIV"
+authors="DerLoloHD and TheXBOXPlayz"
+description='''
+The New Adventure in a new LoloCraft Mod
+'''
 
 [[dependencies.lolocraftiv]]
     modId="minecraft"

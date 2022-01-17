@@ -1,0 +1,29 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "item": "lolocraftiv:red_ore"
+    },
+    "title": {
+      "translate": "advancements.adv_01.title"
+    },
+    "description": {
+      "translate": "advancements.adv_01.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "adv_01": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "lolocraftiv:reddessert"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 100
+  }
+}

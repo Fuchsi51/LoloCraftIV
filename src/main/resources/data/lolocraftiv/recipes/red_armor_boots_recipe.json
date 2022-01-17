@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "lolocraftiv:red_ingot"
+    },
+    "2": {
+      "item": "lolocraftiv:red_ingot"
+    },
+    "3": {
+      "item": "lolocraftiv:red_ingot"
+    },
+    "5": {
+      "item": "lolocraftiv:red_ingot"
+    }
+  },
+  "result": {
+    "item": "lolocraftiv:red_armor_boots",
+    "count": 1
+  }
+}

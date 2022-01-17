@@ -1,21 +1,591 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "RedWood",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_wood",
+      "path": "~/Biome/Reddessert/Mainbiom/Holz"
+    },
+    {
+      "name": "RedLog",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_log",
+      "path": "~/Biome/Reddessert/Mainbiom/Holz"
+    },
+    {
+      "name": "RedPlanks",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_planks",
+      "path": "~/Biome/Reddessert/Mainbiom/Holz"
+    },
+    {
+      "name": "RedLeaves",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_leaves",
+      "path": "~/Biome/Reddessert/Mainbiom/Holz"
+    },
+    {
+      "name": "RedStairs",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_stairs",
+      "path": "~/Biome/Reddessert/Mainbiom/Holz"
+    },
+    {
+      "name": "RedSlab",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_slab",
+      "path": "~/Biome/Reddessert/Mainbiom/Holz"
+    },
+    {
+      "name": "RedFence",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_fence",
+      "path": "~/Biome/Reddessert/Mainbiom/Holz"
+    },
+    {
+      "name": "RedFenceGate",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_fence_gate",
+      "path": "~/Biome/Reddessert/Mainbiom/Holz"
+    },
+    {
+      "name": "RedPressurePlate",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_pressure_plate",
+      "path": "~/Biome/Reddessert/Mainbiom/Holz"
+    },
+    {
+      "name": "RedButton",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_button",
+      "path": "~/Biome/Reddessert/Mainbiom/Holz"
+    },
+    {
+      "name": "RedItemsTag",
+      "type": "tag",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_items_tag",
+      "path": "~/Biome/Reddessert/Mainbiom/Holz"
+    },
+    {
+      "name": "RedWoodRecipe",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_wood_recipe",
+      "path": "~/Biome/Reddessert/Mainbiom/Holz"
+    },
+    {
+      "name": "RedPlanksRecipe",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_planks_recipe",
+      "path": "~/Biome/Reddessert/Mainbiom/Holz"
+    },
+    {
+      "name": "RedStairsRecipe",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_stairs_recipe",
+      "path": "~/Biome/Reddessert/Mainbiom/Holz"
+    },
+    {
+      "name": "RedSlabRecipe",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_slab_recipe",
+      "path": "~/Biome/Reddessert/Mainbiom/Holz"
+    },
+    {
+      "name": "RedFenceRecipe",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_fence_recipe",
+      "path": "~/Biome/Reddessert/Mainbiom/Holz"
+    },
+    {
+      "name": "RedFenceGateRecipe",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_fence_gate_recipe",
+      "path": "~/Biome/Reddessert/Mainbiom/Holz"
+    },
+    {
+      "name": "RedPressurePlateRecipe",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_pressure_plate_recipe",
+      "path": "~/Biome/Reddessert/Mainbiom/Holz"
+    },
+    {
+      "name": "RedButtonRecipe",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_button_recipe",
+      "path": "~/Biome/Reddessert/Mainbiom/Holz"
+    },
+    {
+      "name": "RedStickRecipe",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_stick_recipe",
+      "path": "~/Biome/Reddessert/Mainbiom/Holz"
+    },
+    {
+      "name": "Reddessert",
+      "type": "biome",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reddessert",
+      "path": "~/Biome/Reddessert/Mainbiom/Main"
+    },
+    {
+      "name": "RedIngot",
+      "type": "item",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_ingot",
+      "path": "~/Biome/Reddessert/Mainbiom/Im Biom/Erz"
+    },
+    {
+      "name": "RedOre",
+      "type": "block",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_ore",
+      "path": "~/Biome/Reddessert/Mainbiom/Im Biom/Erz"
+    },
+    {
+      "name": "RedBlock",
+      "type": "block",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_block",
+      "path": "~/Biome/Reddessert/Mainbiom/Im Biom/Erz"
+    },
+    {
+      "name": "RedOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_ore_block_recipe",
+      "path": "~/Biome/Reddessert/Mainbiom/Im Biom/Erz"
+    },
+    {
+      "name": "RedBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_block_ore_recipe",
+      "path": "~/Biome/Reddessert/Mainbiom/Im Biom/Erz"
+    },
+    {
+      "name": "RedOreSmelting",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_ore_smelting",
+      "path": "~/Biome/Reddessert/Mainbiom/Im Biom/Erz"
+    },
+    {
+      "name": "RedPickaxe",
+      "type": "tool",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_pickaxe",
+      "path": "~/Aus Erz/Waffen etc."
+    },
+    {
+      "name": "RedAxe",
+      "type": "tool",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_axe",
+      "path": "~/Aus Erz/Waffen etc."
+    },
+    {
+      "name": "RedSword",
+      "type": "tool",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_sword",
+      "path": "~/Aus Erz/Waffen etc."
+    },
+    {
+      "name": "RedShovel",
+      "type": "tool",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_shovel",
+      "path": "~/Aus Erz/Waffen etc."
+    },
+    {
+      "name": "RedHoe",
+      "type": "tool",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_hoe",
+      "path": "~/Aus Erz/Waffen etc."
+    },
+    {
+      "name": "RedPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_pickaxe_recipe",
+      "path": "~/Aus Erz/Waffen etc."
+    },
+    {
+      "name": "RedAxeRecipe",
+      "type": "recipe",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_axe_recipe",
+      "path": "~/Aus Erz/Waffen etc."
+    },
+    {
+      "name": "RedSwordRecipe",
+      "type": "recipe",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_sword_recipe",
+      "path": "~/Aus Erz/Waffen etc."
+    },
+    {
+      "name": "RedShovelRecipe",
+      "type": "recipe",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_shovel_recipe",
+      "path": "~/Aus Erz/Waffen etc."
+    },
+    {
+      "name": "RedHoeRecipe",
+      "type": "recipe",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_hoe_recipe",
+      "path": "~/Aus Erz/Waffen etc."
+    },
+    {
+      "name": "Redswordglow",
+      "type": "procedure",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redswordglow",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Prodezur"
+    },
+    {
+      "name": "RedArmor",
+      "type": "armor",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/Aus Erz/Ruestung"
+    },
+    {
+      "name": "RedArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_armor_helmet_recipe",
+      "path": "~/Aus Erz/Ruestung"
+    },
+    {
+      "name": "RedArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_armor_body_recipe",
+      "path": "~/Aus Erz/Ruestung"
+    },
+    {
+      "name": "RedArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_armor_leggings_recipe",
+      "path": "~/Aus Erz/Ruestung"
+    },
+    {
+      "name": "RedArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_armor_boots_recipe",
+      "path": "~/Aus Erz/Ruestung"
+    },
+    {
+      "name": "LoloCraftIV",
+      "type": "tab",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lolo_craft_iv",
+      "path": "~/Sonstiges"
+    },
+    {
+      "name": "Adv01",
+      "type": "achievement",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "adv_01",
+      "path": "~/Biome/Reddessert/Erfolge"
+    },
+    {
+      "name": "Av02",
+      "type": "achievement",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "av_02",
+      "path": "~/Biome/Reddessert/Erfolge"
+    },
+    {
+      "name": "Adv02",
+      "type": "achievement",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "adv_02",
+      "path": "~/Biome/Reddessert/Erfolge"
+    },
+    {
+      "name": "Adv03",
+      "type": "achievement",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "adv_03",
+      "path": "~/Biome/Reddessert/Erfolge"
+    },
+    {
+      "name": "Adv04",
+      "type": "achievement",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "adv_04",
+      "path": "~/Biome/Reddessert/Mainbiom/Holz"
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "item.lolocraftiv.red_pickaxe": "Red Pickaxe",
+      "item.lolocraftiv.red_armor_helmet": "Red Helmet",
+      "advancements.av_02.descr": "find the new Wood and break it!",
+      "block.lolocraftiv.red_log": "Red Log",
+      "block.lolocraftiv.red_wood": "Red Wood",
+      "item.lolocraftiv.red_sword": "Red Sword",
+      "item.lolocraftiv.red_armor_boots": "Red Boots",
+      "advancements.adv_01.title": "Welcome to LoloCraft IV!",
+      "advancements.adv_03.descr": "Craft a new Red Pickaxt",
+      "block.lolocraftiv.red_slab": "Red Slab",
+      "block.lolocraftiv.red_pressure_plate": "Red Pressure Plate",
+      "block.lolocraftiv.red_block": "Block of Red",
+      "advancements.adv_03.title": "New Tools",
+      "block.lolocraftiv.red_button": "Red Button",
+      "advancements.adv_04.title": "Why???",
+      "item.lolocraftiv.red_ingot": "Red Ingot",
+      "block.lolocraftiv.red_fence_gate": "Red Fence Gate",
+      "block.lolocraftiv.red_planks": "Red Planks",
+      "item.lolocraftiv.red_axe": "Red Axe",
+      "itemGroup.tablolo_craft_iv": "LoloCraft IV",
+      "advancements.adv_01.descr": "Find the new LoloCraft Biom",
+      "block.lolocraftiv.red_ore": "Red Ore",
+      "advancements.adv_04.descr": "craft a Red Stair",
+      "item.lolocraftiv.red_armor_chestplate": "Red Chestplate",
+      "item.lolocraftiv.red_shovel": "Red Shovel",
+      "block.lolocraftiv.red_stairs": "Red Stairs",
+      "item.lolocraftiv.red_hoe": "Red Hoe",
+      "item.lolocraftiv.red_armor_leggings": "Red Leggings",
+      "block.lolocraftiv.red_fence": "Red Fence",
+      "advancements.adv_02.descr": "Mine and Smelt the new Red Ore!",
+      "biome.lolocraftiv.reddessert": "Red Dessert",
+      "advancements.adv_02.title": "New Ore",
+      "block.lolocraftiv.red_leaves": "Red Leaves",
+      "advancements.av_02.title": "New Wood"
+    }
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "Biome",
+        "children": [
+          {
+            "name": "Reddessert",
+            "children": [
+              {
+                "name": "Erfolge",
+                "children": []
+              },
+              {
+                "name": "Mainbiom",
+                "children": [
+                  {
+                    "name": "Holz",
+                    "children": []
+                  },
+                  {
+                    "name": "Main",
+                    "children": []
+                  },
+                  {
+                    "name": "Im Biom",
+                    "children": [
+                      {
+                        "name": "Erz",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Werkzeuge",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Aus Erz",
+        "children": [
+          {
+            "name": "Waffen etc.",
+            "children": []
+          },
+          {
+            "name": "Ruestung",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Prodezur",
+        "children": []
+      },
+      {
+        "name": "Sonstiges",
+        "children": []
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "lolocraftiv",
     "modName": "LoloCraftIV",
-    "version": "1.0.0",
-    "author": "jeje0, MCreator",
-    "websiteURL": "https://mcreator.net",
-    "license": "Academic Free License v3.0",
+    "version": "Alpha 0.0.1",
+    "description": "The New Adventure in a new LoloCraft Mod",
+    "author": "DerLoloHD and TheXBOXPlayz",
+    "websiteURL": "https://mclolocraft.jimdosite.com/LoloCraftIV",
+    "license": "All Rights Reserved",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
     "requiredMods": [],

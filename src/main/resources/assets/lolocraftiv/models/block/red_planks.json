@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "lolocraftiv:blocks/red_planks",
+    "particle": "lolocraftiv:blocks/red_planks"
+  }
+}

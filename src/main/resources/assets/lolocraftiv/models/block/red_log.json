@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "lolocraftiv:blocks/red_log_top",
+    "up": "lolocraftiv:blocks/red_log_top",
+    "north": "lolocraftiv:blocks/red_log_side",
+    "east": "lolocraftiv:blocks/red_log_side",
+    "south": "lolocraftiv:blocks/red_log_side",
+    "west": "lolocraftiv:blocks/red_log_side",
+    "particle": "lolocraftiv:blocks/red_log_top"
+  }
+}
