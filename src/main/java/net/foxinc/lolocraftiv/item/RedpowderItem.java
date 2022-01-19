@@ -1,29 +1,17 @@
 
 package net.foxinc.lolocraftiv.item;
 
-import net.minecraftforge.registries.ObjectHolder;
-
-import net.minecraft.world.World;
-import net.minecraft.util.text.StringTextComponent;
-import net.minecraft.util.text.ITextComponent;
-import net.minecraft.item.Rarity;
-import net.minecraft.item.ItemStack;
-import net.minecraft.item.Item;
-import net.minecraft.client.util.ITooltipFlag;
-import net.minecraft.block.BlockState;
-
-import net.foxinc.lolocraftiv.itemgroup.LoloCraftIVItemGroup;
-import net.foxinc.lolocraftiv.LolocraftivModElements;
-
-import java.util.List;
+import net.minecraft.entity.ai.attributes.Attributes;
 
 @LolocraftivModElements.ModElement.Tag
 public class RedpowderItem extends LolocraftivModElements.ModElement {
+
 	@ObjectHolder("lolocraftiv:redpowder")
 	public static final Item block = null;
 
 	public RedpowderItem(LolocraftivModElements instance) {
 		super(instance, 54);
+
 	}
 
 	@Override
@@ -32,6 +20,7 @@ public class RedpowderItem extends LolocraftivModElements.ModElement {
 	}
 
 	public static class ItemCustom extends Item {
+
 		public ItemCustom() {
 			super(new Item.Properties().group(LoloCraftIVItemGroup.tab).maxStackSize(64).rarity(Rarity.EPIC));
 			setRegistryName("redpowder");
@@ -57,5 +46,7 @@ public class RedpowderItem extends LolocraftivModElements.ModElement {
 			super.addInformation(itemstack, world, list, flag);
 			list.add(new StringTextComponent("Red powder. Can use to Craft the Red Potion"));
 		}
+
 	}
+
 }

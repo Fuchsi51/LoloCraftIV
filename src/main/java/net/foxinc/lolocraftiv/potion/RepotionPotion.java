@@ -1,17 +1,9 @@
 
 package net.foxinc.lolocraftiv.potion;
 
-import net.minecraftforge.registries.ObjectHolder;
-import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.event.RegistryEvent;
-
-import net.minecraft.potion.Potion;
-import net.minecraft.potion.Effects;
-import net.minecraft.potion.EffectInstance;
-
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class RepotionPotion {
+
 	@ObjectHolder("lolocraftiv:repotion")
 	public static final Potion potionType = null;
 
@@ -21,9 +13,11 @@ public class RepotionPotion {
 	}
 
 	public static class PotionCustom extends Potion {
+
 		public PotionCustom() {
 			super(new EffectInstance(RedtrankPotionEffect.potion, 3600, 0, true, true), new EffectInstance(Effects.SLOWNESS, 3600, 0, false, true));
 			setRegistryName("repotion");
 		}
+
 	}
 }

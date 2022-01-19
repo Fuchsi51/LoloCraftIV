@@ -472,13 +472,13 @@
       "path": "~/Biome/Reddessert/Mainbiom/Holz"
     },
     {
-      "name": "Test",
-      "type": "loottable",
-      "sortid": 50,
+      "name": "Repotion",
+      "type": "potion",
+      "sortid": 52,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "test",
-      "path": "~/Sonstiges/Beute"
+      "registry_name": "repotion",
+      "path": "~/Prodezur/Trank"
     },
     {
       "name": "Wennredpotionstart",
@@ -514,22 +514,13 @@
       "path": "~/Prodezur/Trank"
     },
     {
-      "name": "Redtrank",
-      "type": "potioneffect",
-      "sortid": 51,
+      "name": "Test",
+      "type": "loottable",
+      "sortid": 50,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "redtrank",
-      "path": "~/Prodezur/Trank"
-    },
-    {
-      "name": "Repotion",
-      "type": "potion",
-      "sortid": 52,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "repotion",
-      "path": "~/Prodezur/Trank"
+      "registry_name": "test",
+      "path": "~/Sonstiges/Beute"
     },
     {
       "name": "Redpotion",
@@ -538,6 +529,15 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "redpotion",
+      "path": "~/Sonstiges/Trank"
+    },
+    {
+      "name": "Redpowder",
+      "type": "item",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redpowder",
       "path": "~/Sonstiges/Trank"
     },
     {
@@ -550,13 +550,13 @@
       "path": "~/Sonstiges/Trank"
     },
     {
-      "name": "Redpowder",
-      "type": "item",
-      "sortid": 54,
+      "name": "Redtrank",
+      "type": "potioneffect",
+      "sortid": 51,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "redpowder",
-      "path": "~/Sonstiges/Trank"
+      "registry_name": "redtrank",
+      "path": "~/Prodezur/Trank"
     },
     {
       "name": "Craftredpotion",
@@ -894,6 +894,19 @@
     "name": "~",
     "children": [
       {
+        "name": "Sonstiges",
+        "children": [
+          {
+            "name": "Beute",
+            "children": []
+          },
+          {
+            "name": "Trank",
+            "children": []
+          }
+        ]
+      },
+      {
         "name": "Biome",
         "children": [
           {
@@ -907,11 +920,11 @@
                 "name": "Mainbiom",
                 "children": [
                   {
-                    "name": "Holz",
+                    "name": "Main",
                     "children": []
                   },
                   {
-                    "name": "Main",
+                    "name": "Holz",
                     "children": []
                   },
                   {
@@ -976,19 +989,6 @@
             "children": []
           }
         ]
-      },
-      {
-        "name": "Sonstiges",
-        "children": [
-          {
-            "name": "Beute",
-            "children": []
-          },
-          {
-            "name": "Trank",
-            "children": []
-          }
-        ]
       }
     ]
   },
@@ -996,19 +996,18 @@
     "modid": "lolocraftiv",
     "modName": "LoloCraftIV",
     "version": "Alpha 0.0.1",
-    "description": "The new Adventure in the LoloCraft IV Mod! Take all your stuff and jump into the world of Minecraft LoloCraft IV!",
-    "author": "DerLoloHD",
+    "description": "The New Adventure in a new LoloCraft Mod",
+    "author": "DerLoloHD and TheXBOXPlayz",
     "websiteURL": "https://mclolocraft.jimdosite.com/LoloCraftIV",
     "license": "All Rights Reserved",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
-    "modPicture": "newlogo",
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.16.5",
-    "credits": "Thanks to TheXBOXPlayz for the better English in this Mod \u003c3",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.foxinc.lolocraftiv",
     "lockBaseModFiles": false
   },
