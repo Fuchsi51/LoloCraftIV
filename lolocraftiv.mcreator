@@ -472,48 +472,6 @@
       "path": "~/Biome/Reddessert/Mainbiom/Holz"
     },
     {
-      "name": "Repotion",
-      "type": "potion",
-      "sortid": 52,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "repotion",
-      "path": "~/Prodezur/Trank"
-    },
-    {
-      "name": "Wennredpotionstart",
-      "type": "procedure",
-      "sortid": 51,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "wennredpotionstart",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/Prodezur/Trank"
-    },
-    {
       "name": "Test",
       "type": "loottable",
       "sortid": 50,
@@ -523,24 +481,6 @@
       "path": "~/Sonstiges/Beute"
     },
     {
-      "name": "Redpotion",
-      "type": "potion",
-      "sortid": 53,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "redpotion",
-      "path": "~/Sonstiges/Trank"
-    },
-    {
-      "name": "Redpowder",
-      "type": "item",
-      "sortid": 54,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "redpowder",
-      "path": "~/Sonstiges/Trank"
-    },
-    {
       "name": "Adv05",
       "type": "achievement",
       "sortid": 53,
@@ -548,15 +488,6 @@
       "locked_code": false,
       "registry_name": "adv_05",
       "path": "~/Sonstiges/Trank"
-    },
-    {
-      "name": "Redtrank",
-      "type": "potioneffect",
-      "sortid": 51,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "redtrank",
-      "path": "~/Prodezur/Trank"
     },
     {
       "name": "Craftredpotion",
@@ -781,20 +712,15 @@
       "block.lolocraftiv.red_block": "Block of Red",
       "block.lolocraftiv.red_button": "Red Button",
       "advancements.adv_04.title": "Step up your useless work",
-      "block.lolocraftiv.red_planks": "Red Planks",
       "block.lolocraftiv.red_fence_gate": "Red Fence Gate",
+      "block.lolocraftiv.red_planks": "Red Planks",
       "biome.lolocraftiv.lolo_biom": "Lolo Biom",
       "item.lolocraftiv.red_axe": "Red Axe",
       "block.lolocraftiv.lolo_wood": "Lolo Wood",
-      "item.minecraft.lingering_potion.effect.redpotion": "Lingering Potion of Red",
-      "item.minecraft.tipped_arrow.effect.repotion": "Arrow of Red",
       "block.lolocraftiv.lolo_fence_gate": "Lolo Fence Gate",
       "item.lolocraftiv.red_shovel": "Red Shovel",
-      "item.minecraft.potion.effect.repotion": "Potion of Red",
       "block.lolocraftiv.red_stairs": "Red Stairs",
       "item.lolocraftiv.red_armor_leggings": "Red Leggings",
-      "item.minecraft.splash_potion.effect.repotion": "Splash Potion of Red",
-      "item.minecraft.potion.effect.redpotion": "Potion of Red",
       "advancements.adv_02.descr": "Mine and smelt the Red Ore",
       "block.lolocraftiv.red_leaves": "Red Leaves",
       "item.lolocraftiv.red_pickaxe": "Red Pickaxe",
@@ -807,25 +733,20 @@
       "block.lolocraftiv.lolo_leaves": "Lolo Leaves",
       "advancements.adv_03.descr": "Craft a Red Pickaxe",
       "block.lolocraftiv.lolo_slab": "Lolo Slab",
-      "item.lolocraftiv.redpowder": "Red powder",
       "advancements.adv_03.title": "A Red Start",
       "item.lolocraftiv.red_ingot": "Red Ingot",
       "itemGroup.tablolo_craft_iv": "LoloCraft IV",
       "advancements.adv_01.descr": "Find the new LoloCraft Biome",
-      "item.minecraft.lingering_potion.effect.repotion": "Lingering Potion of Red",
       "block.lolocraftiv.red_ore": "Red Ore",
       "advancements.adv_04.descr": "Craft a Red Stair",
       "item.lolocraftiv.red_armor_chestplate": "Red Chestplate",
       "block.lolocraftiv.lolo_fence": "Lolo Fence",
-      "item.minecraft.splash_potion.effect.redpotion": "Splash Potion of Red",
       "item.lolocraftiv.red_hoe": "Red Hoe",
       "block.lolocraftiv.lolo_planks": "Lolo Planks",
       "block.lolocraftiv.red_fence": "Red Fence",
       "block.lolocraftiv.lolo_button": "Lolo Button",
       "biome.lolocraftiv.reddessert": "Red Dessert",
       "advancements.adv_02.title": "The Red Spark",
-      "effect.redtrank": "Red potion",
-      "item.minecraft.tipped_arrow.effect.redpotion": "Arrow of Red",
       "block.lolocraftiv.lolo_stairs": "Lolo Stairs",
       "advancements.av_02.title": "A Red Start"
     },
@@ -841,20 +762,15 @@
       "block.lolocraftiv.red_block": "Block of Red",
       "block.lolocraftiv.red_button": "Red Button",
       "advancements.adv_04.title": "Why???",
-      "block.lolocraftiv.red_fence_gate": "Red Fence Gate",
       "block.lolocraftiv.red_planks": "Red Planks",
+      "block.lolocraftiv.red_fence_gate": "Red Fence Gate",
       "biome.lolocraftiv.lolo_biom": "Lolo Biom",
       "item.lolocraftiv.red_axe": "Red Axe",
       "block.lolocraftiv.lolo_wood": "Lolo Wood",
-      "item.minecraft.lingering_potion.effect.redpotion": "Lingering Potion of Red",
-      "item.minecraft.tipped_arrow.effect.repotion": "Arrow of Red",
       "block.lolocraftiv.lolo_fence_gate": "Lolo Fence Gate",
       "item.lolocraftiv.red_shovel": "Red Shovel",
-      "item.minecraft.potion.effect.repotion": "Potion of Red",
       "block.lolocraftiv.red_stairs": "Red Stairs",
       "item.lolocraftiv.red_armor_leggings": "Red Leggings",
-      "item.minecraft.splash_potion.effect.repotion": "Splash Potion of Red",
-      "item.minecraft.potion.effect.redpotion": "Potion of Red",
       "advancements.adv_02.descr": "Mine and Smelt the new Red Ore!",
       "block.lolocraftiv.red_leaves": "Red Leaves",
       "item.lolocraftiv.red_pickaxe": "Red Pickaxe",
@@ -867,25 +783,20 @@
       "block.lolocraftiv.lolo_leaves": "Lolo Leaves",
       "advancements.adv_03.descr": "Craft a new Red Pickaxt",
       "block.lolocraftiv.lolo_slab": "Lolo Slab",
-      "item.lolocraftiv.redpowder": "Red powder",
       "advancements.adv_03.title": "New Tools",
       "item.lolocraftiv.red_ingot": "Red Ingot",
       "itemGroup.tablolo_craft_iv": "LoloCraft IV",
       "advancements.adv_01.descr": "Find the new LoloCraft Biom",
-      "item.minecraft.lingering_potion.effect.repotion": "Lingering Potion of Red",
       "block.lolocraftiv.red_ore": "Red Ore",
       "advancements.adv_04.descr": "craft a Red Stair",
       "item.lolocraftiv.red_armor_chestplate": "Red Chestplate",
       "block.lolocraftiv.lolo_fence": "Lolo Fence",
-      "item.minecraft.splash_potion.effect.redpotion": "Splash Potion of Red",
       "item.lolocraftiv.red_hoe": "Red Hoe",
       "block.lolocraftiv.lolo_planks": "Lolo Planks",
       "block.lolocraftiv.red_fence": "Red Fence",
       "block.lolocraftiv.lolo_button": "Lolo Button",
       "biome.lolocraftiv.reddessert": "Red Dessert",
       "advancements.adv_02.title": "New Ore",
-      "effect.redtrank": "Red potion",
-      "item.minecraft.tipped_arrow.effect.redpotion": "Arrow of Red",
       "block.lolocraftiv.lolo_stairs": "Lolo Stairs",
       "advancements.av_02.title": "New Wood"
     }
@@ -1002,6 +913,7 @@
     "license": "All Rights Reserved",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
+    "modPicture": "mainlogo",
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],

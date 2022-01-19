@@ -7,7 +7,7 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
 
-import net.foxinc.lolocraftiv.item.RedpowderItem;
+import net.foxinc.lolocraftiv.item.RedSwordItem;
 import net.foxinc.lolocraftiv.LolocraftivModElements;
 
 @LolocraftivModElements.ModElement.Tag
@@ -22,7 +22,7 @@ public class LoloCraftIItemGroup extends LolocraftivModElements.ModElement {
 			@OnlyIn(Dist.CLIENT)
 			@Override
 			public ItemStack createIcon() {
-				return new ItemStack(RedpowderItem.block);
+				return new ItemStack(RedSwordItem.block);
 			}
 
 			@OnlyIn(Dist.CLIENT)
