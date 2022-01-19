@@ -1,8 +1,0 @@
-{
-  "parent": "block/slab",
-  "textures": {
-    "bottom": "lolocraftiv:blocks/lolo_planks",
-    "top": "lolocraftiv:blocks/lolo_planks",
-    "side": "lolocraftiv:blocks/lolo_planks"
-  }
-}
