@@ -1,0 +1,46 @@
+{
+  "_fv": 24,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 4,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:LoloPlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:LoloPlanks"
+      },
+      {
+        "value": "CUSTOM:LoloPlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:LoloPlanks"
+      },
+      {
+        "value": "CUSTOM:LoloPlanks"
+      },
+      {
+        "value": "CUSTOM:LoloPlanks"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:LoloStairs"
+    },
+    "name": "lolo_stairs_recipe",
+    "namespace": "mod"
+  }
+}

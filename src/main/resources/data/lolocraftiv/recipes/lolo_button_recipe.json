@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "lolocraftiv:lolo_planks"
+    }
+  ],
+  "result": {
+    "item": "lolocraftiv:lolo_button",
+    "count": 1
+  }
+}

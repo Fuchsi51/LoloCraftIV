@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "lolocraftiv:block/lolo_slab"
+    },
+    "type=top": {
+      "model": "lolocraftiv:block/lolo_slab_top"
+    },
+    "type=double": {
+      "model": "lolocraftiv:block/lolo_slab_full"
+    }
+  }
+}

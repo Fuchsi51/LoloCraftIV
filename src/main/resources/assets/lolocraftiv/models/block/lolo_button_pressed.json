@@ -1,0 +1,6 @@
+{
+  "parent": "block/button_pressed",
+  "textures": {
+    "texture": "lolocraftiv:blocks/lolo_planks"
+  }
+}
