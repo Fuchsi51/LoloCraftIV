@@ -6,12 +6,11 @@ license="All Rights Reserved"
 modId="lolocraftiv"
 version="Alpha 0.0.1"
 displayName="LoloCraftIV"
-credits="Thanks to TheXBOXPlayz for the better English in this Mod <3"
+credits="Created using mod maker MCreator - https://mcreator.net/about"
 displayURL="https://mclolocraft.jimdosite.com/LoloCraftIV"
-logoFile="logo.png"
-authors="DerLoloHD"
+authors="DerLoloHD and TheXBOXPlayz"
 description='''
-The new Adventure in the LoloCraft IV Mod! Take all your stuff and jump into the world of Minecraft LoloCraft IV!
+The New Adventure in a new LoloCraft Mod
 '''
 
 [[dependencies.lolocraftiv]]
