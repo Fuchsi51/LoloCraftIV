@@ -1,0 +1,7 @@
+{
+  "parent": "block/fence_inventory",
+  "textures": {
+    "texture": "lolocraftiv:blocks/lolo_planks",
+    "particle": "lolocraftiv:blocks/lolo_planks"
+  }
+}
