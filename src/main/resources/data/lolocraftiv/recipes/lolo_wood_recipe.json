@@ -6,20 +6,20 @@
   ],
   "key": {
     "0": {
-      "item": "lolocraftiv:lolo_log"
+      "item": "lolocraftiv:deleted_mod_element"
     },
     "1": {
-      "item": "lolocraftiv:lolo_log"
+      "item": "lolocraftiv:deleted_mod_element"
     },
     "2": {
-      "item": "lolocraftiv:lolo_log"
+      "item": "lolocraftiv:deleted_mod_element"
     },
     "3": {
-      "item": "lolocraftiv:lolo_log"
+      "item": "lolocraftiv:deleted_mod_element"
     }
   },
   "result": {
-    "item": "lolocraftiv:lolo_wood",
+    "item": "lolocraftiv:deleted_mod_element",
     "count": 3
   }
 }

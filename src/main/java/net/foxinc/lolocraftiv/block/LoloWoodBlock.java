@@ -1,39 +1,18 @@
 
 package net.foxinc.lolocraftiv.block;
 
-import net.minecraftforge.registries.ObjectHolder;
-import net.minecraftforge.common.ToolType;
-
-import net.minecraft.world.IBlockReader;
-import net.minecraft.util.math.BlockPos;
-import net.minecraft.util.Rotation;
-import net.minecraft.util.Direction;
-import net.minecraft.state.properties.BlockStateProperties;
-import net.minecraft.state.StateContainer;
-import net.minecraft.state.EnumProperty;
-import net.minecraft.loot.LootContext;
-import net.minecraft.item.ItemStack;
-import net.minecraft.item.Item;
-import net.minecraft.item.BlockItemUseContext;
-import net.minecraft.item.BlockItem;
 import net.minecraft.block.material.Material;
-import net.minecraft.block.SoundType;
-import net.minecraft.block.BlockState;
-import net.minecraft.block.Block;
-
-import net.foxinc.lolocraftiv.itemgroup.LoloCraftIVItemGroup;
-import net.foxinc.lolocraftiv.LolocraftivModElements;
-
-import java.util.List;
-import java.util.Collections;
+import net.minecraft.util.SoundEvent;
 
 @LolocraftivModElements.ModElement.Tag
 public class LoloWoodBlock extends LolocraftivModElements.ModElement {
+
 	@ObjectHolder("lolocraftiv:lolo_wood")
 	public static final Block block = null;
 
 	public LoloWoodBlock(LolocraftivModElements instance) {
 		super(instance, 55);
+
 	}
 
 	@Override
@@ -44,12 +23,15 @@ public class LoloWoodBlock extends LolocraftivModElements.ModElement {
 	}
 
 	public static class CustomBlock extends Block {
+
 		public static final EnumProperty<Direction.Axis> AXIS = BlockStateProperties.AXIS;
 
 		public CustomBlock() {
 			super(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(2f, 2f).setLightLevel(s -> 0).harvestLevel(0)
 					.harvestTool(ToolType.AXE).setRequiresTool());
+
 			this.setDefaultState(this.stateContainer.getBaseState().with(AXIS, Direction.Axis.Y));
+
 			setRegistryName("lolo_wood");
 		}
 
@@ -88,10 +70,13 @@ public class LoloWoodBlock extends LolocraftivModElements.ModElement {
 
 		@Override
 		public List<ItemStack> getDrops(BlockState state, LootContext.Builder builder) {
+
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
 			return Collections.singletonList(new ItemStack(this, 1));
 		}
+
 	}
+
 }

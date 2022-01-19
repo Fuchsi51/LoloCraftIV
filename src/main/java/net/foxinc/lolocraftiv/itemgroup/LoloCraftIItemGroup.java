@@ -1,17 +1,9 @@
 
 package net.foxinc.lolocraftiv.itemgroup;
 
-import net.minecraftforge.api.distmarker.OnlyIn;
-import net.minecraftforge.api.distmarker.Dist;
-
-import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
-
-import net.foxinc.lolocraftiv.item.RedSwordItem;
-import net.foxinc.lolocraftiv.LolocraftivModElements;
-
 @LolocraftivModElements.ModElement.Tag
 public class LoloCraftIItemGroup extends LolocraftivModElements.ModElement {
+
 	public LoloCraftIItemGroup(LolocraftivModElements instance) {
 		super(instance, 75);
 	}
@@ -33,4 +25,5 @@ public class LoloCraftIItemGroup extends LolocraftivModElements.ModElement {
 	}
 
 	public static ItemGroup tab;
+
 }

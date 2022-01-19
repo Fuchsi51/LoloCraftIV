@@ -855,10 +855,6 @@
             "name": "LoloBiom",
             "children": [
               {
-                "name": "Erfolge",
-                "children": []
-              },
-              {
                 "name": "Main",
                 "children": [
                   {
@@ -866,14 +862,18 @@
                     "children": []
                   },
                   {
-                    "name": "gegensteande",
+                    "name": "Biom",
                     "children": []
                   },
                   {
-                    "name": "Biom",
+                    "name": "gegensteande",
                     "children": []
                   }
                 ]
+              },
+              {
+                "name": "Erfolge",
+                "children": []
               }
             ]
           }
@@ -913,7 +913,6 @@
     "license": "All Rights Reserved",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
-    "modPicture": "mainlogo",
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],

@@ -1,34 +1,18 @@
 
 package net.foxinc.lolocraftiv.block;
 
-import net.minecraftforge.registries.ObjectHolder;
-
-import net.minecraft.world.IBlockReader;
-import net.minecraft.util.math.BlockPos;
-import net.minecraft.util.Direction;
-import net.minecraft.loot.LootContext;
-import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
-import net.minecraft.item.Item;
-import net.minecraft.item.BlockItem;
 import net.minecraft.block.material.Material;
-import net.minecraft.block.SoundType;
-import net.minecraft.block.LeavesBlock;
-import net.minecraft.block.BlockState;
-import net.minecraft.block.Block;
-
-import net.foxinc.lolocraftiv.LolocraftivModElements;
-
-import java.util.List;
-import java.util.Collections;
+import net.minecraft.util.SoundEvent;
 
 @LolocraftivModElements.ModElement.Tag
 public class LoloLeavesBlock extends LolocraftivModElements.ModElement {
+
 	@ObjectHolder("lolocraftiv:lolo_leaves")
 	public static final Block block = null;
 
 	public LoloLeavesBlock(LolocraftivModElements instance) {
 		super(instance, 58);
+
 	}
 
 	@Override
@@ -38,8 +22,10 @@ public class LoloLeavesBlock extends LolocraftivModElements.ModElement {
 	}
 
 	public static class CustomBlock extends LeavesBlock {
+
 		public CustomBlock() {
 			super(Block.Properties.create(Material.LEAVES).sound(SoundType.PLANT).hardnessAndResistance(0.2f, 0.2f).setLightLevel(s -> 0).notSolid());
+
 			setRegistryName("lolo_leaves");
 		}
 
@@ -55,10 +41,13 @@ public class LoloLeavesBlock extends LolocraftivModElements.ModElement {
 
 		@Override
 		public List<ItemStack> getDrops(BlockState state, LootContext.Builder builder) {
+
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
 			return Collections.singletonList(new ItemStack(this, 1));
 		}
+
 	}
+
 }
