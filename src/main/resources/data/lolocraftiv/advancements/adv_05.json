@@ -1,0 +1,34 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:redstone_torch"
+    },
+    "title": {
+      "translate": "advancements.adv_05.title"
+    },
+    "description": {
+      "translate": "advancements.adv_05.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "adv_05": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:bedrock",
+            "durability": {
+              "min": 10000,
+              "max": 16000
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "lolocraftiv:adv_04"
+}
