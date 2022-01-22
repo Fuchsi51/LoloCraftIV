@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "lolocraftiv:redcoal_block"
+    }
+  ],
+  "result": {
+    "item": "lolocraftiv:redcoal",
+    "count": 9
+  }
+}

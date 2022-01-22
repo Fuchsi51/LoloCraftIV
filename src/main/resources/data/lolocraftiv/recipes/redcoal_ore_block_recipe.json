@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "lolocraftiv:redcoal"
+    },
+    "1": {
+      "item": "lolocraftiv:redcoal"
+    },
+    "2": {
+      "item": "lolocraftiv:redcoal"
+    },
+    "3": {
+      "item": "lolocraftiv:redcoal"
+    },
+    "4": {
+      "item": "lolocraftiv:redcoal"
+    },
+    "5": {
+      "item": "lolocraftiv:redcoal"
+    },
+    "6": {
+      "item": "lolocraftiv:redcoal"
+    },
+    "7": {
+      "item": "lolocraftiv:redcoal"
+    },
+    "8": {
+      "item": "lolocraftiv:redcoal"
+    }
+  },
+  "result": {
+    "item": "lolocraftiv:redcoal_block",
+    "count": 1
+  }
+}

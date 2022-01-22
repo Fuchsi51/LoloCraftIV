@@ -2,7 +2,7 @@
   "_fv": 24,
   "_type": "biome",
   "definition": {
-    "name": "Red Dessert",
+    "name": "Red Desert",
     "groundBlock": {
       "value": "Blocks.GRASS"
     },
@@ -101,6 +101,25 @@
       "Ores",
       "FrozenTopLayer"
     ],
-    "spawnEntries": []
+    "spawnEntries": [
+      {
+        "entity": {
+          "value": "EntityAnimal"
+        },
+        "minGroup": 4,
+        "maxGroup": 4,
+        "weight": 20,
+        "spawnType": "ambient"
+      },
+      {
+        "entity": {
+          "value": "EntityAmbientCreature"
+        },
+        "minGroup": 4,
+        "maxGroup": 4,
+        "weight": 20,
+        "spawnType": "monster"
+      }
+    ]
   }
 }

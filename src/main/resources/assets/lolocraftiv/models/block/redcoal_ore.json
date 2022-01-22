@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "lolocraftiv:blocks/redcoal_ore",
+    "particle": "lolocraftiv:blocks/redcoal_ore"
+  }
+}
