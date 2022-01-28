@@ -1,7 +1,6 @@
 {
   "item.lolocraftiv.red_pickaxe": "Red Spitzhacke",
   "item.lolocraftiv.red_armor_helmet": "Red Helm",
-  "advancements.av_02.descr": "Finde die Neue Holz Art und Baue sie ab",
   "block.lolocraftiv.red_log": "Red Log",
   "block.lolocraftiv.red_wood": "Red Holz",
   "item.lolocraftiv.red_armor_boots": "Red Schuhe",
@@ -36,6 +35,5 @@
   "advancements.adv_02.descr": "Mine und Schmelze das neue Erz",
   "biome.lolocraftiv.reddessert": "Red Dessert",
   "advancements.adv_02.title": "Neues Erz",
-  "block.lolocraftiv.red_leaves": "Red Leaves",
-  "advancements.av_02.title": "Neues Holz"
+  "block.lolocraftiv.red_leaves": "Red Leaves"
 }

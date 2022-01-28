@@ -436,15 +436,6 @@
       "path": "~/Biome/Reddessert/Erfolge"
     },
     {
-      "name": "Av02",
-      "type": "achievement",
-      "sortid": 46,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "av_02",
-      "path": "~/Biome/Reddessert/Erfolge"
-    },
-    {
       "name": "Adv02",
       "type": "achievement",
       "sortid": 47,
@@ -551,6 +542,15 @@
       "locked_code": false,
       "registry_name": "adv_06",
       "path": "~/Biome/Reddessert/Erfolge"
+    },
+    {
+      "name": "Strucktur",
+      "type": "structure",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strucktur",
+      "path": "~/Biome/Reddessert/Mainbiom/Struckturen"
     }
   ],
   "variable_elements": [],
@@ -559,22 +559,21 @@
     "en_us": {
       "item.lolocraftiv.red_pickaxe": "Red Pickaxe",
       "item.lolocraftiv.red_armor_helmet": "Red Helmet",
-      "advancements.av_02.descr": "Find a Red Wood Log",
       "block.lolocraftiv.red_log": "Red Log",
       "block.lolocraftiv.red_wood": "Red Wood",
       "item.lolocraftiv.red_armor_boots": "Red Boots",
       "item.lolocraftiv.red_sword": "Red Sword",
       "advancements.adv_01.title": "Welcome to LoloCraft IV!",
-      "advancements.adv_03.descr": "Craft a Red Pickaxe",
+      "advancements.adv_03.descr": "Craft a new Red Pickaxt",
       "advancements.adv_06.title": "find Red Coal",
       "block.lolocraftiv.red_slab": "Red Slab",
       "block.lolocraftiv.red_pressure_plate": "Red Pressure Plate",
       "block.lolocraftiv.red_block": "Block of Red",
       "item.lolocraftiv.redcoal": "Red Coal",
-      "advancements.adv_03.title": "A Red Start",
+      "advancements.adv_03.title": "New Tools",
       "advancements.adv_06.descr": "find Red Coal in a Red Desert ",
       "block.lolocraftiv.red_button": "Red Button",
-      "advancements.adv_04.title": "Step up your useless work",
+      "advancements.adv_04.title": "Why???",
       "block.lolocraftiv.red_planks": "Red Planks",
       "block.lolocraftiv.red_fence_gate": "Red Fence Gate",
       "item.lolocraftiv.red_ingot": "Red Ingot",
@@ -583,7 +582,7 @@
       "advancements.adv_01.descr": "Find the new LoloCraft Biome",
       "block.lolocraftiv.redcoal_block": "Red Coal Block",
       "block.lolocraftiv.red_ore": "Red Ore",
-      "advancements.adv_04.descr": "Craft a Red Stair",
+      "advancements.adv_04.descr": "craft a Red Stair",
       "block.lolocraftiv.redcoal_ore": "Red Coal Ore",
       "item.lolocraftiv.red_armor_chestplate": "Red Chestplate",
       "item.lolocraftiv.red_shovel": "Red Shovel",
@@ -591,16 +590,14 @@
       "item.lolocraftiv.red_hoe": "Red Hoe",
       "item.lolocraftiv.red_armor_leggings": "Red Leggings",
       "block.lolocraftiv.red_fence": "Red Fence",
-      "advancements.adv_02.descr": "Mine and smelt the Red Ore",
+      "advancements.adv_02.descr": "Mine and Smelt the new Red Ore!",
       "biome.lolocraftiv.reddessert": "Red Desert",
-      "advancements.adv_02.title": "The Red Spark",
-      "block.lolocraftiv.red_leaves": "Red Leaves",
-      "advancements.av_02.title": "A Red Start"
+      "advancements.adv_02.title": "New Ore",
+      "block.lolocraftiv.red_leaves": "Red Leaves"
     },
     "de_de": {
       "item.lolocraftiv.red_pickaxe": "Red Spitzhacke",
       "item.lolocraftiv.red_armor_helmet": "Red Helm",
-      "advancements.av_02.descr": "Finde die Neue Holz Art und Baue sie ab",
       "block.lolocraftiv.red_log": "Red Log",
       "block.lolocraftiv.red_wood": "Red Holz",
       "item.lolocraftiv.red_armor_boots": "Red Schuhe",
@@ -635,8 +632,7 @@
       "advancements.adv_02.descr": "Mine und Schmelze das neue Erz",
       "biome.lolocraftiv.reddessert": "Red Dessert",
       "advancements.adv_02.title": "Neues Erz",
-      "block.lolocraftiv.red_leaves": "Red Leaves",
-      "advancements.av_02.title": "Neues Holz"
+      "block.lolocraftiv.red_leaves": "Red Leaves"
     }
   },
   "foldersRoot": {
@@ -689,8 +685,25 @@
                         ]
                       }
                     ]
+                  },
+                  {
+                    "name": "Struckturen",
+                    "children": []
                   }
                 ]
+              }
+            ]
+          },
+          {
+            "name": "LoloBiom",
+            "children": [
+              {
+                "name": "Main",
+                "children": []
+              },
+              {
+                "name": "Holz",
+                "children": []
               }
             ]
           }
@@ -711,19 +724,14 @@
       },
       {
         "name": "Prodezur",
-        "children": [
-          {
-            "name": "Trank",
-            "children": []
-          }
-        ]
+        "children": []
       }
     ]
   },
   "workspaceSettings": {
     "modid": "lolocraftiv",
     "modName": "LoloCraftIV",
-    "version": "Alpha 0.0.1",
+    "version": "IV Build Version 1.0.0",
     "description": "The New Adventure in a new LoloCraft Mod",
     "author": "DerLoloHD and TheXBOXPlayz",
     "websiteURL": "https://mclolocraft.jimdosite.com/LoloCraftIV",
