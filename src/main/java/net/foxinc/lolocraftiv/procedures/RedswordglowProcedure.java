@@ -57,7 +57,7 @@ public class RedswordglowProcedure {
 				((World) world).addEntity(_ent);
 			}
 			if (entity instanceof LivingEntity)
-				((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.FIRE_RESISTANCE, (int) 60, (int) 10, (false), (false)));
+				((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.FIRE_RESISTANCE, (int) 60, (int) 1, (false), (false)));
 		}
 	}
 }

@@ -551,6 +551,15 @@
       "locked_code": false,
       "registry_name": "strucktur",
       "path": "~/Biome/Reddessert/Mainbiom/Struckturen"
+    },
+    {
+      "name": "LoloCraftIVArmor",
+      "type": "tab",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lolo_craft_iv_armor",
+      "path": "~/Sonstiges"
     }
   ],
   "variable_elements": [],
@@ -580,6 +589,7 @@
       "item.lolocraftiv.red_axe": "Red Axe",
       "itemGroup.tablolo_craft_iv": "LoloCraft IV-English",
       "advancements.adv_01.descr": "Find the new LoloCraft Biome",
+      "itemGroup.tablolo_craft_iv_armor": "Lolo Craft IV Armor",
       "block.lolocraftiv.redcoal_block": "Red Coal Block",
       "block.lolocraftiv.red_ore": "Red Ore",
       "advancements.adv_04.descr": "craft a Red Stair",
@@ -619,6 +629,7 @@
       "item.lolocraftiv.red_axe": "Red Axt",
       "itemGroup.tablolo_craft_iv": "LoloCraft IV-German",
       "advancements.adv_01.descr": "Finde das neue LoloCraft Biom",
+      "itemGroup.tablolo_craft_iv_armor": "Lolo Craft IV Rüstung",
       "block.lolocraftiv.redcoal_block": "Red Coal Block",
       "block.lolocraftiv.red_ore": "Red Ore",
       "advancements.adv_04.descr": "Baue eine Rote Stufe",
@@ -731,7 +742,7 @@
   "workspaceSettings": {
     "modid": "lolocraftiv",
     "modName": "LoloCraftIV",
-    "version": "IV Build Version 1.0.0",
+    "version": "IV Build Version 1.0.1",
     "description": "The New Adventure in a new LoloCraft Mod",
     "author": "DerLoloHD and TheXBOXPlayz",
     "websiteURL": "https://mclolocraft.jimdosite.com/LoloCraftIV",
