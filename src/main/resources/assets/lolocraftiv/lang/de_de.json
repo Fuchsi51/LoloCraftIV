@@ -1,7 +1,9 @@
 {
+  "advancements.advbobisback.descr": "Bring Bob back to LoloCraft IV",
   "item.lolocraftiv.red_pickaxe": "Red Spitzhacke",
   "item.lolocraftiv.red_armor_helmet": "Red Helm",
   "block.lolocraftiv.red_log": "Red Log",
+  "item.lolocraftiv.bob_spawn_egg": "BOB Spawn Egg",
   "block.lolocraftiv.red_wood": "Red Holz",
   "item.lolocraftiv.red_armor_boots": "Red Schuhe",
   "item.lolocraftiv.red_sword": "Red Schwert",
@@ -25,16 +27,19 @@
   "itemGroup.tablolo_craft_iv_armor": "Lolo Craft IV Rüstung",
   "block.lolocraftiv.redcoal_block": "Red Coal Block",
   "block.lolocraftiv.red_ore": "Red Ore",
+  "item.lolocraftiv.bobweapon": "BOB´s magic wand II",
   "advancements.adv_04.descr": "Baue eine Rote Stufe",
   "block.lolocraftiv.redcoal_ore": "Red Coal Erz",
   "item.lolocraftiv.red_armor_chestplate": "Red Brustplate ",
   "item.lolocraftiv.red_shovel": "Red Schaufel",
   "block.lolocraftiv.red_stairs": "Red Treppe",
   "item.lolocraftiv.red_hoe": "Red Hoe",
+  "entity.lolocraftiv.bob": "BOB",
   "item.lolocraftiv.red_armor_leggings": "Red Hose",
   "block.lolocraftiv.red_fence": "Red Fence",
   "advancements.adv_02.descr": "Mine und Schmelze das neue Erz",
   "biome.lolocraftiv.reddessert": "Red Dessert",
   "advancements.adv_02.title": "Neues Erz",
-  "block.lolocraftiv.red_leaves": "Red Leaves"
+  "advancements.advbobisback.title": "Bob is back!",
+  "block.lolocraftiv.red_leaves": "Red Blätter"
 }

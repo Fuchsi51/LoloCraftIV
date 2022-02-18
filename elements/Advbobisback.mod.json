@@ -1,0 +1,29 @@
+{
+  "_fv": 24,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "Bob is back!",
+    "achievementDescription": "Bring Bob back to LoloCraft IV",
+    "achievementIcon": {
+      "value": "Items.EVOKER_SPAWN_EGG"
+    },
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": true,
+    "rewardLoot": [
+      "Test"
+    ],
+    "rewardRecipes": [
+      "RedWoodRecipe"
+    ],
+    "rewardFunction": "No function",
+    "rewardXP": 1000,
+    "achievementType": "goal",
+    "parent": {
+      "value": "CUSTOM:Adv06"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"custom_trigger\" x=\"559\" y=\"372\"><next><block type=\"advancement_trigger\" deletable=\"false\"></block></next></block></xml>"
+  }
+}

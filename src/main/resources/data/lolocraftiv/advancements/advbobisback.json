@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:evoker_spawn_egg"
+    },
+    "title": {
+      "translate": "advancements.advbobisback.title"
+    },
+    "description": {
+      "translate": "advancements.advbobisback.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "advbobisback": {
+     "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "type": {
+            "source_entity": {
+              "type": "lolocraftiv:bob"
+            },
+  },
+  "rewards": {
+    "experience": 1000,
+    "loot": [
+      "lolocraftiv:blocks/chest"
+    ],
+    "recipes": [
+      "lolocraftiv:red_wood_recipe"
+    ]
+  },
+  "parent": "lolocraftiv:adv_06"
+}
