@@ -46,6 +46,10 @@ public class LolocraftivModElements {
 	public static Map<ResourceLocation, net.minecraft.util.SoundEvent> sounds = new HashMap<>();
 
 	public LolocraftivModElements() {
+		sounds.put(new ResourceLocation("lolocraftiv", "block.place.bobspawner"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("lolocraftiv", "block.place.bobspawner")));
+		sounds.put(new ResourceLocation("lolocraftiv", "block.place.new.bobspawner"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("lolocraftiv", "block.place.new.bobspawner")));
 		try {
 			ModFileScanData modFileInfo = ModList.get().getModFileById("lolocraftiv").getFile().getScanResult();
 			Set<ModFileScanData.AnnotationData> annotations = modFileInfo.getAnnotations();

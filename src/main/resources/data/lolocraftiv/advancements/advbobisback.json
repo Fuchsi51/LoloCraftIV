@@ -16,18 +16,18 @@
   },
   "criteria": {
     "advbobisback": {
-     "trigger": "minecraft:entity_hurt_player",
+      "trigger": "minecraft:placed_block",
       "conditions": {
-        "damage": {
-          "type": {
-            "source_entity": {
-              "type": "lolocraftiv:bob"
-            },
+        "item": {
+          "item": "lolocraftiv:bobspawner"
+        }
+      }
+    }
   },
   "rewards": {
     "experience": 1000,
     "loot": [
-      "lolocraftiv:blocks/chest"
+      "lolocraftiv:deleted_mod_element"
     ],
     "recipes": [
       "lolocraftiv:red_wood_recipe"

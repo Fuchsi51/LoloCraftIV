@@ -463,15 +463,6 @@
       "path": "~/Biome/Reddessert/Mainbiom/Holz"
     },
     {
-      "name": "Test",
-      "type": "loottable",
-      "sortid": 50,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "test",
-      "path": "~/Sonstiges/Beute"
-    },
-    {
       "name": "Redcoal",
       "type": "item",
       "sortid": 51,
@@ -616,13 +607,86 @@
       "locked_code": false,
       "registry_name": "bobweapon",
       "path": "~/BOB/Weapon"
+    },
+    {
+      "name": "BobspawnerWennDerBlockVomSpielerZerstortWird",
+      "type": "procedure",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bobspawner_wenn_der_block_vom_spieler_zerstort_wird",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/BOB"
+    },
+    {
+      "name": "Bobspawner",
+      "type": "block",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bobspawner",
+      "path": "~/BOB"
+    },
+    {
+      "name": "Bobtree",
+      "type": "structure",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bobtree",
+      "path": "~/Biome/Reddessert/Mainbiom/Struckturen"
+    },
+    {
+      "name": "LoloCraftIVblocks",
+      "type": "tab",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lolo_craft_i_vblocks",
+      "path": "~/Sonstiges"
     }
   ],
   "variable_elements": [],
-  "sound_elements": [],
+  "sound_elements": [
+    {
+      "name": "block.place.bobspawner",
+      "files": [
+        "block"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "block.place.new.bobspawner",
+      "files": [
+        "unbenannt"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    }
+  ],
   "language_map": {
     "en_us": {
-      "advancements.advbobisback.descr": "Bring Bob back to LoloCraft IV",
+      "advancements.advbobisback.descr": "Bring Bob back to LoloCraftIV",
       "item.lolocraftiv.red_pickaxe": "Red Pickaxe",
       "item.lolocraftiv.red_armor_helmet": "Red Helmet",
       "block.lolocraftiv.red_log": "Red Log",
@@ -632,15 +696,16 @@
       "item.lolocraftiv.red_sword": "Red Sword",
       "advancements.adv_01.title": "Welcome to LoloCraft IV!",
       "advancements.adv_03.descr": "Craft a new Red Pickaxt",
-      "advancements.adv_06.title": "find Red Coal",
+      "advancements.adv_06.title": "Find Red Coal",
       "block.lolocraftiv.red_slab": "Red Slab",
       "block.lolocraftiv.red_pressure_plate": "Red Pressure Plate",
       "block.lolocraftiv.red_block": "Block of Red",
       "item.lolocraftiv.redcoal": "Red Coal",
       "advancements.adv_03.title": "New Tools",
-      "advancements.adv_06.descr": "find Red Coal in a Red Desert ",
+      "subtitles.block.place.bobspawner": "",
+      "advancements.adv_06.descr": "Find Red Coal in a Red Desert ",
       "block.lolocraftiv.red_button": "Red Button",
-      "advancements.adv_04.title": "Why???",
+      "advancements.adv_04.title": "Step up you Work!",
       "block.lolocraftiv.red_planks": "Red Planks",
       "block.lolocraftiv.red_fence_gate": "Red Fence Gate",
       "item.lolocraftiv.red_ingot": "Red Ingot",
@@ -651,15 +716,18 @@
       "block.lolocraftiv.redcoal_block": "Red Coal Block",
       "block.lolocraftiv.red_ore": "Red Ore",
       "item.lolocraftiv.bobweapon": "BOB´s magic wand II",
-      "advancements.adv_04.descr": "craft a Red Stair",
+      "advancements.adv_04.descr": "Craft a Red Stair",
       "block.lolocraftiv.redcoal_ore": "Red Coal Ore",
       "item.lolocraftiv.red_armor_chestplate": "Red Chestplate",
       "item.lolocraftiv.red_shovel": "Red Shovel",
+      "itemGroup.tablolo_craft_i_vblocks": "LoloCraftIV Blocks",
       "block.lolocraftiv.red_stairs": "Red Stairs",
       "item.lolocraftiv.red_hoe": "Red Hoe",
       "entity.lolocraftiv.bob": "BOB",
+      "subtitles.block.place.new.bobspawner": "",
       "item.lolocraftiv.red_armor_leggings": "Red Leggings",
       "block.lolocraftiv.red_fence": "Red Fence",
+      "block.lolocraftiv.bobspawner": "Bobspawner",
       "advancements.adv_02.descr": "Mine and Smelt the new Red Ore!",
       "biome.lolocraftiv.reddessert": "Red Desert",
       "advancements.adv_02.title": "New Ore",
@@ -683,9 +751,10 @@
       "block.lolocraftiv.red_block": "Block of Red",
       "item.lolocraftiv.redcoal": "Red Coal",
       "advancements.adv_03.title": "Neues Tool",
+      "subtitles.block.place.bobspawner": "",
       "advancements.adv_06.descr": "Finde Red Coal im Red Desert",
       "block.lolocraftiv.red_button": "Red Button",
-      "advancements.adv_04.title": "Warum???",
+      "advancements.adv_04.title": "Eine Stufe höher!",
       "block.lolocraftiv.red_fence_gate": "Red Fence Gate",
       "block.lolocraftiv.red_planks": "Red Planks",
       "item.lolocraftiv.red_ingot": "Red Ingot",
@@ -700,11 +769,14 @@
       "block.lolocraftiv.redcoal_ore": "Red Coal Erz",
       "item.lolocraftiv.red_armor_chestplate": "Red Brustplate ",
       "item.lolocraftiv.red_shovel": "Red Schaufel",
+      "itemGroup.tablolo_craft_i_vblocks": "LoloCraftIV Blocks",
       "block.lolocraftiv.red_stairs": "Red Treppe",
       "item.lolocraftiv.red_hoe": "Red Hoe",
       "entity.lolocraftiv.bob": "BOB",
+      "subtitles.block.place.new.bobspawner": "",
       "item.lolocraftiv.red_armor_leggings": "Red Hose",
       "block.lolocraftiv.red_fence": "Red Fence",
+      "block.lolocraftiv.bobspawner": "Bobspawner",
       "advancements.adv_02.descr": "Mine und Schmelze das neue Erz",
       "biome.lolocraftiv.reddessert": "Red Dessert",
       "advancements.adv_02.title": "Neues Erz",
@@ -817,10 +889,10 @@
   "workspaceSettings": {
     "modid": "lolocraftiv",
     "modName": "LoloCraftIV",
-    "version": "IV Build Version 1.0.2",
+    "version": "IV Build Version 1.1.5",
     "description": "The New Adventure in a new LoloCraft Mod",
-    "author": "DerLoloHD and TheXBOXPlayz",
-    "websiteURL": "https://mclolocraft.jimdosite.com/LoloCraftIV",
+    "author": "DerLoloHD",
+    "websiteURL": "https://mclolocraft.jimdofree.com/lolocraft-iv/",
     "license": "All Rights Reserved",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,

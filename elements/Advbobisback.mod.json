@@ -3,7 +3,7 @@
   "_type": "achievement",
   "definition": {
     "achievementName": "Bob is back!",
-    "achievementDescription": "Bring Bob back to LoloCraft IV",
+    "achievementDescription": "Bring Bob back to LoloCraftIV",
     "achievementIcon": {
       "value": "Items.EVOKER_SPAWN_EGG"
     },
@@ -24,6 +24,6 @@
     "parent": {
       "value": "CUSTOM:Adv06"
     },
-    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"custom_trigger\" x=\"559\" y=\"372\"><next><block type=\"advancement_trigger\" deletable=\"false\"></block></next></block></xml>"
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"block_placed\" x=\"717\" y=\"435\"><value name=\"block\"><block type=\"mcitem_allblocks\"><field name=\"value\">CUSTOM:Bobspawner</field></block></value><next><block type=\"advancement_trigger\" deletable=\"false\"></block></next></block></xml>"
   }
 }

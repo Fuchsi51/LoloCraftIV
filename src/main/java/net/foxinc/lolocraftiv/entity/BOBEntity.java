@@ -15,11 +15,8 @@ import net.minecraft.world.BossInfo;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.DamageSource;
 import net.minecraft.network.IPacket;
-import net.minecraft.item.SpawnEggItem;
-import net.minecraft.item.ItemGroup;
-import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
 import net.minecraft.entity.player.ServerPlayerEntity;
-import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.ai.goal.RangedAttackGoal;
 import net.minecraft.entity.ai.goal.RandomWalkingGoal;
 import net.minecraft.entity.ai.goal.NearestAttackableTargetGoal;
@@ -44,7 +41,7 @@ import net.foxinc.lolocraftiv.LolocraftivModElements;
 public class BOBEntity extends LolocraftivModElements.ModElement {
 	public static EntityType entity = (EntityType.Builder.<CustomEntity>create(CustomEntity::new, EntityClassification.MONSTER)
 			.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new)
-			.size(0.6f, 1.8f)).build("bob").setRegistryName("bob");
+			.size(0.6f, 1.95f)).build("bob").setRegistryName("bob");
 
 	public BOBEntity(LolocraftivModElements instance) {
 		super(instance, 63);
@@ -55,7 +52,6 @@ public class BOBEntity extends LolocraftivModElements.ModElement {
 	@Override
 	public void initElements() {
 		elements.entities.add(() -> entity);
-		elements.items.add(() -> new SpawnEggItem(entity, -1, -1, new Item.Properties().group(ItemGroup.MISC)).setRegistryName("bob_spawn_egg"));
 	}
 
 	@Override
@@ -94,11 +90,11 @@ public class BOBEntity extends LolocraftivModElements.ModElement {
 		@Override
 		protected void registerGoals() {
 			super.registerGoals();
-			this.goalSelector.addGoal(1, new MeleeAttackGoal(this, 1.2, false));
-			this.targetSelector.addGoal(2, new HurtByTargetGoal(this));
+			this.goalSelector.addGoal(1, new MeleeAttackGoal(this, 1.2, true));
+			this.targetSelector.addGoal(2, new HurtByTargetGoal(this).setCallsForHelp(this.getClass()));
 			this.goalSelector.addGoal(3, new RandomWalkingGoal(this, 0.8));
 			this.goalSelector.addGoal(4, new LookRandomlyGoal(this));
-			this.targetSelector.addGoal(5, new NearestAttackableTargetGoal(this, PlayerEntity.class, false, false));
+			this.targetSelector.addGoal(5, new NearestAttackableTargetGoal(this, BOBEntity.CustomEntity.class, false, false));
 			this.goalSelector.addGoal(1, new RangedAttackGoal(this, 1.25, 20, 10) {
 				@Override
 				public boolean shouldContinueExecuting() {
@@ -115,6 +111,11 @@ public class BOBEntity extends LolocraftivModElements.ModElement {
 		@Override
 		public boolean canDespawn(double distanceToClosestPlayer) {
 			return false;
+		}
+
+		protected void dropSpecialItems(DamageSource source, int looting, boolean recentlyHitIn) {
+			super.dropSpecialItems(source, looting, recentlyHitIn);
+			this.entityDropItem(new ItemStack(BobweaponItem.block));
 		}
 
 		@Override

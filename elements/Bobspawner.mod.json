@@ -2,20 +2,19 @@
   "_fv": 24,
   "_type": "block",
   "definition": {
-    "texture": "red_planks",
+    "texture": "bobspawnerside",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
     "textureRight": "",
     "textureBack": "",
-    "renderType": 10,
-    "customModelName": "Normal",
+    "renderType": 11,
+    "customModelName": "Single texture",
     "rotationMode": 0,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
     "itemTexture": "",
     "particleTexture": "",
-    "blockBase": "FenceGate",
     "tintType": "No tint",
     "isItemTinted": false,
     "hasTransparency": false,
@@ -33,16 +32,16 @@
         "subtract": false
       }
     ],
-    "name": "Red Fence Gate",
+    "name": "Bobspawner",
     "specialInfo": [],
-    "hardness": 2.0,
-    "resistance": 3.0,
+    "hardness": 1.0,
+    "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "CUSTOM:LoloCraftIVblocks"
+      "value": "CUSTOM:LoloCraftIV"
     },
-    "destroyTool": "Not specified",
+    "destroyTool": "pickaxe",
     "customDrop": {
       "value": ""
     },
@@ -51,9 +50,9 @@
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
     "canRedstoneConnect": false,
-    "lightOpacity": 0,
+    "lightOpacity": 15,
     "material": {
-      "value": "WOOD"
+      "value": "REDSTONE_LIGHT"
     },
     "tickRate": 10,
     "tickRandomly": false,
@@ -68,7 +67,7 @@
     },
     "offsetType": "NONE",
     "aiPathNodeType": "DEFAULT",
-    "flammability": 5,
+    "flammability": 0,
     "fireSpreadSpeed": 0,
     "isLadder": false,
     "slipperiness": 0.6,
@@ -76,28 +75,28 @@
     "jumpFactor": 1.0,
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
-    "isCustomSoundType": false,
+    "isCustomSoundType": true,
     "soundOnStep": {
-      "value": "WOOD"
+      "value": "GILDED_BLACKSTONE"
     },
     "breakSound": {
-      "value": ""
+      "value": "block.amethyst_block.break"
     },
     "stepSound": {
-      "value": ""
+      "value": "block.amethyst_block.step"
     },
     "placeSound": {
-      "value": ""
+      "value": "CUSTOM:block.place.new.bobspawner"
     },
     "hitSound": {
-      "value": ""
+      "value": "block.amethyst_block.hit"
     },
     "fallSound": {
-      "value": ""
+      "value": "block.amethyst_block.fall"
     },
     "luminance": 0,
     "unbreakable": false,
-    "breakHarvestLevel": 0,
+    "breakHarvestLevel": 1,
     "spawnParticles": false,
     "particleToSpawn": {
       "value": "EXPLOSION_NORMAL"
@@ -122,6 +121,9 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "onDestroyedByPlayer": {
+      "name": "BobspawnerWennDerBlockVomSpielerZerstortWird"
+    },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
     "blocksToReplace": [

@@ -2,8 +2,8 @@
   "_fv": 24,
   "_type": "achievement",
   "definition": {
-    "achievementName": "find Red Coal",
-    "achievementDescription": "find Red Coal in a Red Desert ",
+    "achievementName": "Find Red Coal",
+    "achievementDescription": "Find Red Coal in a Red Desert ",
     "achievementIcon": {
       "value": "CUSTOM:RedcoalOre"
     },
@@ -20,6 +20,6 @@
     "parent": {
       "value": "CUSTOM:Adv01"
     },
-    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"item_in_inventory\" x=\"72\" y=\"109\"><value name=\"amount_l\"><block type=\"math_number\"><field name=\"NUM\">1</field></block></value><value name=\"amount_h\"><block type=\"math_number\"><field name=\"NUM\">1</field></block></value><value name=\"item\"><block type=\"mcitem_all\"><field name=\"value\">CUSTOM:Redcoal</field></block></value><next><block type=\"advancement_trigger\" deletable=\"false\"></block></next></block></xml>"
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"item_in_inventory\" x=\"195\" y=\"164\"><value name=\"amount_l\"><block type=\"math_number\"><field name=\"NUM\">1</field></block></value><value name=\"amount_h\"><block type=\"math_number\"><field name=\"NUM\">1</field></block></value><value name=\"item\"><block type=\"mcitem_all\"><field name=\"value\">CUSTOM:Redcoal</field></block></value><next><block type=\"advancement_trigger\" deletable=\"false\"></block></next></block></xml>"
   }
 }

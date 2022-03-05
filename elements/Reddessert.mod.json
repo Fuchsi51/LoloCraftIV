@@ -21,6 +21,10 @@
       "value": -3407872,
       "falpha": 0.0
     },
+    "waterColor": {
+      "value": -52378,
+      "falpha": 0.0
+    },
     "ambientSound": {
       "value": ""
     },
@@ -71,7 +75,7 @@
       "value": "CUSTOM:RedLeaves"
     },
     "treeVines": {
-      "value": ""
+      "value": "CUSTOM:RedLeaves"
     },
     "treeFruits": {
       "value": ""

@@ -1,0 +1,20 @@
+{
+  "block.place.bobspawner": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "lolocraftiv:block",
+        "stream": false
+      }
+    ]
+  },
+  "block.place.new.bobspawner": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "lolocraftiv:unbenannt",
+        "stream": false
+      }
+    ]
+  }
+}

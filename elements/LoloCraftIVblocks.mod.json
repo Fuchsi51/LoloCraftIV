@@ -1,0 +1,11 @@
+{
+  "_fv": 24,
+  "_type": "tab",
+  "definition": {
+    "name": "LoloCraftIV Blocks",
+    "icon": {
+      "value": "CUSTOM:RedLog"
+    },
+    "showSearch": false
+  }
+}
