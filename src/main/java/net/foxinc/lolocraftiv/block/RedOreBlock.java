@@ -48,7 +48,7 @@ public class RedOreBlock extends LolocraftivModElements.ModElement {
 	public static final Block block = null;
 
 	public RedOreBlock(LolocraftivModElements instance) {
-		super(instance, 23);
+		super(instance, 18);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

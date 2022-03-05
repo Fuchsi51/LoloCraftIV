@@ -30,7 +30,7 @@ public class RedArmorItem extends LolocraftivModElements.ModElement {
 	public static final Item boots = null;
 
 	public RedArmorItem(LolocraftivModElements instance) {
-		super(instance, 39);
+		super(instance, 24);
 	}
 
 	@Override

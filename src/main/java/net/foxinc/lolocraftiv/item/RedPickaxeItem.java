@@ -18,7 +18,7 @@ public class RedPickaxeItem extends LolocraftivModElements.ModElement {
 	public static final Item block = null;
 
 	public RedPickaxeItem(LolocraftivModElements instance) {
-		super(instance, 28);
+		super(instance, 12);
 	}
 
 	@Override

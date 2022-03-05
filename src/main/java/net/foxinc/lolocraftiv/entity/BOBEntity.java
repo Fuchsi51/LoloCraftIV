@@ -44,7 +44,7 @@ public class BOBEntity extends LolocraftivModElements.ModElement {
 			.size(0.6f, 1.95f)).build("bob").setRegistryName("bob");
 
 	public BOBEntity(LolocraftivModElements instance) {
-		super(instance, 63);
+		super(instance, 25);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BOBRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

@@ -27,7 +27,7 @@ public class RedBlockBlock extends LolocraftivModElements.ModElement {
 	public static final Block block = null;
 
 	public RedBlockBlock(LolocraftivModElements instance) {
-		super(instance, 24);
+		super(instance, 21);
 	}
 
 	@Override

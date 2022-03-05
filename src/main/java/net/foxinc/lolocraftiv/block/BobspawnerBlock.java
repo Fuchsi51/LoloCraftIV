@@ -37,7 +37,7 @@ public class BobspawnerBlock extends LolocraftivModElements.ModElement {
 	public static final Block block = null;
 
 	public BobspawnerBlock(LolocraftivModElements instance) {
-		super(instance, 65);
+		super(instance, 23);
 	}
 
 	@Override

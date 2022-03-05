@@ -18,7 +18,7 @@ public class RedShovelItem extends LolocraftivModElements.ModElement {
 	public static final Item block = null;
 
 	public RedShovelItem(LolocraftivModElements instance) {
-		super(instance, 31);
+		super(instance, 14);
 	}
 
 	@Override

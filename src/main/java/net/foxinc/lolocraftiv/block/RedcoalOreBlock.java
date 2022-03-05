@@ -49,7 +49,7 @@ public class RedcoalOreBlock extends LolocraftivModElements.ModElement {
 	public static final Block block = null;
 
 	public RedcoalOreBlock(LolocraftivModElements instance) {
-		super(instance, 52);
+		super(instance, 20);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

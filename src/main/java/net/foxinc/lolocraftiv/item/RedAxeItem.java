@@ -18,7 +18,7 @@ public class RedAxeItem extends LolocraftivModElements.ModElement {
 	public static final Item block = null;
 
 	public RedAxeItem(LolocraftivModElements instance) {
-		super(instance, 29);
+		super(instance, 13);
 	}
 
 	@Override

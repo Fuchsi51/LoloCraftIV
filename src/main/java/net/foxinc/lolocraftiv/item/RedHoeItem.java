@@ -18,7 +18,7 @@ public class RedHoeItem extends LolocraftivModElements.ModElement {
 	public static final Item block = null;
 
 	public RedHoeItem(LolocraftivModElements instance) {
-		super(instance, 32);
+		super(instance, 15);
 	}
 
 	@Override

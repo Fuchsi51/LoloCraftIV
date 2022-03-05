@@ -54,7 +54,7 @@ public class BobweaponItem extends LolocraftivModElements.ModElement {
 			.size(0.5f, 0.5f)).build("entitybulletbobweapon").setRegistryName("entitybulletbobweapon");
 
 	public BobweaponItem(LolocraftivModElements instance) {
-		super(instance, 64);
+		super(instance, 16);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BobweaponRenderer.ModelRegisterHandler());
 	}
 

@@ -24,7 +24,7 @@ public class BOBRenderer {
 
 						@Override
 						public ResourceLocation getEntityTexture(Entity entity) {
-							return new ResourceLocation("lolocraftiv:textures/villager.png");
+							return new ResourceLocation("lolocraftiv:textures/evil_villager_in_the_blue_robe_story_mode.png");
 						}
 					});
 		}
