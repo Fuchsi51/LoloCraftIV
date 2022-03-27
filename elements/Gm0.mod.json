@@ -1,0 +1,11 @@
+{
+  "_fv": 24,
+  "_type": "command",
+  "definition": {
+    "commandName": "gm0",
+    "permissionLevel": "4",
+    "onCommandExecuted": {
+      "name": "Gm0CommandExecuted"
+    }
+  }
+}

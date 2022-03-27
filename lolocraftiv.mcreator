@@ -663,6 +663,110 @@
       "locked_code": false,
       "registry_name": "lolo_craft_i_vblocks",
       "path": "~/Sonstiges"
+    },
+    {
+      "name": "Gm1CommandExecuted",
+      "type": "procedure",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gm_1_command_executed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Sonstiges/Commands"
+    },
+    {
+      "name": "Gm1",
+      "type": "command",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gm_1",
+      "path": "~/Sonstiges/Commands"
+    },
+    {
+      "name": "Gm0CommandExecuted",
+      "type": "procedure",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gm_0_command_executed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Sonstiges/Commands"
+    },
+    {
+      "name": "Gm0",
+      "type": "command",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gm_0",
+      "path": "~/Sonstiges/Commands"
+    },
+    {
+      "name": "Gm3CommandExecuted",
+      "type": "procedure",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gm_3_command_executed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Sonstiges/Commands"
+    },
+    {
+      "name": "Gm3",
+      "type": "command",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gm_3",
+      "path": "~/Sonstiges/Commands"
+    },
+    {
+      "name": "Gm4CommandExecuted",
+      "type": "procedure",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gm_4_command_executed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Sonstiges/Commands"
+    },
+    {
+      "name": "Gm4",
+      "type": "command",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gm_4",
+      "path": "~/Sonstiges/Commands"
     }
   ],
   "variable_elements": [],
@@ -796,6 +900,10 @@
           },
           {
             "name": "Trank",
+            "children": []
+          },
+          {
+            "name": "Commands",
             "children": []
           }
         ]

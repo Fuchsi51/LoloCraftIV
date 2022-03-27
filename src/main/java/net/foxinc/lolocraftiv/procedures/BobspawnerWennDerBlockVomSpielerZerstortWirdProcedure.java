@@ -48,7 +48,7 @@ public class BobspawnerWennDerBlockVomSpielerZerstortWirdProcedure {
 		double sx = 0;
 		double sy = 0;
 		double sz = 0;
-		for (int index0 = 0; index0 < (int) (5); index0++) {
+		for (int index0 = 0; index0 < (int) (20); index0++) {
 			if (world instanceof ServerWorld) {
 				((ServerWorld) world).spawnParticle(ParticleTypes.EXPLOSION, x, y, z, (int) 5, 3, 3, 3, 1);
 			}

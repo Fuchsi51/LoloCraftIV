@@ -33,7 +33,7 @@ public class RedWoodBlock extends LolocraftivModElements.ModElement {
 	public static final Block block = null;
 
 	public RedWoodBlock(LolocraftivModElements instance) {
-		super(instance, 1);
+		super(instance, 2);
 	}
 
 	@Override

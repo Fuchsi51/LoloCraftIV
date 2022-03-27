@@ -13,7 +13,7 @@ import net.foxinc.lolocraftiv.LolocraftivModElements;
 @LolocraftivModElements.ModElement.Tag
 public class LoloCraftIVblocksItemGroup extends LolocraftivModElements.ModElement {
 	public LoloCraftIVblocksItemGroup(LolocraftivModElements instance) {
-		super(instance, 67);
+		super(instance, 66);
 	}
 
 	@Override
