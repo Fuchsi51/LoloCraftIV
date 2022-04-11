@@ -21,7 +21,7 @@ public class Gm0CommandExecutedProcedure {
 		if (entity instanceof PlayerEntity)
 			((PlayerEntity) entity).setGameType(GameType.SURVIVAL);
 		if (entity instanceof PlayerEntity && !entity.world.isRemote()) {
-			((PlayerEntity) entity).sendStatusMessage(new StringTextComponent("You Gamemode was Change to \"Survival\""), (true));
+			((PlayerEntity) entity).sendStatusMessage(new StringTextComponent("You gamemode was change to \"Survival\""), (true));
 		}
 	}
 }

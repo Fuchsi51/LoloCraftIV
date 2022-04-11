@@ -1,0 +1,31 @@
+{
+  "_fv": 24,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "badlands_sword",
+    "customModelName": "Normal",
+    "name": "Badlands Sword",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:LoloCraftIV"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 2,
+    "efficiency": 6.0,
+    "attackSpeed": 2.0,
+    "enchantability": 22,
+    "damageVsEntity": 7.0,
+    "usageCount": 100,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:BadlandsIngot"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

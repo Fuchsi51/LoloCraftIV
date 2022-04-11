@@ -1,0 +1,31 @@
+{
+  "_fv": 24,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "badlands_shovel",
+    "customModelName": "Normal",
+    "name": "Badlands Shovel",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:LoloCraftIV"
+    },
+    "toolType": "Spade",
+    "harvestLevel": 2,
+    "efficiency": 12.0,
+    "attackSpeed": 1.0,
+    "enchantability": 22,
+    "damageVsEntity": 2.0,
+    "usageCount": 75,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:BadlandsIngot"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

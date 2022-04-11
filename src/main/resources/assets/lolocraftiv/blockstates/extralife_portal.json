@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "lolocraftiv:block/extralife_portal_ew"
+    },
+    "axis=x": {
+      "model": "lolocraftiv:block/extralife_portal_ns"
+    }
+  }
+}

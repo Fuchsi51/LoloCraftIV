@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "lolocraftiv:badlands_ingot"
+    },
+    "1": {
+      "item": "lolocraftiv:badlands_ingot"
+    },
+    "2": {
+      "item": "lolocraftiv:badlands_ingot"
+    },
+    "3": {
+      "item": "lolocraftiv:badlands_ingot"
+    },
+    "5": {
+      "item": "lolocraftiv:badlands_ingot"
+    }
+  },
+  "result": {
+    "item": "lolocraftiv:badlands_armor_helmet",
+    "count": 1
+  }
+}

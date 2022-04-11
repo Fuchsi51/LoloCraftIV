@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "lolocraftiv:badlands_log"
+    },
+    "1": {
+      "item": "lolocraftiv:badlands_log"
+    },
+    "2": {
+      "item": "lolocraftiv:badlands_log"
+    },
+    "3": {
+      "item": "lolocraftiv:badlands_log"
+    }
+  },
+  "result": {
+    "item": "lolocraftiv:badlands_wood",
+    "count": 3
+  }
+}

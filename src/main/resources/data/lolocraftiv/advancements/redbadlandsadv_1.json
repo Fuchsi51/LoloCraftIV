@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:moving_piston"
+    },
+    "title": {
+      "translate": "advancements.redbadlandsadv_1.title"
+    },
+    "description": {
+      "translate": "advancements.redbadlandsadv_1.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "redbadlandsadv_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "lolocraftiv:redbadlands"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 41
+  },
+  "parent": "lolocraftiv:adv_01"
+}

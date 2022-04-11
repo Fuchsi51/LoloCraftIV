@@ -1,0 +1,46 @@
+{
+  "_fv": 24,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 4,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:BadlandsPlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:BadlandsPlanks"
+      },
+      {
+        "value": "CUSTOM:BadlandsPlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:BadlandsPlanks"
+      },
+      {
+        "value": "CUSTOM:BadlandsPlanks"
+      },
+      {
+        "value": "CUSTOM:BadlandsPlanks"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:BadlandsStairs"
+    },
+    "name": "badlands_stairs_recipe",
+    "namespace": "mod"
+  }
+}

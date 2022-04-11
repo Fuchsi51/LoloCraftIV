@@ -6,7 +6,7 @@ license="All Rights Reserved"
 modId="lolocraftiv"
 version="IV Build Version 1.1.5"
 displayName="LoloCraftIV"
-credits="German and English Support!"
+credits="2022 Copyright Fox Inc. Germany"
 displayURL="https://mclolocraft.jimdofree.com/lolocraft-iv/"
 logoFile="logo.png"
 authors="DerLoloHD"
@@ -22,5 +22,11 @@ The New Adventure in a new LoloCraft Mod
     side="BOTH"
 
 
+[[dependencies.lolocraftiv]]
+    modId="lolocraft_engine"
+    mandatory=true
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
 
 

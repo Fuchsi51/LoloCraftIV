@@ -767,6 +767,480 @@
       "locked_code": false,
       "registry_name": "gm_4",
       "path": "~/Sonstiges/Commands"
+    },
+    {
+      "name": "Redbadlands",
+      "type": "biome",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redbadlands",
+      "path": "~/Biome/Redbadlands/Mainbiom"
+    },
+    {
+      "name": "Redbadlandsadv1",
+      "type": "achievement",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redbadlandsadv_1",
+      "path": "~/Biome/Redbadlands/Erfolge"
+    },
+    {
+      "name": "BadlandsIngot",
+      "type": "item",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "badlands_ingot",
+      "path": "~/Biome/Redbadlands/Stuf"
+    },
+    {
+      "name": "BadlandsOre",
+      "type": "block",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "badlands_ore",
+      "path": "~/Biome/Redbadlands/Stuf"
+    },
+    {
+      "name": "BadlandsBlock",
+      "type": "block",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "badlands_block",
+      "path": "~/Biome/Redbadlands/Stuf"
+    },
+    {
+      "name": "BadlandsOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "badlands_ore_block_recipe",
+      "path": "~/Biome/Redbadlands/Stuf"
+    },
+    {
+      "name": "BadlandsBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "badlands_block_ore_recipe",
+      "path": "~/Biome/Redbadlands/Stuf"
+    },
+    {
+      "name": "BadlandsOreSmelting",
+      "type": "recipe",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "badlands_ore_smelting",
+      "path": "~/Biome/Redbadlands/Stuf"
+    },
+    {
+      "name": "BadlandsPickaxe",
+      "type": "tool",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "badlands_pickaxe",
+      "path": "~/Biome/Redbadlands/Stuf"
+    },
+    {
+      "name": "BadlandsAxe",
+      "type": "tool",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "badlands_axe",
+      "path": "~/Biome/Redbadlands/Stuf"
+    },
+    {
+      "name": "BadlandsSword",
+      "type": "tool",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "badlands_sword",
+      "path": "~/Biome/Redbadlands/Stuf"
+    },
+    {
+      "name": "BadlandsShovel",
+      "type": "tool",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "badlands_shovel",
+      "path": "~/Biome/Redbadlands/Stuf"
+    },
+    {
+      "name": "BadlandsHoe",
+      "type": "tool",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "badlands_hoe",
+      "path": "~/Biome/Redbadlands/Stuf"
+    },
+    {
+      "name": "BadlandsPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "badlands_pickaxe_recipe",
+      "path": "~/Biome/Redbadlands/Stuf"
+    },
+    {
+      "name": "BadlandsAxeRecipe",
+      "type": "recipe",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "badlands_axe_recipe",
+      "path": "~/Biome/Redbadlands/Stuf"
+    },
+    {
+      "name": "BadlandsSwordRecipe",
+      "type": "recipe",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "badlands_sword_recipe",
+      "path": "~/Biome/Redbadlands/Stuf"
+    },
+    {
+      "name": "BadlandsShovelRecipe",
+      "type": "recipe",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "badlands_shovel_recipe",
+      "path": "~/Biome/Redbadlands/Stuf"
+    },
+    {
+      "name": "BadlandsHoeRecipe",
+      "type": "recipe",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "badlands_hoe_recipe",
+      "path": "~/Biome/Redbadlands/Stuf"
+    },
+    {
+      "name": "BadlandsArmor",
+      "type": "armor",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "badlands_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/Biome/Redbadlands/Stuf"
+    },
+    {
+      "name": "BadlandsArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "badlands_armor_helmet_recipe",
+      "path": "~/Biome/Redbadlands/Stuf"
+    },
+    {
+      "name": "BadlandsArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "badlands_armor_body_recipe",
+      "path": "~/Biome/Redbadlands/Stuf"
+    },
+    {
+      "name": "BadlandsArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "badlands_armor_leggings_recipe",
+      "path": "~/Biome/Redbadlands/Stuf"
+    },
+    {
+      "name": "BadlandsArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "badlands_armor_boots_recipe",
+      "path": "~/Biome/Redbadlands/Stuf"
+    },
+    {
+      "name": "BadlandsArmorBodyTickEvent",
+      "type": "procedure",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "badlands_armor_body_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Biome/Redbadlands/Stuf"
+    },
+    {
+      "name": "BadlandsArmorStiefelTickEreignis",
+      "type": "procedure",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "badlands_armor_stiefel_tick_ereignis",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Biome/Redbadlands/Stuf"
+    },
+    {
+      "name": "BadlandsArmorHelmTickEreignis",
+      "type": "procedure",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "badlands_armor_helm_tick_ereignis",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Biome/Redbadlands/Stuf"
+    },
+    {
+      "name": "BadlandsWood",
+      "type": "block",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "badlands_wood",
+      "path": "~/Biome/Redbadlands/Holz"
+    },
+    {
+      "name": "BadlandsLog",
+      "type": "block",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "badlands_log",
+      "path": "~/Biome/Redbadlands/Holz"
+    },
+    {
+      "name": "BadlandsPlanks",
+      "type": "block",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "badlands_planks",
+      "path": "~/Biome/Redbadlands/Holz"
+    },
+    {
+      "name": "BadlandsLeaves",
+      "type": "block",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "badlands_leaves",
+      "path": "~/Biome/Redbadlands/Holz"
+    },
+    {
+      "name": "BadlandsStairs",
+      "type": "block",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "badlands_stairs",
+      "path": "~/Biome/Redbadlands/Holz"
+    },
+    {
+      "name": "BadlandsSlab",
+      "type": "block",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "badlands_slab",
+      "path": "~/Biome/Redbadlands/Holz"
+    },
+    {
+      "name": "BadlandsFence",
+      "type": "block",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "badlands_fence",
+      "path": "~/Biome/Redbadlands/Holz"
+    },
+    {
+      "name": "BadlandsFenceGate",
+      "type": "block",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "badlands_fence_gate",
+      "path": "~/Biome/Redbadlands/Holz"
+    },
+    {
+      "name": "BadlandsPressurePlate",
+      "type": "block",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "badlands_pressure_plate",
+      "path": "~/Biome/Redbadlands/Holz"
+    },
+    {
+      "name": "BadlandsButton",
+      "type": "block",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "badlands_button",
+      "path": "~/Biome/Redbadlands/Holz"
+    },
+    {
+      "name": "BadlandsItemsTag",
+      "type": "tag",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "badlands_items_tag",
+      "path": "~/Biome/Redbadlands/Holz"
+    },
+    {
+      "name": "BadlandsWoodRecipe",
+      "type": "recipe",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "badlands_wood_recipe",
+      "path": "~/Biome/Redbadlands/Holz"
+    },
+    {
+      "name": "BadlandsPlanksRecipe",
+      "type": "recipe",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "badlands_planks_recipe",
+      "path": "~/Biome/Redbadlands/Holz"
+    },
+    {
+      "name": "BadlandsStairsRecipe",
+      "type": "recipe",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "badlands_stairs_recipe",
+      "path": "~/Biome/Redbadlands/Holz"
+    },
+    {
+      "name": "BadlandsSlabRecipe",
+      "type": "recipe",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "badlands_slab_recipe",
+      "path": "~/Biome/Redbadlands/Holz"
+    },
+    {
+      "name": "BadlandsFenceRecipe",
+      "type": "recipe",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "badlands_fence_recipe",
+      "path": "~/Biome/Redbadlands/Holz"
+    },
+    {
+      "name": "BadlandsFenceGateRecipe",
+      "type": "recipe",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "badlands_fence_gate_recipe",
+      "path": "~/Biome/Redbadlands/Holz"
+    },
+    {
+      "name": "BadlandsPressurePlateRecipe",
+      "type": "recipe",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "badlands_pressure_plate_recipe",
+      "path": "~/Biome/Redbadlands/Holz"
+    },
+    {
+      "name": "BadlandsButtonRecipe",
+      "type": "recipe",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "badlands_button_recipe",
+      "path": "~/Biome/Redbadlands/Holz"
+    },
+    {
+      "name": "BadlandsStickRecipe",
+      "type": "recipe",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "badlands_stick_recipe",
+      "path": "~/Biome/Redbadlands/Holz"
+    },
+    {
+      "name": "Treebadlands",
+      "type": "structure",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "treebadlands",
+      "path": "~/Biome/Redbadlands/Struck"
+    },
+    {
+      "name": "Extradiam",
+      "type": "block",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "extradiam",
+      "path": "~/Biome/Redbadlands/Extra"
+    },
+    {
+      "name": "Extralife",
+      "type": "dimension",
+      "sortid": 119,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "extralife",
+      "metadata": {
+        "ep": true
+      },
+      "path": "~/Biome/Redbadlands/Extra"
     }
   ],
   "variable_elements": [],
@@ -790,102 +1264,156 @@
   ],
   "language_map": {
     "en_us": {
-      "item.lolocraftiv.red_pickaxe": "Red Pickaxe",
       "advancements.advbobisback.descr": "Bring Bob back to LoloCraftIV",
+      "item.lolocraftiv.badlands_pickaxe": "Badlands Pickaxe",
       "item.lolocraftiv.red_armor_helmet": "Red Helmet",
-      "block.lolocraftiv.red_log": "Red Log",
-      "item.lolocraftiv.bob_spawn_egg": "BOB Spawn Egg",
+      "advancements.redbadlandsadv_1.title": "Find new places",
+      "item.lolocraftiv.badlands_armor_leggings": "Badlands Leggings",
+      "block.lolocraftiv.badlands_button": "Badlands Button",
+      "item.lolocraftiv.badlands_armor_boots": "Badlands Boots",
+      "block.lolocraftiv.badlands_log": "Badlands Log",
       "block.lolocraftiv.red_wood": "Red Wood",
-      "item.lolocraftiv.red_armor_boots": "Red Boots",
-      "item.lolocraftiv.red_sword": "Red Sword",
+      "advancements.redbadlandsadv_1.descr": "Find the new Biom",
       "advancements.adv_01.title": "Welcome to LoloCraft IV!",
-      "advancements.adv_03.descr": "Craft a new Red Pickaxt",
-      "advancements.adv_06.title": "Find Red Coal",
       "block.lolocraftiv.red_slab": "Red Slab",
-      "block.lolocraftiv.red_pressure_plate": "Red Pressure Plate",
       "block.lolocraftiv.red_block": "Block of Red",
-      "item.lolocraftiv.redcoal": "Red Coal",
-      "advancements.adv_03.title": "New Tools",
-      "subtitles.block.place.bobspawner": "",
+      "block.lolocraftiv.red_pressure_plate": "Red Pressure Plate",
+      "item.lolocraftiv.extralife": "Extralife Portal Igniter",
       "advancements.adv_06.descr": "Find Red Coal in a Red Desert ",
       "block.lolocraftiv.red_button": "Red Button",
       "advancements.adv_04.title": "Step up you Work???",
+      "biome.lolocraftiv.redbadlands": "Redbadlands",
       "block.lolocraftiv.red_planks": "Red Planks",
       "block.lolocraftiv.red_fence_gate": "Red Fence Gate",
-      "item.lolocraftiv.red_ingot": "Red Ingot",
       "item.lolocraftiv.red_axe": "Red Axe",
+      "block.lolocraftiv.badlands_fence_gate": "Badlands Fence Gate",
+      "block.lolocraftiv.redcoal_block": "Red Coal Block",
+      "item.lolocraftiv.red_shovel": "Red Shovel",
+      "itemGroup.tablolo_craft_i_vblocks": "LoloCraftIV Blocks",
+      "item.lolocraftiv.badlands_armor_helmet": "Badlands Helmet",
+      "block.lolocraftiv.extradiam": "Extradiam",
+      "block.lolocraftiv.badlands_stairs": "Badlands Stairs",
+      "block.lolocraftiv.red_stairs": "Red Stairs",
+      "entity.lolocraftiv.bob": "BOB",
+      "subtitles.block.place.new.bobspawner": "",
+      "item.lolocraftiv.red_armor_leggings": "Red Leggings",
+      "block.lolocraftiv.badlands_ore": "Badlands Ore",
+      "block.lolocraftiv.bobspawner": "Bobspawner",
+      "block.lolocraftiv.badlands_planks": "Badlands Planks",
+      "advancements.adv_02.descr": "Mine and Smelt the new Red Ore!",
+      "block.lolocraftiv.badlands_block": "Block of the Badlands",
+      "advancements.advbobisback.title": "Bob is back!",
+      "block.lolocraftiv.red_leaves": "Red Leaves",
+      "item.lolocraftiv.badlands_hoe": "Badlands Hoe",
+      "item.lolocraftiv.badlands_armor_chestplate": "Badlands Chestplate",
+      "item.lolocraftiv.red_pickaxe": "Red Pickaxe",
+      "item.lolocraftiv.badlands_sword": "Badlands Sword",
+      "block.lolocraftiv.red_log": "Red Log",
+      "item.lolocraftiv.bob_spawn_egg": "BOB Spawn Egg",
+      "item.lolocraftiv.red_armor_boots": "Red Boots",
+      "item.lolocraftiv.red_sword": "Red Sword",
+      "advancements.adv_03.descr": "Craft a new Red Pickaxt",
+      "advancements.adv_06.title": "Find Red Coal",
+      "item.lolocraftiv.badlands_shovel": "Badlands Shovel",
+      "block.lolocraftiv.badlands_leaves": "Badlands Leaves",
+      "item.lolocraftiv.redcoal": "Red Coal",
+      "advancements.adv_03.title": "New Tools",
+      "subtitles.block.place.bobspawner": "",
+      "item.lolocraftiv.red_ingot": "Red Ingot",
       "itemGroup.tablolo_craft_iv": "LoloCraft IV",
       "advancements.adv_01.descr": "Find the new LoloCraft Biom",
       "itemGroup.tablolo_craft_iv_armor": "Lolo Craft IV Armor",
-      "block.lolocraftiv.redcoal_block": "Red Coal Block",
+      "block.lolocraftiv.badlands_fence": "Badlands Fence",
       "block.lolocraftiv.red_ore": "Red Ore",
       "item.lolocraftiv.bobweapon": "BOB´s magic wand II",
       "advancements.adv_04.descr": "Craft a Red Stair",
       "block.lolocraftiv.redcoal_ore": "Red Coal Ore",
+      "item.lolocraftiv.badlands_axe": "Badlands Axe",
       "item.lolocraftiv.red_armor_chestplate": "Red Chestplate",
-      "item.lolocraftiv.red_shovel": "Red Shovel",
-      "itemGroup.tablolo_craft_i_vblocks": "LoloCraftIV Blocks",
-      "block.lolocraftiv.red_stairs": "Red Stairs",
+      "block.lolocraftiv.badlands_pressure_plate": "Badlands Pressure Plate",
       "item.lolocraftiv.red_hoe": "Red Hoe",
-      "entity.lolocraftiv.bob": "BOB",
-      "subtitles.block.place.new.bobspawner": "",
-      "item.lolocraftiv.red_armor_leggings": "Red Leggings",
+      "block.lolocraftiv.badlands_slab": "Badlands Slab",
       "block.lolocraftiv.red_fence": "Red Fence",
-      "block.lolocraftiv.bobspawner": "Bobspawner",
-      "advancements.adv_02.descr": "Mine and Smelt the new Red Ore!",
       "biome.lolocraftiv.reddessert": "Red Desert",
       "advancements.adv_02.title": "New Ore",
-      "advancements.advbobisback.title": "Bob is back!",
-      "block.lolocraftiv.red_leaves": "Red Leaves"
+      "block.lolocraftiv.badlands_wood": "Badlands Wood",
+      "item.lolocraftiv.badlands_ingot": "Badlands Ingot"
     },
     "de_de": {
-      "item.lolocraftiv.red_pickaxe": "Red Spitzhacke",
-      "advancements.advbobisback.descr": "Bring Bob back to LoloCraft IV",
+      "advancements.advbobisback.descr": "Bringe Bob zurück in die Welt!",
+      "item.lolocraftiv.badlands_pickaxe": "Badlands Pickaxe",
       "item.lolocraftiv.red_armor_helmet": "Red Helm",
-      "block.lolocraftiv.red_log": "Red Log",
-      "item.lolocraftiv.bob_spawn_egg": "BOB Spawn Egg",
+      "advancements.redbadlandsadv_1.title": "Find new places",
+      "item.lolocraftiv.badlands_armor_leggings": "Badlands Leggings",
+      "block.lolocraftiv.badlands_button": "Badlands Button",
+      "item.lolocraftiv.badlands_armor_boots": "Badlands Boots",
+      "block.lolocraftiv.badlands_log": "Badlands Log",
       "block.lolocraftiv.red_wood": "Red Holz",
-      "item.lolocraftiv.red_armor_boots": "Red Schuhe",
-      "item.lolocraftiv.red_sword": "Red Schwert",
+      "advancements.redbadlandsadv_1.descr": "Find the new Biom",
       "advancements.adv_01.title": "Willkommen in LoloCraftIV!",
-      "advancements.adv_03.descr": "Baue eine Red Pickaxt",
-      "advancements.adv_06.title": "Finde Red Coal",
       "block.lolocraftiv.red_slab": "Red Stufe",
-      "block.lolocraftiv.red_pressure_plate": "Red Druck Platte",
       "block.lolocraftiv.red_block": "Block of Red",
-      "item.lolocraftiv.redcoal": "Red Coal",
-      "advancements.adv_03.title": "Neues Tool",
-      "subtitles.block.place.bobspawner": "",
+      "block.lolocraftiv.red_pressure_plate": "Red Druck Platte",
+      "item.lolocraftiv.extralife": "Extralife Portal Igniter",
       "advancements.adv_06.descr": "Finde Red Coal im Red Desert",
       "block.lolocraftiv.red_button": "Red Button",
       "advancements.adv_04.title": "Eine Stufe höher!",
+      "biome.lolocraftiv.redbadlands": "Redbadlands",
       "block.lolocraftiv.red_fence_gate": "Red Fence Gate",
       "block.lolocraftiv.red_planks": "Red Planks",
-      "item.lolocraftiv.red_ingot": "Red Ingot",
       "item.lolocraftiv.red_axe": "Red Axt",
+      "block.lolocraftiv.badlands_fence_gate": "Badlands Fence Gate",
+      "block.lolocraftiv.redcoal_block": "Red Coal Block",
+      "item.lolocraftiv.red_shovel": "Red Schaufel",
+      "itemGroup.tablolo_craft_i_vblocks": "LoloCraftIV Blocks",
+      "item.lolocraftiv.badlands_armor_helmet": "Badlands Helmet",
+      "block.lolocraftiv.extradiam": "Extradiam",
+      "block.lolocraftiv.badlands_stairs": "Badlands Stairs",
+      "block.lolocraftiv.red_stairs": "Red Treppe",
+      "entity.lolocraftiv.bob": "BOB",
+      "subtitles.block.place.new.bobspawner": "",
+      "item.lolocraftiv.red_armor_leggings": "Red Hose",
+      "block.lolocraftiv.badlands_ore": "Badlands Ore",
+      "block.lolocraftiv.bobspawner": "Bobspawner",
+      "block.lolocraftiv.badlands_planks": "Badlands Planks",
+      "advancements.adv_02.descr": "Mine und Schmelze das neue Erz",
+      "block.lolocraftiv.badlands_block": "Block of Badlands",
+      "advancements.advbobisback.title": "Bob ist zurück!",
+      "block.lolocraftiv.red_leaves": "Red Blätter",
+      "item.lolocraftiv.badlands_hoe": "Badlands Hoe",
+      "item.lolocraftiv.badlands_armor_chestplate": "Badlands Chestplate",
+      "item.lolocraftiv.red_pickaxe": "Red Spitzhacke",
+      "item.lolocraftiv.badlands_sword": "Badlands Sword",
+      "block.lolocraftiv.red_log": "Red Log",
+      "item.lolocraftiv.bob_spawn_egg": "BOB Spawn Egg",
+      "item.lolocraftiv.red_armor_boots": "Red Schuhe",
+      "item.lolocraftiv.red_sword": "Red Schwert",
+      "advancements.adv_03.descr": "Baue eine Red Pickaxt",
+      "advancements.adv_06.title": "Finde Red Coal",
+      "item.lolocraftiv.badlands_shovel": "Badlands Shovel",
+      "block.lolocraftiv.badlands_leaves": "Badlands Leaves",
+      "item.lolocraftiv.redcoal": "Red Coal",
+      "advancements.adv_03.title": "Neues Tool",
+      "subtitles.block.place.bobspawner": "",
+      "item.lolocraftiv.red_ingot": "Red Ingot",
       "itemGroup.tablolo_craft_iv": "LoloCraft IV-German",
       "advancements.adv_01.descr": "Finde das neue LoloCraft Biom",
       "itemGroup.tablolo_craft_iv_armor": "Lolo Craft IV Rüstung",
-      "block.lolocraftiv.redcoal_block": "Red Coal Block",
+      "block.lolocraftiv.badlands_fence": "Badlands Fence",
       "block.lolocraftiv.red_ore": "Red Ore",
       "item.lolocraftiv.bobweapon": "BOB´s magic wand II",
       "advancements.adv_04.descr": "Baue eine Rote Stufe",
       "block.lolocraftiv.redcoal_ore": "Red Coal Erz",
+      "item.lolocraftiv.badlands_axe": "Badlands Axe",
       "item.lolocraftiv.red_armor_chestplate": "Red Brustplate ",
-      "item.lolocraftiv.red_shovel": "Red Schaufel",
-      "itemGroup.tablolo_craft_i_vblocks": "LoloCraftIV Blocks",
-      "block.lolocraftiv.red_stairs": "Red Treppe",
+      "block.lolocraftiv.badlands_pressure_plate": "Badlands Pressure Plate",
       "item.lolocraftiv.red_hoe": "Red Hoe",
-      "entity.lolocraftiv.bob": "BOB",
-      "subtitles.block.place.new.bobspawner": "",
-      "item.lolocraftiv.red_armor_leggings": "Red Hose",
+      "block.lolocraftiv.badlands_slab": "Badlands Slab",
       "block.lolocraftiv.red_fence": "Red Fence",
-      "block.lolocraftiv.bobspawner": "Bobspawner",
-      "advancements.adv_02.descr": "Mine und Schmelze das neue Erz",
       "biome.lolocraftiv.reddessert": "Red Dessert",
       "advancements.adv_02.title": "Neues Erz",
-      "advancements.advbobisback.title": "Bob is back!",
-      "block.lolocraftiv.red_leaves": "Red Blätter"
+      "block.lolocraftiv.badlands_wood": "Badlands Wood",
+      "item.lolocraftiv.badlands_ingot": "Badlands"
     }
   },
   "foldersRoot": {
@@ -952,14 +1480,30 @@
             ]
           },
           {
-            "name": "LoloBiom",
+            "name": "Redbadlands",
             "children": [
               {
-                "name": "Main",
+                "name": "Mainbiom",
+                "children": []
+              },
+              {
+                "name": "Erfolge",
+                "children": []
+              },
+              {
+                "name": "Stuf",
                 "children": []
               },
               {
                 "name": "Holz",
+                "children": []
+              },
+              {
+                "name": "Struck",
+                "children": []
+              },
+              {
+                "name": "Extra",
                 "children": []
               }
             ]
@@ -1005,12 +1549,14 @@
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
     "modPicture": "mainlogo",
-    "requiredMods": [],
+    "requiredMods": [
+      "lolocraft_engine"
+    ],
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.16.5",
-    "credits": "German and English Support!",
+    "credits": "2022 Copyright Fox Inc. Germany",
     "modElementsPackage": "net.foxinc.lolocraftiv",
     "lockBaseModFiles": false
   },

@@ -21,7 +21,7 @@ public class Gm3CommandExecutedProcedure {
 		if (entity instanceof PlayerEntity)
 			((PlayerEntity) entity).setGameType(GameType.SPECTATOR);
 		if (entity instanceof PlayerEntity && !entity.world.isRemote()) {
-			((PlayerEntity) entity).sendStatusMessage(new StringTextComponent("You Gamemode was Change to \"Spectator\""), (true));
+			((PlayerEntity) entity).sendStatusMessage(new StringTextComponent("You gamemode was change to \"Spectator\""), (true));
 		}
 	}
 }

@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "bottom": "lolocraftiv:blocks/badlands_planks",
+    "top": "lolocraftiv:blocks/badlands_planks",
+    "side": "lolocraftiv:blocks/badlands_planks"
+  }
+}

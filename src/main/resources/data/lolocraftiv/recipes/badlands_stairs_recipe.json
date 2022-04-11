@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "lolocraftiv:badlands_planks"
+    },
+    "3": {
+      "item": "lolocraftiv:badlands_planks"
+    },
+    "4": {
+      "item": "lolocraftiv:badlands_planks"
+    },
+    "6": {
+      "item": "lolocraftiv:badlands_planks"
+    },
+    "7": {
+      "item": "lolocraftiv:badlands_planks"
+    },
+    "8": {
+      "item": "lolocraftiv:badlands_planks"
+    }
+  },
+  "result": {
+    "item": "lolocraftiv:badlands_stairs",
+    "count": 4
+  }
+}

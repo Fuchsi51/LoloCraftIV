@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "lolocraftiv:badlands_block"
+    }
+  ],
+  "result": {
+    "item": "lolocraftiv:badlands_ingot",
+    "count": 9
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "lolocraftiv:blocks/badlands_log_top",
+    "up": "lolocraftiv:blocks/badlands_log_top",
+    "north": "lolocraftiv:blocks/badlands_log_side",
+    "east": "lolocraftiv:blocks/badlands_log_side",
+    "south": "lolocraftiv:blocks/badlands_log_side",
+    "west": "lolocraftiv:blocks/badlands_log_side",
+    "particle": "lolocraftiv:blocks/badlands_log_top"
+  }
+}

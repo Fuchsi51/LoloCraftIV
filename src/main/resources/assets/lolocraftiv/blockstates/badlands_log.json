@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "lolocraftiv:block/badlands_log",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "lolocraftiv:block/badlands_log"
+    },
+    "axis=z": {
+      "model": "lolocraftiv:block/badlands_log",
+      "x": 90
+    }
+  }
+}

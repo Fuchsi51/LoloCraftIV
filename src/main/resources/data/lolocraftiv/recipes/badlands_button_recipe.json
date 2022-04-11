@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "lolocraftiv:badlands_planks"
+    }
+  ],
+  "result": {
+    "item": "lolocraftiv:badlands_button",
+    "count": 1
+  }
+}

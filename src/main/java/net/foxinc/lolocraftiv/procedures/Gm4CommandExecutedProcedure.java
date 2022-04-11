@@ -21,7 +21,7 @@ public class Gm4CommandExecutedProcedure {
 		if (entity instanceof PlayerEntity)
 			((PlayerEntity) entity).setGameType(GameType.ADVENTURE);
 		if (entity instanceof PlayerEntity && !entity.world.isRemote()) {
-			((PlayerEntity) entity).sendStatusMessage(new StringTextComponent("You Gamemode was Change to \"Adventure\""), (true));
+			((PlayerEntity) entity).sendStatusMessage(new StringTextComponent("You gamemode was change to \"Adventure\""), (true));
 		}
 	}
 }

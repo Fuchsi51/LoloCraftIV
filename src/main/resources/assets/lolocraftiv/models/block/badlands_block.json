@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "lolocraftiv:blocks/badlands_ore_block",
+    "particle": "lolocraftiv:blocks/badlands_ore_block"
+  }
+}
