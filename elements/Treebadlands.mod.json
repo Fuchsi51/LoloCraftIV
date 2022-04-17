@@ -4,8 +4,8 @@
   "definition": {
     "structure": "badlandstree",
     "randomlyRotateStructure": true,
-    "surfaceDetectionType": "First motion blocking block",
-    "spawnProbability": 15039,
+    "surfaceDetectionType": "First block",
+    "spawnProbability": 17039,
     "minCountPerChunk": 1,
     "maxCountPerChunk": 1,
     "spawnLocation": "Ground",

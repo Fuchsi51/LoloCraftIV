@@ -34,7 +34,7 @@ import net.minecraft.entity.Entity;
 import net.minecraft.client.util.ITooltipFlag;
 
 import net.foxinc.lolocraftiv.procedures.BobweaponWennGeschossAufLebewesenTrifftProcedure;
-import net.foxinc.lolocraftiv.itemgroup.LoloCraftIVItemGroup;
+import net.foxinc.lolocraftiv.itemgroup.LoloCraftIVtoolsItemGroup;
 import net.foxinc.lolocraftiv.entity.renderer.BobweaponRenderer;
 import net.foxinc.lolocraftiv.LolocraftivModElements;
 
@@ -66,7 +66,7 @@ public class BobweaponItem extends LolocraftivModElements.ModElement {
 
 	public static class ItemRanged extends Item {
 		public ItemRanged() {
-			super(new Item.Properties().group(LoloCraftIVItemGroup.tab).maxDamage(255));
+			super(new Item.Properties().group(LoloCraftIVtoolsItemGroup.tab).maxDamage(255));
 			setRegistryName("bobweapon");
 		}
 

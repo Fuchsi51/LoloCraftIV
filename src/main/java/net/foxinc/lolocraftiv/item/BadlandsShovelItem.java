@@ -9,7 +9,7 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
 
-import net.foxinc.lolocraftiv.itemgroup.LoloCraftIVItemGroup;
+import net.foxinc.lolocraftiv.itemgroup.LoloCraftIVtoolsItemGroup;
 import net.foxinc.lolocraftiv.LolocraftivModElements;
 
 @LolocraftivModElements.ModElement.Tag
@@ -47,7 +47,7 @@ public class BadlandsShovelItem extends LolocraftivModElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(BadlandsIngotItem.block));
 			}
-		}, 1, -3f, new Item.Properties().group(LoloCraftIVItemGroup.tab)) {
+		}, 1, -3f, new Item.Properties().group(LoloCraftIVtoolsItemGroup.tab)) {
 		}.setRegistryName("badlands_shovel"));
 	}
 }

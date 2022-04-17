@@ -2,14 +2,14 @@
   "_fv": 24,
   "_type": "structure",
   "definition": {
-    "structure": "1",
-    "randomlyRotateStructure": true,
-    "surfaceDetectionType": "First motion blocking block",
-    "spawnProbability": 1000,
+    "structure": "researchinstitutions_broke",
+    "randomlyRotateStructure": false,
+    "surfaceDetectionType": "First block",
+    "spawnProbability": 10000,
     "minCountPerChunk": 1,
     "maxCountPerChunk": 1,
     "spawnLocation": "Ground",
-    "spawnHeightOffset": 0,
+    "spawnHeightOffset": -20,
     "spawnXOffset": 0,
     "spawnZOffset": 0,
     "spawnWorldTypes": [
@@ -18,7 +18,7 @@
     "restrictionBlocks": [],
     "restrictionBiomes": [
       {
-        "value": "CUSTOM:Reddessert"
+        "value": "CUSTOM:Redbadlands"
       }
     ],
     "ignoreBlocks": "STRUCTURE_BLOCK"

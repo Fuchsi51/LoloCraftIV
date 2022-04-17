@@ -1,0 +1,51 @@
+{
+  "display": {
+    "icon": {
+      "item": "lolocraftiv:badlands_ore"
+    },
+    "title": {
+      "translate": "advancements.redbadlandsafv_2.title"
+    },
+    "description": {
+      "translate": "advancements.redbadlandsafv_2.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "redbadlandsafv_2": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "lolocraftiv:badlands_ore",
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 30,
+    "recipes": [
+      "lolocraftiv:badlands_ore_block_recipe",
+      "lolocraftiv:badlands_block_ore_recipe",
+      "lolocraftiv:badlands_ore_smelting",
+      "lolocraftiv:badlands_pickaxe_recipe",
+      "lolocraftiv:badlands_axe_recipe",
+      "lolocraftiv:badlands_sword_recipe",
+      "lolocraftiv:badlands_shovel_recipe",
+      "lolocraftiv:badlands_hoe_recipe",
+      "lolocraftiv:badlands_armor_helmet_recipe",
+      "lolocraftiv:badlands_armor_body_recipe",
+      "lolocraftiv:badlands_armor_leggings_recipe",
+      "lolocraftiv:badlands_armor_boots_recipe"
+    ]
+  },
+  "parent": "lolocraftiv:redbadlandsadv_1"
+}

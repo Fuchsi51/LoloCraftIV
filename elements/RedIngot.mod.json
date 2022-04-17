@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "red_ingot",
+    "texture": "128px-block_redcrystal",
     "customModelName": "Normal",
     "name": "Red Ingot",
     "rarity": "COMMON",

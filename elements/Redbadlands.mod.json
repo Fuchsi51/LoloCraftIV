@@ -9,6 +9,10 @@
     "undergroundBlock": {
       "value": "Blocks.STAINED_HARDENED_CLAY#1"
     },
+    "grassColor": {
+      "value": -6750208,
+      "falpha": 0.0
+    },
     "ambientSound": {
       "value": ""
     },
@@ -29,7 +33,7 @@
     "particlesProbability": 0.5,
     "biomeCategory": "NONE",
     "parent": {
-      "value": "badlands"
+      "value": "No parent"
     },
     "rainingPossibility": 0.5,
     "temperature": 0.5,
@@ -39,9 +43,9 @@
     "spawnBiome": true,
     "biomeWeight": 10,
     "biomeDictionaryTypes": [],
-    "grassPerChunk": 4,
+    "grassPerChunk": 0,
     "seagrassPerChunk": 0,
-    "flowersPerChunk": 4,
+    "flowersPerChunk": 0,
     "mushroomsPerChunk": 0,
     "bigMushroomsChunk": 0,
     "sandPatchesPerChunk": 0,
@@ -85,7 +89,6 @@
     "spawnEndCity": false,
     "spawnRuinedPortal": "NONE",
     "defaultFeatures": [
-      "Caves",
       "Ores",
       "FrozenTopLayer"
     ],

@@ -14,7 +14,7 @@ import net.minecraft.item.IItemTier;
 import net.minecraft.entity.LivingEntity;
 
 import net.foxinc.lolocraftiv.procedures.RedswordglowProcedure;
-import net.foxinc.lolocraftiv.itemgroup.LoloCraftIVItemGroup;
+import net.foxinc.lolocraftiv.itemgroup.LoloCraftIVtoolsItemGroup;
 import net.foxinc.lolocraftiv.LolocraftivModElements;
 
 import java.util.stream.Stream;
@@ -57,7 +57,7 @@ public class RedSwordItem extends LolocraftivModElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(RedIngotItem.block));
 			}
-		}, 3, -3f, new Item.Properties().group(LoloCraftIVItemGroup.tab)) {
+		}, 3, -3f, new Item.Properties().group(LoloCraftIVtoolsItemGroup.tab)) {
 			@Override
 			public boolean hitEntity(ItemStack itemstack, LivingEntity entity, LivingEntity sourceentity) {
 				boolean retval = super.hitEntity(itemstack, entity, sourceentity);
