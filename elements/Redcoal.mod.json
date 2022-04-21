@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "redcoal_gem",
+    "texture": "coal",
     "customModelName": "Normal",
     "name": "Red Coal",
     "rarity": "COMMON",

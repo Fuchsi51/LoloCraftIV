@@ -34,6 +34,7 @@ import net.minecraft.entity.Entity;
 import net.minecraft.client.util.ITooltipFlag;
 
 import net.foxinc.lolocraftiv.procedures.BobweaponWennGeschossAufLebewesenTrifftProcedure;
+import net.foxinc.lolocraftiv.procedures.BobweaponWennGeschossAufBlockTrifftProcedure;
 import net.foxinc.lolocraftiv.itemgroup.LoloCraftIVtoolsItemGroup;
 import net.foxinc.lolocraftiv.entity.renderer.BobweaponRenderer;
 import net.foxinc.lolocraftiv.LolocraftivModElements;
@@ -212,6 +213,11 @@ public class BobweaponItem extends LolocraftivModElements.ModElement {
 			Entity entity = this.func_234616_v_();
 			Entity imediatesourceentity = this;
 			if (this.inGround) {
+
+				BobweaponWennGeschossAufBlockTrifftProcedure.executeProcedure(Stream
+						.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("x", x),
+								new AbstractMap.SimpleEntry<>("y", y), new AbstractMap.SimpleEntry<>("z", z))
+						.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
 				this.remove();
 			}
 		}

@@ -49,7 +49,7 @@ public class RedswordglowProcedure {
 		double y = dependencies.get("y") instanceof Integer ? (int) dependencies.get("y") : (double) dependencies.get("y");
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
 		Entity entity = (Entity) dependencies.get("entity");
-		if (Math.random() < 0.4) {
+		if (Math.random() < 0.1) {
 			if (world instanceof ServerWorld) {
 				LightningBoltEntity _ent = EntityType.LIGHTNING_BOLT.create((World) world);
 				_ent.moveForced(Vector3d.copyCenteredHorizontally(new BlockPos((int) x, (int) y, (int) z)));

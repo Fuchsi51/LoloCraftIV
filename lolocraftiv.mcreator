@@ -618,6 +618,10 @@
       "metadata": {
         "dependencies": [
           {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
             "name": "x",
             "type": "number"
           },
@@ -1304,6 +1308,52 @@
       "locked_code": false,
       "registry_name": "craftnormalwood",
       "path": "~/Biome/Reddessert/Mainbiom/Holz"
+    },
+    {
+      "name": "BobweaponWennGeschossAufBlockTrifft",
+      "type": "procedure",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bobweapon_wenn_geschoss_auf_block_trifft",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/BOB/Weapon"
+    },
+    {
+      "name": "RedPickaxeWennGegenstandInDerHandTick",
+      "type": "procedure",
+      "sortid": 128,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_pickaxe_wenn_gegenstand_in_der_hand_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Aus Erz/Waffen etc."
     }
   ],
   "variable_elements": [],
@@ -1371,7 +1421,7 @@
       "advancements.adv_02.descr": "Mine and Smelt the new Red Ore!",
       "advancements.redbadlandsadv_3.title": "New Wood in the Hood",
       "block.lolocraftiv.badlands_block": "Block of the Badlands",
-      "advancements.advbobisback.title": "Bob is back!",
+      "advancements.advbobisback.title": "Bob is Back",
       "block.lolocraftiv.red_leaves": "Red Leaves",
       "item.lolocraftiv.badlands_hoe": "Badlands Hoe",
       "item.lolocraftiv.badlands_armor_chestplate": "Badlands Chestplate",
@@ -1618,7 +1668,7 @@
   "workspaceSettings": {
     "modid": "lolocraftiv",
     "modName": "LoloCraftIV",
-    "version": "IV Build Version 1.1.7",
+    "version": "1.1.8",
     "description": "The New Adventure in a new LoloCraft Mod",
     "author": "DerLoloHD",
     "websiteURL": "https://mclolocraft.jimdofree.com/lolocraft-iv/",

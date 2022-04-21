@@ -105,7 +105,7 @@ public class BOBEntity extends LolocraftivModElements.ModElement {
 
 		@Override
 		public CreatureAttribute getCreatureAttribute() {
-			return CreatureAttribute.ILLAGER;
+			return CreatureAttribute.UNDEAD;
 		}
 
 		@Override

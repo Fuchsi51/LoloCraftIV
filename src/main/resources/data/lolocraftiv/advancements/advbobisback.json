@@ -9,19 +9,14 @@
     "description": {
       "translate": "advancements.advbobisback.descr"
     },
-    "frame": "goal",
+    "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": true
   },
   "criteria": {
     "advbobisback": {
-      "trigger": "minecraft:placed_block",
-      "conditions": {
-        "item": {
-          "item": "lolocraftiv:bobspawner"
-        }
-      }
+      "trigger": "minecraft:impossible"
     }
   },
   "rewards": {

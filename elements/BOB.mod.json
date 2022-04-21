@@ -45,7 +45,7 @@
       "value": ""
     },
     "mobBehaviourType": "Creature",
-    "mobCreatureType": "ILLAGER",
+    "mobCreatureType": "UNDEAD",
     "attackStrength": 3,
     "attackKnockback": 0.0,
     "knockbackResistance": 0.0,

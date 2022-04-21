@@ -35,6 +35,9 @@
     },
     "bulletModel": "Default",
     "customBulletModelTexture": "",
+    "onBulletHitsBlock": {
+      "name": "BobweaponWennGeschossAufBlockTrifft"
+    },
     "onBulletHitsPlayer": {
       "name": "BobweaponWennGeschossAufLebewesenTrifft"
     },
