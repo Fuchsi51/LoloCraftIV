@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "lolocraftiv:badlands_pickaxe"
+    },
+    "title": {
+      "translate": "advancements.thewrongtool.title"
+    },
+    "description": {
+      "translate": "advancements.thewrongtool.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "thewrongtool": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 700
+  },
+  "parent": "lolocraftiv:redbadlandsafv_2"
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "block/button_inventory",
+  "textures": {
+    "texture": "lolocraftiv:blocks/test_planks"
+  }
+}

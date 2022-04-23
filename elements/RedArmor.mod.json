@@ -10,6 +10,9 @@
     "textureLeggings": "red_leggings",
     "enableBoots": true,
     "textureBoots": "red_boots",
+    "onBodyTick": {
+      "name": "RedArmorBodyTickEventred"
+    },
     "creativeTab": {
       "value": "CUSTOM:LoloCraftIVArmor"
     },

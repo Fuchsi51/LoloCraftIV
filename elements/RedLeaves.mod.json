@@ -15,6 +15,7 @@
     "displayFluidOverlay": false,
     "itemTexture": "",
     "particleTexture": "",
+    "blockBase": "Leaves",
     "tintType": "No tint",
     "isItemTinted": false,
     "hasTransparency": false,
@@ -52,7 +53,7 @@
     "canRedstoneConnect": false,
     "lightOpacity": 1,
     "material": {
-      "value": "WOOD"
+      "value": "LEAVES"
     },
     "tickRate": 10,
     "tickRandomly": false,

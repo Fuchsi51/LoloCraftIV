@@ -25,7 +25,7 @@ public class BadlandsAxeItem extends LolocraftivModElements.ModElement {
 	public void initElements() {
 		elements.items.add(() -> new AxeItem(new IItemTier() {
 			public int getMaxUses() {
-				return 100;
+				return 260;
 			}
 
 			public float getEfficiency() {

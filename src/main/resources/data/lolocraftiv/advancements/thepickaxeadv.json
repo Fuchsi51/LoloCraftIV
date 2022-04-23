@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "lolocraftiv:red_pickaxe"
+    },
+    "title": {
+      "translate": "advancements.thepickaxeadv.title"
+    },
+    "description": {
+      "translate": "advancements.thepickaxeadv.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "thepickaxeadv": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 300
+  },
+  "parent": "lolocraftiv:adv_03"
+}

@@ -25,7 +25,7 @@ public class BadlandsSwordItem extends LolocraftivModElements.ModElement {
 	public void initElements() {
 		elements.items.add(() -> new SwordItem(new IItemTier() {
 			public int getMaxUses() {
-				return 100;
+				return 255;
 			}
 
 			public float getEfficiency() {
@@ -33,7 +33,7 @@ public class BadlandsSwordItem extends LolocraftivModElements.ModElement {
 			}
 
 			public float getAttackDamage() {
-				return 5f;
+				return 9f;
 			}
 
 			public int getHarvestLevel() {

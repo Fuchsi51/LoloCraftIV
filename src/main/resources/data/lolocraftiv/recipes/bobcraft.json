@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "lolocraftiv:redcoal"
+    },
+    "3": {
+      "item": "lolocraftiv:redcoal"
+    },
+    "4": {
+      "item": "lolocraftiv:red_block"
+    },
+    "5": {
+      "item": "lolocraftiv:redcoal"
+    },
+    "7": {
+      "item": "lolocraftiv:red_ingot"
+    }
+  },
+  "result": {
+    "item": "lolocraftiv:bobspawner",
+    "count": 1
+  }
+}

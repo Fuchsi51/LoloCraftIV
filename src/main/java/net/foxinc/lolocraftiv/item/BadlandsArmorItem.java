@@ -18,7 +18,6 @@ import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.Entity;
 
 import net.foxinc.lolocraftiv.procedures.BadlandsArmorStiefelTickEreignisProcedure;
-import net.foxinc.lolocraftiv.procedures.BadlandsArmorHelmTickEreignisProcedure;
 import net.foxinc.lolocraftiv.procedures.BadlandsArmorBodyTickEventProcedure;
 import net.foxinc.lolocraftiv.itemgroup.LoloCraftIVArmorItemGroup;
 import net.foxinc.lolocraftiv.LolocraftivModElements;
@@ -91,17 +90,6 @@ public class BadlandsArmorItem extends LolocraftivModElements.ModElement {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "lolocraftiv:textures/models/armor/badlands_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
-			}
-
-			@Override
-			public void onArmorTick(ItemStack itemstack, World world, PlayerEntity entity) {
-				super.onArmorTick(itemstack, world, entity);
-				double x = entity.getPosX();
-				double y = entity.getPosY();
-				double z = entity.getPosZ();
-
-				BadlandsArmorHelmTickEreignisProcedure.executeProcedure(Stream.of(new AbstractMap.SimpleEntry<>("entity", entity))
-						.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
 			}
 		}.setRegistryName("badlands_armor_helmet"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.CHEST, new Item.Properties().group(LoloCraftIVArmorItemGroup.tab)) {

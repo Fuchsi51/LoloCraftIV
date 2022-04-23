@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "lolocraftiv:badlands_pickaxe"
+    },
+    "title": {
+      "translate": "advancements.theredbadlandspickpickadv.title"
+    },
+    "description": {
+      "translate": "advancements.theredbadlandspickpickadv.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "theredbadlandspickpickadv": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 600
+  },
+  "parent": "lolocraftiv:redbadlandsafv_2"
+}

@@ -10,19 +10,19 @@
       "value": "Blocks.STONE#0"
     },
     "airColor": {
-      "value": -10092544,
+      "value": -65536,
       "falpha": 0.0
     },
     "grassColor": {
-      "value": -6750208,
+      "value": -65536,
       "falpha": 0.0
     },
     "foliageColor": {
-      "value": -3407872,
+      "value": -3407821,
       "falpha": 0.0
     },
     "waterColor": {
-      "value": -52378,
+      "value": -6737152,
       "falpha": 0.0
     },
     "ambientSound": {
@@ -66,7 +66,7 @@
     "cactiPerChunk": 0,
     "treesPerChunk": 10,
     "vanillaTreeType": "Default",
-    "treeType": 1,
+    "treeType": 0,
     "minHeight": 7,
     "treeStem": {
       "value": "CUSTOM:RedLog"
@@ -75,7 +75,7 @@
       "value": "CUSTOM:RedLeaves"
     },
     "treeVines": {
-      "value": "CUSTOM:RedLeaves"
+      "value": ""
     },
     "treeFruits": {
       "value": ""

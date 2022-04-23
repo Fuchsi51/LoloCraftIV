@@ -67,7 +67,7 @@ public class BobweaponItem extends LolocraftivModElements.ModElement {
 
 	public static class ItemRanged extends Item {
 		public ItemRanged() {
-			super(new Item.Properties().group(LoloCraftIVtoolsItemGroup.tab).maxDamage(255));
+			super(new Item.Properties().group(LoloCraftIVtoolsItemGroup.tab).maxDamage(400));
 			setRegistryName("bobweapon");
 		}
 

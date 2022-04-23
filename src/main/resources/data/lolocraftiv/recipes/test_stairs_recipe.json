@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "lolocraftiv:test_planks"
+    },
+    "3": {
+      "item": "lolocraftiv:test_planks"
+    },
+    "4": {
+      "item": "lolocraftiv:test_planks"
+    },
+    "6": {
+      "item": "lolocraftiv:test_planks"
+    },
+    "7": {
+      "item": "lolocraftiv:test_planks"
+    },
+    "8": {
+      "item": "lolocraftiv:test_planks"
+    }
+  },
+  "result": {
+    "item": "lolocraftiv:test_stairs",
+    "count": 4
+  }
+}

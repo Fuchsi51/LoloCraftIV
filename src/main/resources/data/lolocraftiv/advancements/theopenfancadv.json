@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "lolocraftiv:red_fence_gate"
+    },
+    "title": {
+      "translate": "advancements.theopenfancadv.title"
+    },
+    "description": {
+      "translate": "advancements.theopenfancadv.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "theopenfancadv": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 1000
+  },
+  "parent": "lolocraftiv:thefenceadv"
+}

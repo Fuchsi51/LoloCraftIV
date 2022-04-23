@@ -36,7 +36,6 @@ import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
 import net.foxinc.lolocraftiv.itemgroup.LoloCraftIVItemGroup;
-import net.foxinc.lolocraftiv.item.BadlandsIngotItem;
 import net.foxinc.lolocraftiv.LolocraftivModElements;
 
 import java.util.Random;
@@ -78,7 +77,7 @@ public class BadlandsOreBlock extends LolocraftivModElements.ModElement {
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(BadlandsIngotItem.block));
+			return Collections.singletonList(new ItemStack(BadlandsOreBlock.block));
 		}
 	}
 

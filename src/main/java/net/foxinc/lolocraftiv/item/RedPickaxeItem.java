@@ -4,14 +4,18 @@ package net.foxinc.lolocraftiv.item;
 import net.minecraftforge.registries.ObjectHolder;
 
 import net.minecraft.world.World;
+import net.minecraft.util.math.BlockPos;
 import net.minecraft.item.crafting.Ingredient;
 import net.minecraft.item.PickaxeItem;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
+import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.Entity;
+import net.minecraft.block.BlockState;
 
 import net.foxinc.lolocraftiv.procedures.RedPickaxeWennGegenstandInDerHandTickProcedure;
+import net.foxinc.lolocraftiv.procedures.RedPickaxeWennBlockMitWerkzeugZerstortWirdProcedure;
 import net.foxinc.lolocraftiv.itemgroup.LoloCraftIVtoolsItemGroup;
 import net.foxinc.lolocraftiv.LolocraftivModElements;
 
@@ -56,6 +60,18 @@ public class RedPickaxeItem extends LolocraftivModElements.ModElement {
 				return Ingredient.fromStacks(new ItemStack(RedIngotItem.block));
 			}
 		}, 1, -3f, new Item.Properties().group(LoloCraftIVtoolsItemGroup.tab)) {
+			@Override
+			public boolean onBlockDestroyed(ItemStack itemstack, World world, BlockState blockstate, BlockPos pos, LivingEntity entity) {
+				boolean retval = super.onBlockDestroyed(itemstack, world, blockstate, pos, entity);
+				int x = pos.getX();
+				int y = pos.getY();
+				int z = pos.getZ();
+
+				RedPickaxeWennBlockMitWerkzeugZerstortWirdProcedure.executeProcedure(Stream.of(new AbstractMap.SimpleEntry<>("entity", entity))
+						.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
+				return retval;
+			}
+
 			@Override
 			public void inventoryTick(ItemStack itemstack, World world, Entity entity, int slot, boolean selected) {
 				super.inventoryTick(itemstack, world, entity, slot, selected);

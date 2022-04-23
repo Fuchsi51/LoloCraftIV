@@ -25,7 +25,7 @@ public class BadlandsShovelItem extends LolocraftivModElements.ModElement {
 	public void initElements() {
 		elements.items.add(() -> new ShovelItem(new IItemTier() {
 			public int getMaxUses() {
-				return 75;
+				return 255;
 			}
 
 			public float getEfficiency() {

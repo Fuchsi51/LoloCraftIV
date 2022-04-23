@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:dragon_wall_head"
+    },
+    "title": {
+      "translate": "advancements.cheater.title"
+    },
+    "description": {
+      "translate": "advancements.cheater.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "cheater": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 700
+  },
+  "parent": "lolocraftiv:adv_01"
+}

@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "lolocraftiv:badlands_armor_chestplate"
+    },
+    "title": {
+      "translate": "advancements.theredbadlandsarmoradv.title"
+    },
+    "description": {
+      "translate": "advancements.theredbadlandsarmoradv.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "theredbadlandsarmoradv": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 800
+  },
+  "parent": "lolocraftiv:redbadlandsafv_2"
+}

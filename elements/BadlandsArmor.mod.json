@@ -10,9 +10,6 @@
     "textureLeggings": "badlands_leggings",
     "enableBoots": true,
     "textureBoots": "badlands_boots",
-    "onHelmetTick": {
-      "name": "BadlandsArmorHelmTickEreignis"
-    },
     "onBodyTick": {
       "name": "BadlandsArmorBodyTickEvent"
     },

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "lolocraftiv:test_log"
+    },
+    "1": {
+      "item": "lolocraftiv:test_log"
+    },
+    "2": {
+      "item": "lolocraftiv:test_log"
+    },
+    "3": {
+      "item": "lolocraftiv:test_log"
+    }
+  },
+  "result": {
+    "item": "lolocraftiv:test_wood",
+    "count": 3
+  }
+}

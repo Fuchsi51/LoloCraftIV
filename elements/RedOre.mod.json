@@ -32,7 +32,7 @@
         "subtract": false
       }
     ],
-    "name": "Red Ore",
+    "name": "Red Crystal ore",
     "specialInfo": [],
     "hardness": 3.0,
     "resistance": 5.0,
@@ -43,7 +43,7 @@
     },
     "destroyTool": "pickaxe",
     "customDrop": {
-      "value": ""
+      "value": "CUSTOM:RedOre"
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
@@ -77,7 +77,7 @@
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "STONE"
+      "value": "METAL"
     },
     "breakSound": {
       "value": ""

@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "lolocraftiv:red_armor_chestplate"
+    },
+    "title": {
+      "translate": "advancements.theredarmoradv.title"
+    },
+    "description": {
+      "translate": "advancements.theredarmoradv.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "theredarmoradv": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 600
+  },
+  "parent": "lolocraftiv:adv_02"
+}

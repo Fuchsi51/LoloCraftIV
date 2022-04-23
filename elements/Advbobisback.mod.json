@@ -2,8 +2,8 @@
   "_fv": 24,
   "_type": "achievement",
   "definition": {
-    "achievementName": "Bob is Back",
-    "achievementDescription": "Bring Bob back to LoloCraftIV",
+    "achievementName": "The big Bob is here!",
+    "achievementDescription": "Bring Bob back!",
     "achievementIcon": {
       "value": "Items.EVOKER_SPAWN_EGG"
     },

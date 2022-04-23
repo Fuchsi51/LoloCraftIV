@@ -1,7 +1,6 @@
 
 package net.foxinc.lolocraftiv.world.biome;
 
-import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -9,9 +8,6 @@ import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.common.BiomeManager;
 
 import net.minecraft.world.gen.trunkplacer.StraightTrunkPlacer;
-import net.minecraft.world.gen.treedecorator.TrunkVineTreeDecorator;
-import net.minecraft.world.gen.treedecorator.TreeDecoratorType;
-import net.minecraft.world.gen.treedecorator.LeaveVineTreeDecorator;
 import net.minecraft.world.gen.surfacebuilders.SurfaceBuilderConfig;
 import net.minecraft.world.gen.surfacebuilders.SurfaceBuilder;
 import net.minecraft.world.gen.placement.Placement;
@@ -30,24 +26,14 @@ import net.minecraft.world.biome.DefaultBiomeFeatures;
 import net.minecraft.world.biome.BiomeGenerationSettings;
 import net.minecraft.world.biome.BiomeAmbience;
 import net.minecraft.world.biome.Biome;
-import net.minecraft.world.IWorldWriter;
 import net.minecraft.util.registry.WorldGenRegistries;
 import net.minecraft.util.registry.Registry;
-import net.minecraft.util.math.MutableBoundingBox;
-import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.RegistryKey;
-import net.minecraft.state.BooleanProperty;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.EntityClassification;
 import net.minecraft.block.Blocks;
 
-import net.foxinc.lolocraftiv.block.RedLogBlock;
-import net.foxinc.lolocraftiv.block.RedLeavesBlock;
 import net.foxinc.lolocraftiv.LolocraftivModElements;
-
-import java.util.Set;
-
-import com.google.common.collect.ImmutableList;
 
 @LolocraftivModElements.ModElement.Tag
 public class ReddessertBiome extends LolocraftivModElements.ModElement {
@@ -62,20 +48,19 @@ public class ReddessertBiome extends LolocraftivModElements.ModElement {
 		@SubscribeEvent
 		public void registerBiomes(RegistryEvent.Register<Biome> event) {
 			if (biome == null) {
-				BiomeAmbience effects = new BiomeAmbience.Builder().setFogColor(-10092544).setWaterColor(-52378).setWaterFogColor(329011)
-						.withSkyColor(-10092544).withFoliageColor(-3407872).withGrassColor(-6750208).build();
+				BiomeAmbience effects = new BiomeAmbience.Builder().setFogColor(-65536).setWaterColor(-6737152).setWaterFogColor(329011)
+						.withSkyColor(-65536).withFoliageColor(-3407821).withGrassColor(-65536).build();
 				BiomeGenerationSettings.Builder biomeGenerationSettings = new BiomeGenerationSettings.Builder()
 						.withSurfaceBuilder(SurfaceBuilder.DEFAULT.func_242929_a(new SurfaceBuilderConfig(Blocks.GRASS_BLOCK.getDefaultState(),
 								Blocks.STONE.getDefaultState(), Blocks.STONE.getDefaultState())));
-				biomeGenerationSettings.withFeature(GenerationStage.Decoration.VEGETAL_DECORATION, Feature.TREE
-						.withConfiguration((new BaseTreeFeatureConfig.Builder(new SimpleBlockStateProvider(RedLogBlock.block.getDefaultState()),
-								new SimpleBlockStateProvider(RedLeavesBlock.block.getDefaultState()),
-								new BlobFoliagePlacer(FeatureSpread.func_242252_a(2), FeatureSpread.func_242252_a(0), 3),
-								new StraightTrunkPlacer(7, 2, 0), new TwoLayerFeature(1, 0, 1)))
-										.setDecorators(ImmutableList.of(CustomLeaveVineTreeDecorator.instance, CustomTrunkVineTreeDecorator.instance))
-										.build())
-						.withPlacement(Features.Placements.HEIGHTMAP_PLACEMENT)
-						.withPlacement(Placement.COUNT_EXTRA.configure(new AtSurfaceWithExtraConfig(10, 0.1F, 1))));
+				biomeGenerationSettings.withFeature(GenerationStage.Decoration.VEGETAL_DECORATION,
+						Feature.TREE
+								.withConfiguration((new BaseTreeFeatureConfig.Builder(new SimpleBlockStateProvider(Blocks.OAK_LOG.getDefaultState()),
+										new SimpleBlockStateProvider(Blocks.OAK_LEAVES.getDefaultState()),
+										new BlobFoliagePlacer(FeatureSpread.func_242252_a(2), FeatureSpread.func_242252_a(0), 3),
+										new StraightTrunkPlacer(4, 2, 0), new TwoLayerFeature(1, 0, 1))).setIgnoreVines().build())
+								.withPlacement(Features.Placements.HEIGHTMAP_PLACEMENT)
+								.withPlacement(Placement.COUNT_EXTRA.configure(new AtSurfaceWithExtraConfig(10, 0.1F, 1))));
 				biomeGenerationSettings.withFeature(GenerationStage.Decoration.VEGETAL_DECORATION,
 						Feature.RANDOM_PATCH.withConfiguration(Features.Configs.GRASS_PATCH_CONFIG).withPlacement(Features.Placements.PATCH_PLACEMENT)
 								.withPlacement(Placement.COUNT_NOISE.configure(new NoiseDependant(-0.8D, 5, 5))));
@@ -101,49 +86,5 @@ public class ReddessertBiome extends LolocraftivModElements.ModElement {
 	public void init(FMLCommonSetupEvent event) {
 		BiomeManager.addBiome(BiomeManager.BiomeType.WARM,
 				new BiomeManager.BiomeEntry(RegistryKey.getOrCreateKey(Registry.BIOME_KEY, WorldGenRegistries.BIOME.getKey(biome)), 6));
-	}
-
-	private static class CustomLeaveVineTreeDecorator extends LeaveVineTreeDecorator {
-		public static final CustomLeaveVineTreeDecorator instance = new CustomLeaveVineTreeDecorator();
-		public static com.mojang.serialization.Codec<LeaveVineTreeDecorator> codec;
-		public static TreeDecoratorType tdt;
-		static {
-			codec = com.mojang.serialization.Codec.unit(() -> instance);
-			tdt = new TreeDecoratorType(codec);
-			tdt.setRegistryName("reddessert_lvtd");
-			ForgeRegistries.TREE_DECORATOR_TYPES.register(tdt);
-		}
-
-		@Override
-		protected TreeDecoratorType<?> func_230380_a_() {
-			return tdt;
-		}
-
-		@Override
-		protected void func_227424_a_(IWorldWriter ww, BlockPos bp, BooleanProperty bpr, Set<BlockPos> sbc, MutableBoundingBox mbb) {
-			this.func_227423_a_(ww, bp, RedLeavesBlock.block.getDefaultState(), sbc, mbb);
-		}
-	}
-
-	private static class CustomTrunkVineTreeDecorator extends TrunkVineTreeDecorator {
-		public static final CustomTrunkVineTreeDecorator instance = new CustomTrunkVineTreeDecorator();
-		public static com.mojang.serialization.Codec<CustomTrunkVineTreeDecorator> codec;
-		public static TreeDecoratorType tdt;
-		static {
-			codec = com.mojang.serialization.Codec.unit(() -> instance);
-			tdt = new TreeDecoratorType(codec);
-			tdt.setRegistryName("reddessert_tvtd");
-			ForgeRegistries.TREE_DECORATOR_TYPES.register(tdt);
-		}
-
-		@Override
-		protected TreeDecoratorType<?> func_230380_a_() {
-			return tdt;
-		}
-
-		@Override
-		protected void func_227424_a_(IWorldWriter ww, BlockPos bp, BooleanProperty bpr, Set<BlockPos> sbc, MutableBoundingBox mbb) {
-			this.func_227423_a_(ww, bp, RedLeavesBlock.block.getDefaultState(), sbc, mbb);
-		}
 	}
 }

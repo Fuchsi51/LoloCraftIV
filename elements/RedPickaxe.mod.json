@@ -29,6 +29,9 @@
     "damageOnCrafting": false,
     "onItemInUseTick": {
       "name": "RedPickaxeWennGegenstandInDerHandTick"
+    },
+    "onBlockDestroyedWithTool": {
+      "name": "RedPickaxeWennBlockMitWerkzeugZerstortWird"
     }
   }
 }

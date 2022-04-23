@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "lolocraftiv:badlands_stairs"
+    },
+    "title": {
+      "translate": "advancements.thestepupyouworkii.title"
+    },
+    "description": {
+      "translate": "advancements.thestepupyouworkii.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "thestepupyouworkii": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 700
+  },
+  "parent": "lolocraftiv:adv_04"
+}
