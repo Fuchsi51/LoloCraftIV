@@ -1,8 +1,0 @@
-{
-  "parent": "block/stairs",
-  "textures": {
-    "bottom": "lolocraftiv:blocks/test_planks",
-    "top": "lolocraftiv:blocks/test_planks",
-    "side": "lolocraftiv:blocks/test_planks"
-  }
-}

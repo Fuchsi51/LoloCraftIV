@@ -1,7 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "lolocraftiv:blocks/test_leaves",
-    "particle": "lolocraftiv:blocks/test_leaves"
-  }
-}

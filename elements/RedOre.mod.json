@@ -75,24 +75,24 @@
     "jumpFactor": 1.0,
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
-    "isCustomSoundType": false,
+    "isCustomSoundType": true,
     "soundOnStep": {
       "value": "METAL"
     },
     "breakSound": {
-      "value": ""
+      "value": "block.amethyst_block.break"
     },
     "stepSound": {
-      "value": ""
+      "value": "block.amethyst_block.step"
     },
     "placeSound": {
-      "value": ""
+      "value": "block.amethyst_block.place"
     },
     "hitSound": {
-      "value": ""
+      "value": "block.amethyst_cluster.hit"
     },
     "fallSound": {
-      "value": ""
+      "value": "block.amethyst_block.fall"
     },
     "luminance": 0,
     "unbreakable": false,

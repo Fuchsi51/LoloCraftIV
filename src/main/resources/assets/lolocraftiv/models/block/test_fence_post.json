@@ -1,7 +1,0 @@
-{
-  "parent": "block/fence_post",
-  "textures": {
-    "texture": "lolocraftiv:blocks/test_planks",
-    "particle": "lolocraftiv:blocks/test_planks"
-  }
-}

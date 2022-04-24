@@ -1,7 +1,12 @@
 {
-  "parent": "block/cube_all",
+  "parent": "block/cube",
   "textures": {
-    "all": "lolocraftiv:blocks/bobspawnerside",
-    "particle": "lolocraftiv:blocks/bobspawnerside"
+    "down": "lolocraftiv:blocks/extrablock",
+    "up": "lolocraftiv:blocks/bobspawnerside",
+    "north": "lolocraftiv:blocks/bobspawnerside",
+    "east": "lolocraftiv:blocks/bobspawnerside",
+    "south": "lolocraftiv:blocks/bobspawnerside",
+    "west": "lolocraftiv:blocks/bobspawnerside",
+    "particle": "lolocraftiv:blocks/extrablock"
   }
 }

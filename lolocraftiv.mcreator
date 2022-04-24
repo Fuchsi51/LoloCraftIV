@@ -1540,186 +1540,6 @@
       "locked_code": false,
       "registry_name": "rawredingot",
       "path": "~/Biome/Reddessert/Mainbiom/Im Biom/Erz"
-    },
-    {
-      "name": "TestWood",
-      "type": "block",
-      "sortid": 150,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "test_wood",
-      "path": "~/test"
-    },
-    {
-      "name": "TestLog",
-      "type": "block",
-      "sortid": 151,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "test_log",
-      "path": "~/test"
-    },
-    {
-      "name": "TestPlanks",
-      "type": "block",
-      "sortid": 152,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "test_planks",
-      "path": "~/test"
-    },
-    {
-      "name": "TestLeaves",
-      "type": "block",
-      "sortid": 153,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "test_leaves",
-      "path": "~/test"
-    },
-    {
-      "name": "TestStairs",
-      "type": "block",
-      "sortid": 154,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "test_stairs",
-      "path": "~/test"
-    },
-    {
-      "name": "TestSlab",
-      "type": "block",
-      "sortid": 155,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "test_slab",
-      "path": "~/test"
-    },
-    {
-      "name": "TestFence",
-      "type": "block",
-      "sortid": 156,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "test_fence",
-      "path": "~/test"
-    },
-    {
-      "name": "TestFenceGate",
-      "type": "block",
-      "sortid": 157,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "test_fence_gate",
-      "path": "~/test"
-    },
-    {
-      "name": "TestPressurePlate",
-      "type": "block",
-      "sortid": 158,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "test_pressure_plate",
-      "path": "~/test"
-    },
-    {
-      "name": "TestButton",
-      "type": "block",
-      "sortid": 159,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "test_button",
-      "path": "~/test"
-    },
-    {
-      "name": "TestItemsTag",
-      "type": "tag",
-      "sortid": 160,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "test_items_tag",
-      "path": "~/test"
-    },
-    {
-      "name": "TestWoodRecipe",
-      "type": "recipe",
-      "sortid": 161,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "test_wood_recipe",
-      "path": "~/test"
-    },
-    {
-      "name": "TestPlanksRecipe",
-      "type": "recipe",
-      "sortid": 162,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "test_planks_recipe",
-      "path": "~/test"
-    },
-    {
-      "name": "TestStairsRecipe",
-      "type": "recipe",
-      "sortid": 163,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "test_stairs_recipe",
-      "path": "~/test"
-    },
-    {
-      "name": "TestSlabRecipe",
-      "type": "recipe",
-      "sortid": 164,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "test_slab_recipe",
-      "path": "~/test"
-    },
-    {
-      "name": "TestFenceRecipe",
-      "type": "recipe",
-      "sortid": 165,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "test_fence_recipe",
-      "path": "~/test"
-    },
-    {
-      "name": "TestFenceGateRecipe",
-      "type": "recipe",
-      "sortid": 166,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "test_fence_gate_recipe",
-      "path": "~/test"
-    },
-    {
-      "name": "TestPressurePlateRecipe",
-      "type": "recipe",
-      "sortid": 167,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "test_pressure_plate_recipe",
-      "path": "~/test"
-    },
-    {
-      "name": "TestButtonRecipe",
-      "type": "recipe",
-      "sortid": 168,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "test_button_recipe",
-      "path": "~/test"
-    },
-    {
-      "name": "TestStickRecipe",
-      "type": "recipe",
-      "sortid": 169,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "test_stick_recipe",
-      "path": "~/test"
     }
   ],
   "variable_elements": [],
@@ -1749,8 +1569,8 @@
       "item.lolocraftiv.badlands_armor_leggings": "Badlands Leggings",
       "item.lolocraftiv.badlands_armor_boots": "Badlands Boots",
       "block.lolocraftiv.badlands_button": "Badlands Button",
-      "advancements.thestepupyouworkii.descr": "place a Redbadlands Stair",
       "advancements.cheater.descr": "Cheat in you World",
+      "advancements.thestepupyouworkii.descr": "place a Redbadlands Stair",
       "block.lolocraftiv.red_wood": "Red Wood",
       "advancements.redbadlandsadv_1.descr": "Find the new Biom",
       "advancements.adv_01.title": "Welcome to LoloCraft IV!",
@@ -1765,20 +1585,16 @@
       "advancements.thewrongtool.descr": "use the wrong tool to hit a Mob",
       "item.lolocraftiv.red_shovel": "Red Shovel",
       "item.lolocraftiv.badlands_armor_helmet": "Badlands Helmet",
-      "block.lolocraftiv.test_button": "Test Button",
       "block.lolocraftiv.badlands_stairs": "Badlands Stairs",
       "itemGroup.tablolo_craft_i_vtools": "LoloCraftIV Tools/Weapons",
       "block.lolocraftiv.red_stairs": "Red Stairs",
-      "block.lolocraftiv.test_planks": "Test Planks",
       "item.lolocraftiv.red_armor_leggings": "Red Leggings",
       "block.lolocraftiv.badlands_ore": "Badlands Ore",
-      "block.lolocraftiv.test_wood": "Test Wood",
-      "block.lolocraftiv.bobspawner": "Bobspawner",
       "block.lolocraftiv.badlands_planks": "Badlands Planks",
+      "block.lolocraftiv.bobspawner": "Bobspawner",
       "advancements.adv_02.descr": "Mine and Smelt the new Red Ore!",
       "advancements.redbadlandsadv_3.title": "New Wood in the Hood",
       "block.lolocraftiv.red_leaves": "Red Leaves",
-      "block.lolocraftiv.test_log": "Test Log",
       "advancements.theredarmoradv.title": "Cover me with Red Stuff",
       "advancements.adv_03.descr": "Craft a new Red Pickaxt",
       "item.lolocraftiv.badlands_shovel": "Badlands Shovel",
@@ -1788,7 +1604,6 @@
       "subtitles.block.place.bobspawner": "",
       "item.lolocraftiv.red_ingot": "Red Crystal",
       "advancements.theredbadlandsarmoradv.descr": "craft a Redbadlands Armor",
-      "block.lolocraftiv.test_pressure_plate": "Test Pressure Plate",
       "block.lolocraftiv.red_ore": "Red Crystal ore",
       "advancements.adv_04.descr": "Craft a Red Stair",
       "block.lolocraftiv.redcoal_ore": "Red Coal Ore",
@@ -1803,12 +1618,10 @@
       "item.lolocraftiv.badlands_pickaxe": "Badlands Pickaxe",
       "advancements.redbadlandsadv_1.title": "Find you new place",
       "block.lolocraftiv.badlands_log": "Badlands Log",
-      "block.lolocraftiv.test_leaves": "Test Leaves",
       "advancements.thepickaxeadv.descr": "Pick with you Pickaxe",
       "advancements.redbadlandsadv_4.title": "The New Land",
       "item.lolocraftiv.rawredingot": "Raw Red Crystal",
       "block.lolocraftiv.red_slab": "Red Slab",
-      "block.lolocraftiv.test_fence_gate": "Test Fence Gate",
       "advancements.redbadlandsafv_2.title": "New Ores",
       "advancements.adv_06.descr": "Find Red Coal in a Red Desert ",
       "advancements.theredbadlandspickpickadv.descr": "pick with the Redbadlands Pickaxe",
@@ -1827,8 +1640,6 @@
       "advancements.theopenfancadv.title": "New Horizons ",
       "block.lolocraftiv.badlands_block": "Block of the Badlands",
       "advancements.advbobisback.title": "The big Bob is here!",
-      "block.lolocraftiv.test_slab": "Test Slab",
-      "block.lolocraftiv.test_stairs": "Test Stairs",
       "item.lolocraftiv.badlands_hoe": "Badlands Hoe",
       "item.lolocraftiv.badlands_armor_chestplate": "Badlands Chestplate",
       "item.lolocraftiv.red_pickaxe": "Red Pickaxe",
@@ -1852,7 +1663,6 @@
       "item.lolocraftiv.badlands_axe": "Badlands Axe",
       "block.lolocraftiv.badlands_pressure_plate": "Badlands Pressure Plate",
       "item.lolocraftiv.red_hoe": "Red Hoe",
-      "block.lolocraftiv.test_fence": "Test Fence",
       "block.lolocraftiv.badlands_wood": "Badlands Wood"
     },
     "de_de": {
@@ -1862,8 +1672,8 @@
       "item.lolocraftiv.badlands_armor_leggings": "Badlands Hose",
       "block.lolocraftiv.badlands_button": "Badlands Button",
       "item.lolocraftiv.badlands_armor_boots": "Badlands Boots",
-      "advancements.cheater.descr": "Cheat in you World",
       "advancements.thestepupyouworkii.descr": "plaziere eine Redbadlands Treppe",
+      "advancements.cheater.descr": "Cheat in you World",
       "block.lolocraftiv.red_wood": "Red Holz",
       "advancements.redbadlandsadv_1.descr": "Finde das neue Biom!",
       "advancements.adv_01.title": "Willkommen in LoloCraftIV!",
@@ -1879,20 +1689,16 @@
       "item.lolocraftiv.badlands_armor_bootsdf": "Badlands Schuhe",
       "item.lolocraftiv.red_shovel": "Red Schaufel",
       "item.lolocraftiv.badlands_armor_helmet": "Badlands Helm",
-      "block.lolocraftiv.test_button": "Test Button",
       "block.lolocraftiv.badlands_stairs": "Badlands Treppen",
       "itemGroup.tablolo_craft_i_vtools": "LoloCraftIV Tools/Weapons",
       "block.lolocraftiv.red_stairs": "Red Treppe",
-      "block.lolocraftiv.test_planks": "Test Planks",
       "item.lolocraftiv.red_armor_leggings": "Red Hose",
       "block.lolocraftiv.badlands_ore": "Badlands Erz",
-      "block.lolocraftiv.test_wood": "Test Wood",
-      "block.lolocraftiv.badlands_planks": "Badlands Planks",
       "block.lolocraftiv.bobspawner": "Bobspawner",
+      "block.lolocraftiv.badlands_planks": "Badlands Planks",
       "advancements.adv_02.descr": "Mine und Schmelze das neue Erz",
       "advancements.redbadlandsadv_3.title": "Neues Holz darauf ist man Stolz!",
       "block.lolocraftiv.red_leaves": "Red Blätter",
-      "block.lolocraftiv.test_log": "Test Log",
       "advancements.theredarmoradv.title": "Überschüte mich mit Rotem Stuff",
       "advancements.adv_03.descr": "Baue eine Red Pickaxt",
       "item.lolocraftiv.badlands_shovel": "Badlands Shovel",
@@ -1902,7 +1708,6 @@
       "subtitles.block.place.bobspawner": "",
       "item.lolocraftiv.red_ingot": "Red Ingot",
       "advancements.theredbadlandsarmoradv.descr": "Crafte eine Redbadlands Rüstung",
-      "block.lolocraftiv.test_pressure_plate": "Test Pressure Plate",
       "block.lolocraftiv.red_ore": "Red Ore",
       "advancements.adv_04.descr": "Baue eine Rote Stufe",
       "block.lolocraftiv.redcoal_ore": "Red Coal Erz",
@@ -1917,12 +1722,10 @@
       "item.lolocraftiv.badlands_pickaxe": "Badlands Pickaxe",
       "advancements.redbadlandsadv_1.title": "Finde neue Orte",
       "block.lolocraftiv.badlands_log": "Badlands Log",
-      "block.lolocraftiv.test_leaves": "Test Leaves",
       "advancements.thepickaxeadv.descr": "Pick mit deiner Spitzhacke",
       "advancements.redbadlandsadv_4.title": "Das neue Land",
       "item.lolocraftiv.rawredingot": "Raw Red Ingot",
       "block.lolocraftiv.red_slab": "Red Stufe",
-      "block.lolocraftiv.test_fence_gate": "Test Fence Gate",
       "advancements.redbadlandsafv_2.title": "Neue Erze",
       "advancements.adv_06.descr": "Finde Red Coal im Red Desert",
       "advancements.theredbadlandspickpickadv.descr": "pick mit der Redbadlands spitzhacke",
@@ -1941,8 +1744,6 @@
       "advancements.theopenfancadv.title": "Neue Horizonte",
       "block.lolocraftiv.badlands_block": "Block of Badlands",
       "advancements.advbobisback.title": "Bob ist zurück!",
-      "block.lolocraftiv.test_slab": "Test Slab",
-      "block.lolocraftiv.test_stairs": "Test Stairs",
       "item.lolocraftiv.badlands_hoe": "Badlands Hoe",
       "item.lolocraftiv.badlands_armor_chestplate": "Badlands Chestplate",
       "item.lolocraftiv.red_pickaxe": "Red Spitzhacke",
@@ -1966,7 +1767,6 @@
       "item.lolocraftiv.badlands_axe": "Badlands Axe",
       "block.lolocraftiv.badlands_pressure_plate": "Badlands Druck ",
       "item.lolocraftiv.red_hoe": "Red Hoe",
-      "block.lolocraftiv.test_fence": "Test Fence",
       "block.lolocraftiv.badlands_wood": "Badlands Wood"
     }
   },
@@ -2085,10 +1885,6 @@
             "children": []
           }
         ]
-      },
-      {
-        "name": "test",
-        "children": []
       }
     ]
   },
