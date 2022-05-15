@@ -37,6 +37,7 @@ import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
 import net.foxinc.lolocraftiv.itemgroup.LoloCraftIVItemGroup;
+import net.foxinc.lolocraftiv.item.RawredingotItem;
 import net.foxinc.lolocraftiv.LolocraftivModElements;
 
 import java.util.Random;
@@ -81,7 +82,7 @@ public class RedOreBlock extends LolocraftivModElements.ModElement {
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(RedOreBlock.block));
+			return Collections.singletonList(new ItemStack(RawredingotItem.block));
 		}
 	}
 
@@ -132,6 +133,8 @@ public class RedOreBlock extends LolocraftivModElements.ModElement {
 	public void addFeatureToBiomes(BiomeLoadingEvent event) {
 		boolean biomeCriteria = false;
 		if (new ResourceLocation("lolocraftiv:reddessert").equals(event.getName()))
+			biomeCriteria = true;
+		if (new ResourceLocation("lolocraftiv:redplainshills").equals(event.getName()))
 			biomeCriteria = true;
 		if (!biomeCriteria)
 			return;

@@ -33,8 +33,8 @@
   "rewards": {
     "experience": 200,
     "recipes": [
-      "lolocraftiv:red_ore_block_recipe",
-      "lolocraftiv:red_block_ore_recipe",
+      "lolocraftiv:deleted_mod_element",
+      "lolocraftiv:deleted_mod_element",
       "lolocraftiv:red_ore_smelting",
       "lolocraftiv:red_pickaxe_recipe",
       "lolocraftiv:red_axe_recipe",

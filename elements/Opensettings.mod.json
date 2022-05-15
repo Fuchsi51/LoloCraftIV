@@ -1,0 +1,11 @@
+{
+  "_fv": 28,
+  "_type": "command",
+  "definition": {
+    "commandName": "lcinfo",
+    "permissionLevel": "No requirement",
+    "onCommandExecuted": {
+      "name": "OpensettingsWennderBefehlAusgefuhrtWird"
+    }
+  }
+}

@@ -1,3 +1,4 @@
+
 package net.foxinc.lolocraftiv.entity.renderer;
 
 import net.minecraftforge.fml.client.registry.RenderingRegistry;

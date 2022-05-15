@@ -1,0 +1,10 @@
+{
+  "parent": "block/grass_block",
+  "textures": {
+    "bottom": "lolocraftiv:blocks/effectusfire1",
+    "top": "lolocraftiv:blocks/effectusfire2",
+    "side": "lolocraftiv:blocks/effectusfire",
+    "overlay": "lolocraftiv:blocks/effectusfire",
+    "particle": "lolocraftiv:blocks/effectusfire1"
+  }
+}

@@ -129,6 +129,8 @@ public class BadlandsOreBlock extends LolocraftivModElements.ModElement {
 		boolean biomeCriteria = false;
 		if (new ResourceLocation("lolocraftiv:redbadlands").equals(event.getName()))
 			biomeCriteria = true;
+		if (new ResourceLocation("lolocraftiv:reddeserthills").equals(event.getName()))
+			biomeCriteria = true;
 		if (!biomeCriteria)
 			return;
 		event.getGeneration().getFeatures(GenerationStage.Decoration.UNDERGROUND_ORES).add(() -> configuredFeature);

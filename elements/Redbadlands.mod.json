@@ -1,13 +1,16 @@
 {
-  "_fv": 24,
+  "_fv": 28,
   "_type": "biome",
   "definition": {
     "name": "Red Desert",
     "groundBlock": {
-      "value": "Blocks.STAINED_HARDENED_CLAY#14"
+      "value": "Blocks.SAND#1"
     },
     "undergroundBlock": {
       "value": "Blocks.STAINED_HARDENED_CLAY#1"
+    },
+    "underwaterBlock": {
+      "value": ""
     },
     "grassColor": {
       "value": -6750208,
@@ -32,18 +35,16 @@
     },
     "particlesProbability": 0.5,
     "biomeCategory": "NONE",
-    "parent": {
-      "value": "No parent"
-    },
     "rainingPossibility": 0.5,
     "temperature": 0.5,
     "baseHeight": 0.1,
     "heightVariation": 0.2,
-    "biomeType": "WARM",
     "spawnBiome": true,
+    "spawnBiomeNether": false,
+    "spawnInCaves": false,
     "biomeWeight": 10,
     "biomeDictionaryTypes": [],
-    "grassPerChunk": 0,
+    "grassPerChunk": 4,
     "seagrassPerChunk": 0,
     "flowersPerChunk": 0,
     "mushroomsPerChunk": 0,
@@ -51,7 +52,7 @@
     "sandPatchesPerChunk": 0,
     "gravelPatchesPerChunk": 0,
     "reedsPerChunk": 0,
-    "cactiPerChunk": 9,
+    "cactiPerChunk": 10,
     "treesPerChunk": 0,
     "vanillaTreeType": "Default",
     "treeType": 0,

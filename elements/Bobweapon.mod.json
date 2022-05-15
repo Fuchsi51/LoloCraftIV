@@ -1,20 +1,18 @@
 {
-  "_fv": 24,
+  "_fv": 28,
   "_type": "rangeditem",
   "definition": {
     "renderType": 0,
     "texture": "bobweapon",
     "customModelName": "Normal",
-    "name": "BOB´s magic wand II",
-    "specialInfo": [
-      "The better and newer Magic Wand from BOB"
-    ],
+    "name": "BOBï¿½s magic wand II",
+    "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:LoloCraftIVtools"
     },
     "stackSize": 1,
     "ammoItem": {
-      "value": "CUSTOM:Redcoal"
+      "value": "CUSTOM:Bobweaponmun"
     },
     "shootConstantly": false,
     "usageCount": 400,

@@ -1,0 +1,10 @@
+{
+  "parent": "block/grass_block",
+  "textures": {
+    "bottom": "lolocraftiv:blocks/redeffektwater1",
+    "top": "lolocraftiv:blocks/redeffect2",
+    "side": "lolocraftiv:blocks/redeffektwater",
+    "overlay": "lolocraftiv:blocks/redeffektwater",
+    "particle": "lolocraftiv:blocks/redeffektwater1"
+  }
+}

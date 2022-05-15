@@ -1,5 +1,5 @@
 {
-  "_fv": 24,
+  "_fv": 28,
   "_type": "biome",
   "definition": {
     "name": "Red Plains",
@@ -8,6 +8,9 @@
     },
     "undergroundBlock": {
       "value": "Blocks.STONE#0"
+    },
+    "underwaterBlock": {
+      "value": "Blocks.SAND#0"
     },
     "airColor": {
       "value": -65536,
@@ -44,17 +47,17 @@
     },
     "particlesProbability": 0.5,
     "biomeCategory": "NONE",
-    "parent": {
-      "value": "No parent"
-    },
     "rainingPossibility": 0.5,
     "temperature": 0.5,
     "baseHeight": 0.1,
     "heightVariation": 0.2,
-    "biomeType": "WARM",
     "spawnBiome": true,
+    "spawnBiomeNether": false,
+    "spawnInCaves": false,
     "biomeWeight": 6,
-    "biomeDictionaryTypes": [],
+    "biomeDictionaryTypes": [
+      "PLAINS"
+    ],
     "grassPerChunk": 5,
     "seagrassPerChunk": 0,
     "flowersPerChunk": 4,

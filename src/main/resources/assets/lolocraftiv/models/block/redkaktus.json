@@ -1,0 +1,10 @@
+{
+  "parent": "block/grass_block",
+  "textures": {
+    "bottom": "lolocraftiv:blocks/redkaktusunder",
+    "top": "lolocraftiv:blocks/redkaktusup",
+    "side": "lolocraftiv:blocks/redkaktusside",
+    "overlay": "lolocraftiv:blocks/redkaktusside",
+    "particle": "lolocraftiv:blocks/redkaktusunder"
+  }
+}

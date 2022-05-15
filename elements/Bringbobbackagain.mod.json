@@ -1,5 +1,5 @@
 {
-  "_fv": 24,
+  "_fv": 28,
   "_type": "achievement",
   "definition": {
     "achievementName": "BOB is Back! (again)",
@@ -20,6 +20,6 @@
     "parent": {
       "value": "CUSTOM:Advbobisback"
     },
-    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"item_consumed\" x=\"151\" y=\"47\"><value name=\"item\"><block type=\"mcitem_all\"><field name=\"value\">CUSTOM:Bobspawner</field></block></value><next><block type=\"advancement_trigger\" deletable=\"false\"></block></next></block></xml>"
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"item_consumed\" x=\"252\" y=\"83\"><value name=\"item\"><block type=\"mcitem_all\"><field name=\"value\">CUSTOM:Bobspawner</field></block></value><next><block type=\"advancement_trigger\" deletable=\"false\"></block></next></block></xml>"
   }
 }

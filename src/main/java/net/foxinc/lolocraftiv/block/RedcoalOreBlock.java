@@ -130,6 +130,8 @@ public class RedcoalOreBlock extends LolocraftivModElements.ModElement {
 		boolean biomeCriteria = false;
 		if (new ResourceLocation("lolocraftiv:reddessert").equals(event.getName()))
 			biomeCriteria = true;
+		if (new ResourceLocation("lolocraftiv:redplainshills").equals(event.getName()))
+			biomeCriteria = true;
 		if (!biomeCriteria)
 			return;
 		event.getGeneration().getFeatures(GenerationStage.Decoration.UNDERGROUND_ORES).add(() -> configuredFeature);

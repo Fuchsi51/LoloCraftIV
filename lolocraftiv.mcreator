@@ -1334,15 +1334,6 @@
       "path": "~/BOB"
     },
     {
-      "name": "Cheater",
-      "type": "achievement",
-      "sortid": 136,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cheater",
-      "path": "~/Sonstiges/newadvance"
-    },
-    {
       "name": "RedFenceWennBlockHinzugefugt",
       "type": "procedure",
       "sortid": 137,
@@ -1540,6 +1531,522 @@
       "locked_code": false,
       "registry_name": "rawredingot",
       "path": "~/Biome/Reddessert/Mainbiom/Im Biom/Erz"
+    },
+    {
+      "name": "Bobweaponmun",
+      "type": "item",
+      "sortid": 150,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bobweaponmun",
+      "path": "~/BOB/Weapon"
+    },
+    {
+      "name": "Deserttree",
+      "type": "structure",
+      "sortid": 151,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deserttree",
+      "path": "~/Biome/Redbadlands/Struckt"
+    },
+    {
+      "name": "RedkaktusWennDieEntitatAufDenBlockGeht",
+      "type": "procedure",
+      "sortid": 152,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redkaktus_wenn_die_entitat_auf_den_block_geht",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Biome/Redbadlands/Struckt/cactus"
+    },
+    {
+      "name": "Redkaktus",
+      "type": "block",
+      "sortid": 152,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redkaktus",
+      "path": "~/Biome/Redbadlands/Struckt/cactus"
+    },
+    {
+      "name": "Test",
+      "type": "villagertrade",
+      "sortid": 154,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trades",
+      "path": "~/Willi/trade"
+    },
+    {
+      "name": "Redplainshills",
+      "type": "biome",
+      "sortid": 155,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redplainshills",
+      "path": "~/Biome/Reddessert/Mainbiom/Main"
+    },
+    {
+      "name": "Reddeserthills",
+      "type": "biome",
+      "sortid": 156,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reddeserthills",
+      "path": "~/Biome/Reddessert/Mainbiom/Main"
+    },
+    {
+      "name": "RedeffectwaterWennDerBlockVomSpielerZerstortWird",
+      "type": "procedure",
+      "sortid": 157,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redeffectwater_wenn_der_block_vom_spieler_zerstort_wird",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Biome/Redbadlands/Struckt/cactus/effektus"
+    },
+    {
+      "name": "Redeffectwater",
+      "type": "block",
+      "sortid": 157,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redeffectwater",
+      "path": "~/Biome/Redbadlands/Struckt/cactus/effektus"
+    },
+    {
+      "name": "Craftredeffektuswater",
+      "type": "recipe",
+      "sortid": 158,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craftredeffektuswater",
+      "path": "~/Biome/Redbadlands/Struckt/cactus/effektus"
+    },
+    {
+      "name": "Effektusfire",
+      "type": "block",
+      "sortid": 159,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "effektusfire",
+      "path": "~/Biome/Redbadlands/Struckt/cactus/effektus"
+    },
+    {
+      "name": "EffektusfireWennDerBlockVomSpielerZerstortWird",
+      "type": "procedure",
+      "sortid": 160,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "effektusfire_wenn_der_block_vom_spieler_zerstort_wird",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Biome/Redbadlands/Struckt/cactus/effektus"
+    },
+    {
+      "name": "Crafteffektusfire",
+      "type": "recipe",
+      "sortid": 161,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crafteffektusfire",
+      "path": "~/Biome/Redbadlands/Struckt/cactus/effektus"
+    },
+    {
+      "name": "Radcactusadv1",
+      "type": "achievement",
+      "sortid": 162,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "radcactusadv_1",
+      "path": "~/Aus Erz/Waffen etc."
+    },
+    {
+      "name": "Redcactus",
+      "type": "structure",
+      "sortid": 163,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redcactus",
+      "path": "~/Biome/Redbadlands/Struckt/cactus"
+    },
+    {
+      "name": "Transrawtonormalcrystel",
+      "type": "recipe",
+      "sortid": 164,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "transrawtonormalcrystel",
+      "path": "~/Biome/Reddessert/Mainbiom/Im Biom/Erz"
+    },
+    {
+      "name": "Willi",
+      "type": "livingentity",
+      "sortid": 165,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "willi",
+      "path": "~/Willi"
+    },
+    {
+      "name": "Willimultitool",
+      "type": "tool",
+      "sortid": 166,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "willimultitool",
+      "path": "~/Willi"
+    },
+    {
+      "name": "Gamerule1",
+      "type": "gamerule",
+      "sortid": 167,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gamerule1",
+      "metadata": {
+        "type": "number"
+      },
+      "path": "~/Sonstiges/Settings"
+    },
+    {
+      "name": "GUICopyright",
+      "type": "gui",
+      "sortid": 169,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gui_copyright",
+      "path": "~/Sonstiges/Settings/GUI"
+    },
+    {
+      "name": "OpensettingsWennderBefehlAusgefuhrtWird",
+      "type": "procedure",
+      "sortid": 170,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "opensettings_wennder_befehl_ausgefuhrt_wird",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Sonstiges/Settings/GUI/Prod"
+    },
+    {
+      "name": "Opensettings",
+      "type": "command",
+      "sortid": 170,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "opensettings",
+      "path": "~/Sonstiges/Settings/GUI/Prod"
+    },
+    {
+      "name": "Yeet",
+      "type": "procedure",
+      "sortid": 171,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yeet",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Sonstiges/Settings/GUI/Prod"
+    },
+    {
+      "name": "ConsoleClose",
+      "type": "procedure",
+      "sortid": 172,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "console_close",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Sonstiges/Settings/GUI/Prod/console"
+    },
+    {
+      "name": "Lcconsole",
+      "type": "gui",
+      "sortid": 171,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lcconsole"
+    },
+    {
+      "name": "LCConsoleWennderBefehlAusgefuhrtWird",
+      "type": "procedure",
+      "sortid": 173,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lc_console_wennder_befehl_ausgefuhrt_wird",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Sonstiges/Settings/GUI/Prod"
+    },
+    {
+      "name": "LCConsole",
+      "type": "command",
+      "sortid": 173,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lc_console",
+      "path": "~/Sonstiges/Settings/GUI/Prod"
+    },
+    {
+      "name": "GUIsupersecret",
+      "type": "gui",
+      "sortid": 174,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gu_isupersecret",
+      "path": "~/Sonstiges/Settings/GUI"
+    },
+    {
+      "name": "Openss",
+      "type": "procedure",
+      "sortid": 175,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "openss",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Sonstiges/Settings/GUI/Prod"
+    },
+    {
+      "name": "Boby",
+      "type": "livingentity",
+      "sortid": 176,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "boby",
+      "path": "~/BOB"
+    },
+    {
+      "name": "Spawnbetabob",
+      "type": "procedure",
+      "sortid": 176,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spawnbetabob",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Sonstiges/Settings/GUI/Prod/console"
+    },
+    {
+      "name": "Spawnwilli",
+      "type": "procedure",
+      "sortid": 177,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spawnwilli",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Sonstiges/Settings/GUI/Prod/console"
+    },
+    {
+      "name": "Givewillismultitool",
+      "type": "procedure",
+      "sortid": 178,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "givewillismultitool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Sonstiges/Settings/GUI/Prod"
+    },
+    {
+      "name": "Openbetamenu",
+      "type": "procedure",
+      "sortid": 179,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "openbetamenu",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Sonstiges/Settings/GUI/Prod"
     }
   ],
   "variable_elements": [],
@@ -1569,15 +2076,17 @@
       "item.lolocraftiv.badlands_armor_leggings": "Red Desert Leggings",
       "item.lolocraftiv.badlands_armor_boots": "Red Desert Boots",
       "block.lolocraftiv.badlands_button": "Badlands Button",
-      "advancements.cheater.descr": "Cheat in you World",
       "advancements.thestepupyouworkii.descr": "place a Redbadlands Stair",
+      "biome.lolocraftiv.redplainshills": "Red Plains Hills",
       "block.lolocraftiv.red_wood": "Red Wood",
       "advancements.redbadlandsadv_1.descr": "Find the new Biom",
+      "item.lolocraftiv.willimultitool": "Willi Multitool",
       "advancements.adv_01.title": "Welcome to LoloCraft IV!",
       "advancements.redbadlandsafv_2.descr": "find the new Ore in the Redbadlands",
       "block.lolocraftiv.red_pressure_plate": "Red Pressure Plate",
       "advancements.adv_04.title": "Step up you Work!",
       "advancements.theredbadlandspickpickadv.title": "pick pick (AGAIN)",
+      "advancements.radcactusadv_1.descr": "Take a Red Cactus",
       "block.lolocraftiv.red_fence_gate": "Red Fence Gate",
       "item.lolocraftiv.red_axe": "Red Axe",
       "advancements.redbadlandsadv_4.descr": "Enter the Extra Life World",
@@ -1595,12 +2104,14 @@
       "advancements.adv_02.descr": "Mine and Smelt the new Red Ore!",
       "advancements.redbadlandsadv_3.title": "New Wood in the Hood",
       "block.lolocraftiv.red_leaves": "Red Leaves",
+      "entity.lolocraftiv.willi": "Willi",
       "advancements.theredarmoradv.title": "Cover me with Red Stuff",
       "advancements.adv_03.descr": "Craft a new Red Pickaxt",
       "item.lolocraftiv.badlands_shovel": "Red Desert Shovel",
       "block.lolocraftiv.badlands_leaves": "Badlands Leaves",
       "advancements.theredbadlandsarmoradv.title": "cover me in Redbadlands Ore",
       "advancements.adv_03.title": "New Tools",
+      "block.lolocraftiv.redkaktus": "Redcactus",
       "subtitles.block.place.bobspawner": "",
       "item.lolocraftiv.red_ingot": "Red Crystal",
       "advancements.theredbadlandsarmoradv.descr": "craft a Redbadlands Armor",
@@ -1613,10 +2124,14 @@
       "biome.lolocraftiv.reddessert": "Red Plains",
       "advancements.adv_02.title": "New Ore",
       "advancements.theredarmoradv.descr": "craft a Red Armor",
+      "advancements.radcactusadv_1.title": "Uh that hurt",
+      "gamerule.gamerule1": "turn on/off Testing_LoloCraft_beta_test",
       "item.lolocraftiv.badlands_ingot": "Red Desert Ingot",
       "advancements.redbadlandsadv_3.descr": "find the new Wood in the Redbadlands",
       "item.lolocraftiv.badlands_pickaxe": "Red Desert Pickaxe",
+      "biome.lolocraftiv.reddeserthills": "Red desert hills",
       "advancements.redbadlandsadv_1.title": "Find you new place",
+      "item.lolocraftiv.boby_spawn_egg": "Boby Spawn Egg",
       "block.lolocraftiv.badlands_log": "Badlands Log",
       "advancements.thepickaxeadv.descr": "Pick with you Pickaxe",
       "advancements.redbadlandsadv_4.title": "The New Land",
@@ -1626,16 +2141,18 @@
       "advancements.adv_06.descr": "Find Red Coal in a Red Desert ",
       "advancements.theredbadlandspickpickadv.descr": "pick with the Redbadlands Pickaxe",
       "block.lolocraftiv.red_button": "Red Button",
+      "item.lolocraftiv.bobweaponmun": "Bob Weapon Mun",
       "block.lolocraftiv.red_planks": "Red Planks",
       "biome.lolocraftiv.redbadlands": "Red Desert",
       "advancements.thefenceadv.title": "in germany we say ZAUN!",
       "block.lolocraftiv.badlands_fence_gate": "Badlands Fence Gate",
       "block.lolocraftiv.redcoal_block": "Red Coal Block",
       "advancements.bringbobbackagain.title": "BOB is Back! (again)",
-      "advancements.cheater.title": "Cheater!!!",
       "itemGroup.tablolo_craft_i_vblocks": "LoloCraftIV Blocks",
       "entity.lolocraftiv.bob": "BOB",
       "subtitles.block.place.new.bobspawner": "",
+      "block.lolocraftiv.effektusfire": "Effektusfire",
+      "block.lolocraftiv.redeffectwater": "Redeffectwater",
       "advancements.thestepupyouworkii.title": "Step up you Work (again)",
       "advancements.theopenfancadv.title": "New Horizons ",
       "block.lolocraftiv.badlands_block": "Block of the Red Desert",
@@ -1646,6 +2163,7 @@
       "item.lolocraftiv.badlands_sword": "Red Desert Sword",
       "block.lolocraftiv.red_log": "Red Log",
       "item.lolocraftiv.bob_spawn_egg": "BOB Spawn Egg",
+      "entity.lolocraftiv.boby": "Boby",
       "item.lolocraftiv.red_armor_boots": "Red Boots",
       "item.lolocraftiv.red_sword": "Red Sword",
       "advancements.adv_06.title": "how dare you!?",
@@ -1658,98 +2176,111 @@
       "advancements.adv_01.descr": "Find the new LoloCraft Biom",
       "itemGroup.tablolo_craft_iv_armor": "Lolo Craft IV Armor",
       "advancements.bringbobbackagain.descr": "Bring Bob back again",
+      "item.lolocraftiv.willi_spawn_egg": "Willi Spawn Egg",
       "block.lolocraftiv.badlands_fence": "Badlands Fence",
-      "item.lolocraftiv.bobweapon": "BOB�s magic wand II",
+      "item.lolocraftiv.bobweapon": "BOB�s magic wand II",
       "item.lolocraftiv.badlands_axe": "Red Desert Axe",
       "block.lolocraftiv.badlands_pressure_plate": "Badlands Pressure Plate",
+      "gamerule.gamerule1.description": "Turne the Testing Stuff on ore off",
       "item.lolocraftiv.red_hoe": "Red Hoe",
       "block.lolocraftiv.badlands_wood": "Badlands Wood"
     },
     "de_de": {
-      "advancements.advbobisback.descr": "Bringe Bob zur�ck in die Welt von LoloCraft IV!",
+      "advancements.advbobisback.descr": "Bringe Bob zurück in die Welt von LoloCraft IV!",
       "item.lolocraftiv.red_armor_helmet": "Red Helm",
       "advancements.thepickaxeadv.title": "Pick Pick",
-      "item.lolocraftiv.badlands_armor_leggings": "Badlands Hose",
-      "block.lolocraftiv.badlands_button": "Badlands Button",
-      "item.lolocraftiv.badlands_armor_boots": "Badlands Boots",
+      "item.lolocraftiv.badlands_armor_leggings": "Red Wüste Hose",
+      "block.lolocraftiv.badlands_button": "Red Wüste Button",
+      "item.lolocraftiv.badlands_armor_boots": "Red Wüste Boots",
       "advancements.thestepupyouworkii.descr": "plaziere eine Redbadlands Treppe",
-      "advancements.cheater.descr": "Cheat in you World",
+      "biome.lolocraftiv.redplainshills": "Red Plains Hills",
       "block.lolocraftiv.red_wood": "Red Holz",
       "advancements.redbadlandsadv_1.descr": "Finde das neue Biom!",
+      "item.lolocraftiv.willimultitool": "Willi Multitool",
       "advancements.adv_01.title": "Willkommen in LoloCraftIV!",
       "advancements.redbadlandsafv_2.descr": "Finde das neue Ore in den Redbadlands",
       "block.lolocraftiv.red_pressure_plate": "Red Druck Platte",
-      "advancements.adv_04.title": "Eine Stufe h�her!",
+      "advancements.adv_04.title": "Eine Stufe höher!",
+      "advancements.radcactusadv_1.descr": "Take a Red Cactus",
       "advancements.theredbadlandspickpickadv.title": "pick pick (NOCHMAL)",
       "block.lolocraftiv.red_fence_gate": "Red Fence Gate",
       "item.lolocraftiv.red_axe": "Red Axt",
       "advancements.redbadlandsadv_4.descr": "Betrete die Welt von Extra Life",
       "advancements.redswordadvlight.descr": "Erschafe ein Blitz mit dem Red Schwert",
       "advancements.thewrongtool.descr": "Nutze es als falsches Werkzeug",
-      "item.lolocraftiv.badlands_armor_bootsdf": "Badlands Schuhe",
+      "item.lolocraftiv.badlands_armor_bootsdf": "Red Wüste Schuhe",
       "item.lolocraftiv.red_shovel": "Red Schaufel",
-      "item.lolocraftiv.badlands_armor_helmet": "Badlands Helm",
-      "block.lolocraftiv.badlands_stairs": "Badlands Treppen",
+      "item.lolocraftiv.badlands_armor_helmet": "Red Wüste Helm",
+      "block.lolocraftiv.badlands_stairs": "Red Wüste Treppen",
       "itemGroup.tablolo_craft_i_vtools": "LoloCraftIV Tools/Weapons",
       "block.lolocraftiv.red_stairs": "Red Treppe",
       "item.lolocraftiv.red_armor_leggings": "Red Hose",
-      "block.lolocraftiv.badlands_ore": "Badlands Erz",
+      "block.lolocraftiv.badlands_ore": "Red Wüste Erz",
       "block.lolocraftiv.bobspawner": "Bobspawner",
-      "block.lolocraftiv.badlands_planks": "Badlands Planks",
+      "block.lolocraftiv.badlands_planks": "Red Wüste Planks",
       "advancements.adv_02.descr": "Mine und Schmelze das neue Erz",
       "advancements.redbadlandsadv_3.title": "Neues Holz darauf ist man Stolz!",
-      "block.lolocraftiv.red_leaves": "Red Bl�tter",
-      "advancements.theredarmoradv.title": "�bersch�te mich mit Rotem Stuff",
+      "block.lolocraftiv.red_leaves": "Red Blätter",
+      "entity.lolocraftiv.willi": "Willi",
+      "advancements.theredarmoradv.title": "Überschüte mich mit Rotem Stuff",
       "advancements.adv_03.descr": "Baue eine Red Pickaxt",
-      "item.lolocraftiv.badlands_shovel": "Badlands Shovel",
-      "block.lolocraftiv.badlands_leaves": "Badlands Leaves",
-      "advancements.theredbadlandsarmoradv.title": "�bersch�te mich mit Badlands Stuff",
+      "item.lolocraftiv.badlands_shovel": "Red Wüste Shovel",
+      "block.lolocraftiv.badlands_leaves": "Red Wüste Leaves",
+      "advancements.theredbadlandsarmoradv.title": "Überschüte mich mit Red Desert Stuff",
       "advancements.adv_03.title": "Neues Tool",
+      "block.lolocraftiv.redkaktus": "Redcactus",
       "subtitles.block.place.bobspawner": "",
-      "item.lolocraftiv.red_ingot": "Red Ingot",
-      "advancements.theredbadlandsarmoradv.descr": "Crafte eine Redbadlands R�stung",
+      "item.lolocraftiv.red_ingot": "Red Kristall",
+      "advancements.theredbadlandsarmoradv.descr": "Crafte eine Redbadlands Rüstung",
       "block.lolocraftiv.red_ore": "Red Ore",
       "advancements.adv_04.descr": "Baue eine Rote Stufe",
       "block.lolocraftiv.redcoal_ore": "Red Coal Erz",
       "item.lolocraftiv.red_armor_chestplate": "Red Brustplate ",
-      "block.lolocraftiv.badlands_slab": "Badlands Slab",
+      "block.lolocraftiv.badlands_slab": "Red Wüste Slab",
       "block.lolocraftiv.red_fence": "Red Fence",
       "biome.lolocraftiv.reddessert": "Rote Plains",
       "advancements.adv_02.title": "Neues Erz",
-      "advancements.theredarmoradv.descr": "Crafte eine Red R�stung",
-      "item.lolocraftiv.badlands_ingot": "Badlands",
+      "advancements.theredarmoradv.descr": "Crafte eine Red Rüstung",
+      "advancements.radcactusadv_1.title": "Uh that hurt",
+      "gamerule.gamerule1": "turn on/off Testing_LoloCraft_beta_test",
+      "item.lolocraftiv.badlands_ingot": "Red Wüste Ingot",
       "advancements.redbadlandsadv_3.descr": "Finde das neue Holz in den Redbadlands",
-      "item.lolocraftiv.badlands_pickaxe": "Badlands Pickaxe",
+      "item.lolocraftiv.badlands_pickaxe": "Red Wüste Pickaxe",
+      "biome.lolocraftiv.reddeserthills": "Red desert hills",
       "advancements.redbadlandsadv_1.title": "Finde neue Orte",
-      "block.lolocraftiv.badlands_log": "Badlands Log",
+      "item.lolocraftiv.boby_spawn_egg": "Boby Spawn Egg",
+      "block.lolocraftiv.badlands_log": "Red Wüste Log",
       "advancements.thepickaxeadv.descr": "Pick mit deiner Spitzhacke",
       "advancements.redbadlandsadv_4.title": "Das neue Land",
-      "item.lolocraftiv.rawredingot": "Raw Red Ingot",
+      "item.lolocraftiv.rawredingot": "Roher Red Kristall",
       "block.lolocraftiv.red_slab": "Red Stufe",
       "advancements.redbadlandsafv_2.title": "Neue Erze",
       "advancements.adv_06.descr": "Finde Red Coal im Red Desert",
       "advancements.theredbadlandspickpickadv.descr": "pick mit der Redbadlands spitzhacke",
       "block.lolocraftiv.red_button": "Red Button",
-      "biome.lolocraftiv.redbadlands": "Rote W�ste",
+      "item.lolocraftiv.bobweaponmun": "Bob Weapon Mun",
+      "biome.lolocraftiv.redbadlands": "Rote Wüste",
       "block.lolocraftiv.red_planks": "Red Planks",
       "advancements.thefenceadv.title": "in germany we say ZAUN!",
-      "block.lolocraftiv.badlands_fence_gate": "Badlands Fence Gate",
+      "block.lolocraftiv.badlands_fence_gate": "Red Wüste Fence Gate",
       "block.lolocraftiv.redcoal_block": "Red Coal Block",
       "advancements.bringbobbackagain.title": "BOB is Back! (again)",
-      "advancements.cheater.title": "Cheater!!!",
-      "itemGroup.tablolo_craft_i_vblocks": "LoloCraftIV Bl�cke",
+      "itemGroup.tablolo_craft_i_vblocks": "LoloCraftIV Blöcke",
       "entity.lolocraftiv.bob": "BOB",
       "subtitles.block.place.new.bobspawner": "",
-      "advancements.thestepupyouworkii.title": "Eine Stufe h�her (nochmal)",
+      "block.lolocraftiv.effektusfire": "Effektusfire",
+      "block.lolocraftiv.redeffectwater": "Redeffectwater",
+      "advancements.thestepupyouworkii.title": "Eine Stufe höher (nochmal)",
       "advancements.theopenfancadv.title": "Neue Horizonte",
-      "block.lolocraftiv.badlands_block": "Block of Badlands",
-      "advancements.advbobisback.title": "Bob ist zur�ck!",
-      "item.lolocraftiv.badlands_hoe": "Badlands Hoe",
-      "item.lolocraftiv.badlands_armor_chestplate": "Badlands Chestplate",
+      "block.lolocraftiv.badlands_block": "Block of Desert",
+      "advancements.advbobisback.title": "Bob ist zurück!",
+      "item.lolocraftiv.badlands_hoe": "Red Wüste Hoe",
+      "item.lolocraftiv.badlands_armor_chestplate": "Red Wüste Chestplate",
       "item.lolocraftiv.red_pickaxe": "Red Spitzhacke",
-      "item.lolocraftiv.badlands_sword": "Badlands Sword",
+      "item.lolocraftiv.badlands_sword": "Red Wüste Sword",
       "block.lolocraftiv.red_log": "Red Log",
       "item.lolocraftiv.bob_spawn_egg": "BOB Spawn Egg",
+      "entity.lolocraftiv.boby": "Boby",
       "item.lolocraftiv.red_armor_boots": "Red Schuhe",
       "item.lolocraftiv.red_sword": "Red Schwert",
       "advancements.adv_06.title": "Finde Red Coal",
@@ -1760,14 +2291,16 @@
       "advancements.redswordadvlight.title": "Der Blitz aus dem Himmel",
       "itemGroup.tablolo_craft_iv": "LoloCraft IV-German",
       "advancements.adv_01.descr": "Finde das neue LoloCraft Biom",
-      "itemGroup.tablolo_craft_iv_armor": "Lolo Craft IV R�stung",
+      "itemGroup.tablolo_craft_iv_armor": "Lolo Craft IV Rüstung",
       "advancements.bringbobbackagain.descr": "Bring Bob back again",
-      "block.lolocraftiv.badlands_fence": "Badlands Fence",
-      "item.lolocraftiv.bobweapon": "BOB�s Zauberstap II",
-      "item.lolocraftiv.badlands_axe": "Badlands Axe",
-      "block.lolocraftiv.badlands_pressure_plate": "Badlands Druck ",
+      "item.lolocraftiv.willi_spawn_egg": "Willi Spawn Egg",
+      "block.lolocraftiv.badlands_fence": "Red Wüste Fence",
+      "item.lolocraftiv.bobweapon": "BOB�s Zauberstap II",
+      "item.lolocraftiv.badlands_axe": "Red Wüste Axe",
+      "block.lolocraftiv.badlands_pressure_plate": "Red Wüste Druck ",
+      "gamerule.gamerule1.description": "Turne the Testing Stuff on ore off",
       "item.lolocraftiv.red_hoe": "Red Hoe",
-      "block.lolocraftiv.badlands_wood": "Badlands Wood"
+      "block.lolocraftiv.badlands_wood": "Red Wüste Wood"
     }
   },
   "foldersRoot": {
@@ -1777,20 +2310,31 @@
         "name": "Sonstiges",
         "children": [
           {
-            "name": "Beute",
-            "children": []
-          },
-          {
-            "name": "Trank",
-            "children": []
-          },
-          {
             "name": "Commands",
             "children": []
           },
           {
             "name": "newadvance",
             "children": []
+          },
+          {
+            "name": "Settings",
+            "children": [
+              {
+                "name": "GUI",
+                "children": [
+                  {
+                    "name": "Prod",
+                    "children": [
+                      {
+                        "name": "console",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
           }
         ]
       },
@@ -1855,6 +2399,20 @@
               {
                 "name": "Holz",
                 "children": []
+              },
+              {
+                "name": "Struckt",
+                "children": [
+                  {
+                    "name": "cactus",
+                    "children": [
+                      {
+                        "name": "effektus",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           }
@@ -1885,16 +2443,25 @@
             "children": []
           }
         ]
+      },
+      {
+        "name": "Willi",
+        "children": [
+          {
+            "name": "trade",
+            "children": []
+          }
+        ]
       }
     ]
   },
   "workspaceSettings": {
     "modid": "lolocraftiv",
     "modName": "LoloCraftIV",
-    "version": "1.1.9 bug fix",
+    "version": "1.2.0 Effektus Update",
     "description": "The New Adventure in a new LoloCraft Mod",
     "author": "DerLoloHD",
-    "websiteURL": "https://mclolocraft.jimdofree.com/lolocraft-iv/",
+    "websiteURL": "http://lolocraft.derlolo.de/lolocraft/lolocraft-iv/",
     "license": "All Rights Reserved",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
@@ -1908,5 +2475,5 @@
     "modElementsPackage": "net.foxinc.lolocraftiv",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202100354000
+  "mcreatorVersion": 202200120510
 }

@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "lolocraftiv:redkaktus"
+    },
+    "title": {
+      "translate": "advancements.radcactusadv_1.title"
+    },
+    "description": {
+      "translate": "advancements.radcactusadv_1.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "radcactusadv_1": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 500,
+    "recipes": [
+      "lolocraftiv:redeffectuswater",
+      "lolocraftiv:crafteffektusfire"
+    ]
+  },
+  "parent": "lolocraftiv:redbadlandsadv_1"
+}

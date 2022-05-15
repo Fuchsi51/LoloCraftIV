@@ -13,6 +13,7 @@ import net.minecraft.world.IBlockReader;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.SoundEvent;
 import net.minecraft.util.ResourceLocation;
+import net.minecraft.util.Direction;
 import net.minecraft.loot.LootContext;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
@@ -65,8 +66,14 @@ public class BobspawnerBlock extends LolocraftivModElements.ModElement {
 							() -> new SoundEvent(new ResourceLocation("")),
 							() -> new SoundEvent(new ResourceLocation("lolocraftiv:block.place.new.bobspawner")),
 							() -> new SoundEvent(new ResourceLocation("")), () -> new SoundEvent(new ResourceLocation(""))))
-					.hardnessAndResistance(1f, 10f).setLightLevel(s -> 0).harvestLevel(1).harvestTool(ToolType.PICKAXE).setRequiresTool());
+					.hardnessAndResistance(1f, 10f).setLightLevel(s -> 0).harvestLevel(1).harvestTool(ToolType.PICKAXE).setRequiresTool().notSolid()
+					.setOpaque((bs, br, bp) -> false));
 			setRegistryName("bobspawner");
+		}
+
+		@OnlyIn(Dist.CLIENT)
+		public boolean isSideInvisible(BlockState state, BlockState adjacentBlockState, Direction side) {
+			return adjacentBlockState.getBlock() == this ? true : super.isSideInvisible(state, adjacentBlockState, side);
 		}
 
 		@Override

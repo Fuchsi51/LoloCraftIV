@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "lolocraftiv:extradiam"
+      "item": "lolocraftiv:deleted_mod_element"
     },
     "title": {
       "translate": "advancements.redbadlandsadv_4.title"
@@ -18,7 +18,7 @@
     "redbadlandsadv_4": {
       "trigger": "minecraft:changed_dimension",
       "conditions": {
-        "to": "lolocraftiv:extralife"
+        "to": "lolocraftiv:deleted_mod_element"
       }
     }
   },

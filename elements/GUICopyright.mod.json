@@ -1,0 +1,97 @@
+{
+  "_fv": 28,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "LoloCraft IV",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "LoloCraft IV",
+          "x": 182,
+          "y": 41
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Made by DerLoloHD",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Made by DerLoloHD",
+          "x": 167,
+          "y": 57
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "In help with TheXBOXPlayz",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "In help with TheXBOXPlayz",
+          "x": 146,
+          "y": 66
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Copyright:",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Copyright:",
+          "x": 128,
+          "y": 189
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "2021-2022 Fox Inc. ",
+          "color": {
+            "value": -3381760,
+            "falpha": 0.0
+          },
+          "name": "2021-2022 Fox Inc. ",
+          "x": 180,
+          "y": 189
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "mainlogo.png",
+          "use1Xscale": false,
+          "name": "mainlogo.png",
+          "x": 131,
+          "y": 44
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

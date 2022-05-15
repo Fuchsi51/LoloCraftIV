@@ -10,9 +10,9 @@ import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.World;
-import net.minecraft.util.text.StringTextComponent;
-import net.minecraft.util.text.ITextComponent;
 import net.minecraft.util.math.MathHelper;
+import net.minecraft.util.math.EntityRayTraceResult;
+import net.minecraft.util.math.BlockRayTraceResult;
 import net.minecraft.util.SoundCategory;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.Hand;
@@ -31,7 +31,6 @@ import net.minecraft.entity.IRendersAsItem;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.EntityClassification;
 import net.minecraft.entity.Entity;
-import net.minecraft.client.util.ITooltipFlag;
 
 import net.foxinc.lolocraftiv.procedures.BobweaponWennGeschossAufLebewesenTrifftProcedure;
 import net.foxinc.lolocraftiv.procedures.BobweaponWennGeschossAufBlockTrifftProcedure;
@@ -42,7 +41,6 @@ import net.foxinc.lolocraftiv.LolocraftivModElements;
 import java.util.stream.Stream;
 import java.util.Random;
 import java.util.Map;
-import java.util.List;
 import java.util.HashMap;
 import java.util.AbstractMap;
 
@@ -52,7 +50,7 @@ public class BobweaponItem extends LolocraftivModElements.ModElement {
 	public static final Item block = null;
 	public static final EntityType arrow = (EntityType.Builder.<ArrowCustomEntity>create(ArrowCustomEntity::new, EntityClassification.MISC)
 			.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).setCustomClientFactory(ArrowCustomEntity::new)
-			.size(0.5f, 0.5f)).build("entitybulletbobweapon").setRegistryName("entitybulletbobweapon");
+			.size(0.5f, 0.5f)).build("projectile_bobweapon").setRegistryName("projectile_bobweapon");
 
 	public BobweaponItem(LolocraftivModElements instance) {
 		super(instance, 16);
@@ -78,12 +76,6 @@ public class BobweaponItem extends LolocraftivModElements.ModElement {
 		}
 
 		@Override
-		public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
-			super.addInformation(itemstack, world, list, flag);
-			list.add(new StringTextComponent("The better and newer Magic Wand from BOB"));
-		}
-
-		@Override
 		public UseAction getUseAction(ItemStack itemstack) {
 			return UseAction.BLOCK;
 		}
@@ -101,11 +93,11 @@ public class BobweaponItem extends LolocraftivModElements.ModElement {
 				double y = entity.getPosY();
 				double z = entity.getPosZ();
 				if (true) {
-					ItemStack stack = ShootableItem.getHeldAmmo(entity, e -> e.getItem() == RedcoalItem.block);
+					ItemStack stack = ShootableItem.getHeldAmmo(entity, e -> e.getItem() == BobweaponmunItem.block);
 					if (stack == ItemStack.EMPTY) {
 						for (int i = 0; i < entity.inventory.mainInventory.size(); i++) {
 							ItemStack teststack = entity.inventory.mainInventory.get(i);
-							if (teststack != null && teststack.getItem() == RedcoalItem.block) {
+							if (teststack != null && teststack.getItem() == BobweaponmunItem.block) {
 								stack = teststack;
 								break;
 							}
@@ -117,7 +109,7 @@ public class BobweaponItem extends LolocraftivModElements.ModElement {
 						if (entity.abilities.isCreativeMode) {
 							entityarrow.pickupStatus = AbstractArrowEntity.PickupStatus.CREATIVE_ONLY;
 						} else {
-							if (new ItemStack(RedcoalItem.block).isDamageable()) {
+							if (new ItemStack(BobweaponmunItem.block).isDamageable()) {
 								if (stack.attemptDamageItem(1, random, entity)) {
 									stack.shrink(1);
 									stack.setDamage(0);
@@ -167,18 +159,24 @@ public class BobweaponItem extends LolocraftivModElements.ModElement {
 
 		@Override
 		protected ItemStack getArrowStack() {
-			return new ItemStack(RedcoalItem.block);
+			return new ItemStack(BobweaponmunItem.block);
+		}
+
+		@Override
+		protected void arrowHit(LivingEntity entity) {
+			super.arrowHit(entity);
+			entity.setArrowCountInEntity(entity.getArrowCountInEntity() - 1);
 		}
 
 		@Override
 		public void onCollideWithPlayer(PlayerEntity entity) {
 			super.onCollideWithPlayer(entity);
 			Entity sourceentity = this.func_234616_v_();
+			Entity immediatesourceentity = this;
 			double x = this.getPosX();
 			double y = this.getPosY();
 			double z = this.getPosZ();
 			World world = this.world;
-			Entity imediatesourceentity = this;
 
 			BobweaponWennGeschossAufLebewesenTrifftProcedure.executeProcedure(Stream
 					.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("x", x), new AbstractMap.SimpleEntry<>("y", y),
@@ -187,17 +185,33 @@ public class BobweaponItem extends LolocraftivModElements.ModElement {
 		}
 
 		@Override
-		protected void arrowHit(LivingEntity entity) {
-			super.arrowHit(entity);
-			entity.setArrowCountInEntity(entity.getArrowCountInEntity() - 1);
+		public void onEntityHit(EntityRayTraceResult entityRayTraceResult) {
+			super.onEntityHit(entityRayTraceResult);
+			Entity entity = entityRayTraceResult.getEntity();
 			Entity sourceentity = this.func_234616_v_();
+			Entity immediatesourceentity = this;
 			double x = this.getPosX();
 			double y = this.getPosY();
 			double z = this.getPosZ();
 			World world = this.world;
-			Entity imediatesourceentity = this;
 
 			BobweaponWennGeschossAufLebewesenTrifftProcedure.executeProcedure(Stream
+					.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("x", x), new AbstractMap.SimpleEntry<>("y", y),
+							new AbstractMap.SimpleEntry<>("z", z))
+					.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
+		}
+
+		@Override
+		public void func_230299_a_(BlockRayTraceResult blockRayTraceResult) {
+			super.func_230299_a_(blockRayTraceResult);
+			double x = blockRayTraceResult.getPos().getX();
+			double y = blockRayTraceResult.getPos().getY();
+			double z = blockRayTraceResult.getPos().getZ();
+			World world = this.world;
+			Entity entity = this.func_234616_v_();
+			Entity immediatesourceentity = this;
+
+			BobweaponWennGeschossAufBlockTrifftProcedure.executeProcedure(Stream
 					.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("x", x), new AbstractMap.SimpleEntry<>("y", y),
 							new AbstractMap.SimpleEntry<>("z", z))
 					.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
@@ -211,7 +225,7 @@ public class BobweaponItem extends LolocraftivModElements.ModElement {
 			double z = this.getPosZ();
 			World world = this.world;
 			Entity entity = this.func_234616_v_();
-			Entity imediatesourceentity = this;
+			Entity immediatesourceentity = this;
 			if (this.inGround) {
 
 				BobweaponWennGeschossAufBlockTrifftProcedure.executeProcedure(Stream
@@ -225,7 +239,7 @@ public class BobweaponItem extends LolocraftivModElements.ModElement {
 
 	public static ArrowCustomEntity shoot(World world, LivingEntity entity, Random random, float power, double damage, int knockback) {
 		ArrowCustomEntity entityarrow = new ArrowCustomEntity(arrow, entity, world);
-		entityarrow.shoot(entity.getLookVec().x, entity.getLookVec().y, entity.getLookVec().z, power * 2, 0);
+		entityarrow.shoot(entity.getLook(1).x, entity.getLook(1).y, entity.getLook(1).z, power * 2, 0);
 		entityarrow.setSilent(true);
 		entityarrow.setIsCritical(true);
 		entityarrow.setDamage(damage);

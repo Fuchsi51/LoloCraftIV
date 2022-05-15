@@ -22,7 +22,7 @@
   "rewards": {
     "experience": 1000,
     "loot": [
-      "lolocraftiv:deleted_mod_element"
+      "lolocraftiv:trades"
     ],
     "recipes": [
       "lolocraftiv:red_wood_recipe"
