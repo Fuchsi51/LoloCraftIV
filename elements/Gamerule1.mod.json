@@ -5,7 +5,7 @@
     "type": "Number",
     "displayName": "turn on/off Testing_LoloCraft_beta_test",
     "description": "Turne the Testing Stuff on ore off",
-    "category": "PLAYER",
+    "category": "MOBS",
     "defaultValueLogic": false,
     "defaultValueNumber": 0
   }

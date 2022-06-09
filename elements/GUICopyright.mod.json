@@ -84,6 +84,19 @@
           "x": 131,
           "y": 44
         }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "and Smash_Vini",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "and Smash_Vini",
+          "x": 175,
+          "y": 76
+        }
       }
     ],
     "gridSettings": {

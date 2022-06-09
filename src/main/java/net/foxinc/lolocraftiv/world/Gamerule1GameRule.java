@@ -10,7 +10,7 @@ import java.lang.reflect.Method;
 
 @LolocraftivModElements.ModElement.Tag
 public class Gamerule1GameRule extends LolocraftivModElements.ModElement {
-	public static final GameRules.RuleKey<GameRules.IntegerValue> gamerule = GameRules.register("gamerule1", GameRules.Category.PLAYER, create(0));
+	public static final GameRules.RuleKey<GameRules.IntegerValue> gamerule = GameRules.register("gamerule1", GameRules.Category.MOBS, create(0));
 
 	public Gamerule1GameRule(LolocraftivModElements instance) {
 		super(instance, 167);

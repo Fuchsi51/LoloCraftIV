@@ -81,6 +81,7 @@ public class GUICopyrightGuiWindow extends ContainerScreen<GUICopyrightGui.GuiCo
 		this.font.drawString(ms, "In help with TheXBOXPlayz", 20, 29, -12829636);
 		this.font.drawString(ms, "Copyright:", 2, 152, -16777216);
 		this.font.drawString(ms, "2021-2022 Fox Inc. ", 54, 152, -3381760);
+		this.font.drawString(ms, "and Smash_Vini", 49, 39, -12829636);
 	}
 
 	@Override
