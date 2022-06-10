@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "lolocraftiv:plankton_planks"
+    },
+    "1": {
+      "item": "lolocraftiv:plankton_planks"
+    },
+    "2": {
+      "item": "lolocraftiv:plankton_planks"
+    }
+  },
+  "result": {
+    "item": "lolocraftiv:plankton_slab",
+    "count": 6
+  }
+}

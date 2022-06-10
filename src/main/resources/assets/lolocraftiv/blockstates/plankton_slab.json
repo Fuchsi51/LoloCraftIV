@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "lolocraftiv:block/plankton_slab"
+    },
+    "type=top": {
+      "model": "lolocraftiv:block/plankton_slab_top"
+    },
+    "type=double": {
+      "model": "lolocraftiv:block/plankton_slab_full"
+    }
+  }
+}

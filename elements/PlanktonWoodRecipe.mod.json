@@ -1,0 +1,46 @@
+{
+  "_fv": 28,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 3,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:PlanktonLog"
+      },
+      {
+        "value": "CUSTOM:PlanktonLog"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:PlanktonLog"
+      },
+      {
+        "value": "CUSTOM:PlanktonLog"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:PlanktonWood"
+    },
+    "name": "plankton_wood_recipe",
+    "namespace": "mod"
+  }
+}

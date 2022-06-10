@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:plankton_log"
+    }
+  ],
+  "result": {
+    "item": "lolocraftiv:plankton_planks",
+    "count": 4
+  }
+}
