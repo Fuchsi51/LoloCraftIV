@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "lolocraftiv:blocks/algae_log_side",
+    "particle": "lolocraftiv:blocks/algae_log_side"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "_fv": 28,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 4,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:AlgaePlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:AlgaePlanks"
+      },
+      {
+        "value": "CUSTOM:AlgaePlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:AlgaePlanks"
+      },
+      {
+        "value": "CUSTOM:AlgaePlanks"
+      },
+      {
+        "value": "CUSTOM:AlgaePlanks"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:AlgaeStairs"
+    },
+    "name": "algae_stairs_recipe",
+    "namespace": "mod"
+  }
+}

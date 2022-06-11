@@ -1,0 +1,8 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "bottom": "lolocraftiv:blocks/algae_planks",
+    "top": "lolocraftiv:blocks/algae_planks",
+    "side": "lolocraftiv:blocks/algae_planks"
+  }
+}

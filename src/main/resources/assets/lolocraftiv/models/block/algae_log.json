@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "lolocraftiv:blocks/algae_log_top",
+    "up": "lolocraftiv:blocks/algae_log_top",
+    "north": "lolocraftiv:blocks/algae_log_side",
+    "east": "lolocraftiv:blocks/algae_log_side",
+    "south": "lolocraftiv:blocks/algae_log_side",
+    "west": "lolocraftiv:blocks/algae_log_side",
+    "particle": "lolocraftiv:blocks/algae_log_top"
+  }
+}

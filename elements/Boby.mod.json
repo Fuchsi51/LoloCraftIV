@@ -4,8 +4,8 @@
   "definition": {
     "mobName": "Boby",
     "mobLabel": "",
-    "mobModelName": "Villager",
-    "mobModelTexture": "villager.png",
+    "mobModelName": "Modelcustom_model",
+    "mobModelTexture": "bob.png",
     "mobModelGlowTexture": "",
     "modelWidth": 0.6,
     "modelHeight": 1.95,
